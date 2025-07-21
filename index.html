@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Tagging Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="krantikari-area">
+    <div class="tag-grid" id="krantikariButtons"></div>
+  </section>
+
+  <div id="popup" class="popup hidden">
+    <div id="subcategoryButtons" class="popup-grid"></div>
+  </div>
+
+  <section class="selected-tags-section">
+    <div class="selected-tags-container">
+      <div id="selectedTagsDisplay" class="selected-tags"></div>
+      <button id="clearFiltersBtn" class="tag-btn clear-btn hidden">✖️ Clear All</button>
+    </div>
+  </section>
+
+  <div class="zoom-controls">
+    <button id="zoomIn">➕</button>
+    <button id="zoomOut">➖</button>
+  </div>
+
+  <section class="image-section">
+    <div id="imageGrid" class="image-grid"></div>
+  </section>
+  
+  <div id="lightbox" class="lightbox-container hidden">
+    <span class="close-lightbox">&times;</span>
+    <img src="" alt="Lightbox Image" class="lightbox-image">
+  </div>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+body {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; 
+}
+
+/* Krantikari Area */
+.krantikari-area {
+  background-color: #1f2937;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.krantikari-area.hidden-nav {
+  transform: translateY(-100%);
+}
+
+.tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.tag-btn {
+  background-color: #dbeafe;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s, transform 0.12s;
+  font-size: 0.95rem;
+}
+
+.tag-btn:hover {
+  background-color: #bfdbfe;
+  transform: scale(1.05);
+}
+
+.tag-btn.active {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.large-btn {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.small-btn {
+  font-size: 0.8rem;
+}
+
+/* Popup (Subcategory Grid) */
+.popup {
+  position: fixed; 
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 0.75rem;
+  z-index: 1100;
+  max-width: 400px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.popup::-webkit-scrollbar {
+  width: 6px;
+}
+.popup::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.popup::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+}
+.popup::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.popup.hidden {
+  display: none;
+}
+
+.popup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  justify-items: center;
+}
+
+.tag-btn.small-btn {
+  min-width: 80px;
+  justify-self: center;
+  margin: 0 auto;
+}
+
+.tag-btn.small-btn.active {
+  background-color: #3b82f6;
+  color: #fff;
+  box-shadow: 0 0 0 3px #60a5fa;
+  font-weight: bold;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+/* Selected Tags */
+.selected-tags-section {
+  padding: 1rem;
+  min-height: 25px;
+}
+
+.selected-tags-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.selected-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.selected-tag {
+  background-color: #e0f2fe;
+  border-radius: 0.4rem;
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.remove-tag {
+  margin-left: 6px;
+  color: red;
+  cursor: pointer;
+}
+
+.clear-btn {
+    background-color: #fee2e2;
+    color: #ef4444;
+    font-weight: bold;
+}
+.clear-btn.hidden {
+    display: none;
+}
+.clear-btn:hover {
+    background-color: #fecaca;
+}
+
+/* Image Grid */
+.image-section {
+  padding: 1rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--img-size, 180px), 1fr));
+  gap: 1rem;
+  justify-content: center;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto;
+  transition: opacity 0.3s;
+  cursor: pointer; 
+}
+
+.image-item img.lazy {
+  opacity: 0;
+}
+
+/* Zoom Controls */
+.zoom-controls {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* ✅ सुधार: z-index को 900 से 1200 कर दिया गया ताकि यह पॉपअप के ऊपर रहे */
+  z-index: 1200;
+}
+
+.zoom-controls button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* पॉपअप (लाइटबॉक्स) के लिए स्टाइल */
+.lightbox-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.lightbox-container.hidden {
+  display: none;
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.close-lightbox {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-lightbox:hover {
+  color: #bbb;
+}
