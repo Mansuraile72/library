@@ -42,6 +42,7 @@ window.addEventListener("scroll", function() {
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }, false);
 
+
 // ✅ Load images
 fetch("images.json")
   .then(res => res.json())
@@ -50,13 +51,14 @@ fetch("images.json")
       const div = document.createElement("div");
       div.className = "image-item";
       div.setAttribute("data-tags", img.tags.join(",")); 
-      div.innerHTML = `<img data-src="${img.filename}" class="lazy" alt="${img.filename}" />`;
+      div.innerHTML = `<img data-src="${img.filename}" class="lazy" alt="${img.filename.replace('.webp', '.png')}" />`;
       imageGrid.appendChild(div);
     });
     filterImages();
     initializeLazyLoading();
   })
   .catch(err => console.error("❌ Error loading images:", err));
+
 
 // ✅ लेज़ी लोडिंग के लिए Intersection Observer
 function initializeLazyLoading() {
@@ -102,13 +104,11 @@ function openPopup(category, buttonElement) {
   const popupWidth = 400;
   const screenWidth = window.innerWidth;
   
-  // ✅ सुधार: पॉपअप की left पोजीशन को viewport के हिसाब से सेट किया गया
   let popupLeft = rect.left; 
   if (popupLeft + popupWidth > screenWidth) {
     popupLeft = screenWidth - popupWidth - 20;
   }
 
-  // ✅ सुधार: पॉपअप की top पोजीशन को viewport के हिसाब से सेट किया गया (window.scrollY हटा दिया गया)
   popup.style.top = `${rect.bottom + 5}px`;
   popup.style.left = `${popupLeft}px`;
   
@@ -185,7 +185,9 @@ document.addEventListener("click", function (event) {
 imageGrid.addEventListener('click', function(e) {
   if (e.target.tagName === 'IMG') {
     lightbox.classList.remove('hidden');
-    lightboxImage.src = e.target.src;
+    // ✅ सुधार: क्लिक की गई .webp इमेज के पाथ को .png पाथ में बदलकर पॉपअप में दिखाना
+    const highQualitySrc = e.target.src.replace('.webp', '.png');
+    lightboxImage.src = highQualitySrc;
   }
 });
 
