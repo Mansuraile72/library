@@ -21,7 +21,7 @@ let isLoading = false; // यह सुनिश्चित करने के
 
 let selectedTags = new Set();
 let isPopupOpen = false;
-let zoomSize = 140;
+let zoomSize = 100;
 
 // ✅ Responsive Zoom System
 function updateZoom() {
@@ -32,7 +32,7 @@ zoomInBtn.addEventListener("click", () => {
   updateZoom();
 });
 zoomOutBtn.addEventListener("click", () => {
-  zoomSize = Math.max(zoomSize - 20, 80);
+  zoomSize = Math.max(zoomSize - 20, 50);
   updateZoom();
 });
 updateZoom();
