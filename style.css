@@ -7,7 +7,7 @@ body {
   padding-top: 60px; 
 }
 
-/* Krantikari Area */
+/* Krantikari Area (rest of the CSS is the same...) */
 .krantikari-area {
   background-color: #1f2937;
   padding: 1rem;
@@ -64,7 +64,6 @@ body {
   font-size: 0.8rem;
 }
 
-/* Popup (Subcategory Grid) */
 .popup {
   position: fixed; 
   background-color: #ffffff;
@@ -78,20 +77,10 @@ body {
   overflow-y: auto;
 }
 
-.popup::-webkit-scrollbar {
-  width: 6px;
-}
-.popup::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-.popup::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 10px;
-}
-.popup::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
-}
+.popup::-webkit-scrollbar { width: 6px; }
+.popup::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+.popup::-webkit-scrollbar-thumb { background: #cccccc; border-radius: 10px; }
+.popup::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
 
 .popup.hidden {
   display: none;
@@ -119,7 +108,6 @@ body {
   z-index: 1;
 }
 
-/* Selected Tags */
 .selected-tags-section {
   padding: 1rem;
   min-height: 25px;
@@ -166,7 +154,6 @@ body {
     background-color: #fecaca;
 }
 
-/* Image Grid */
 .image-section {
   padding: 1rem;
 }
@@ -189,11 +176,8 @@ body {
   cursor: pointer; 
 }
 
-.image-item img.lazy {
-  opacity: 0;
-}
+.image-item img.lazy { opacity: 0; }
 
-/* Zoom Controls */
 .zoom-controls {
   position: fixed;
   bottom: 1rem;
@@ -201,7 +185,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  /* ✅ सुधार: z-index को 900 से 1200 कर दिया गया ताकि यह पॉपअप के ऊपर रहे */
   z-index: 1200;
 }
 
@@ -215,7 +198,6 @@ body {
   cursor: pointer;
 }
 
-/* पॉपअप (लाइटबॉक्स) के लिए स्टाइल */
 .lightbox-container {
   position: fixed;
   top: 0;
@@ -231,9 +213,7 @@ body {
   box-sizing: border-box;
 }
 
-.lightbox-container.hidden {
-  display: none;
-}
+.lightbox-container.hidden { display: none; }
 
 .lightbox-image {
   max-width: 90%;
@@ -253,6 +233,25 @@ body {
   transition: color 0.2s;
 }
 
-.close-lightbox:hover {
-  color: #bbb;
+.close-lightbox:hover { color: #bbb; }
+
+/* ✅ सुधार: नोटिफिकेशन मैसेज के लिए नई स्टाइल */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #22c55e; /* Green color */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    z-index: 3000; /* सबसे ऊपर दिखेगा */
+    font-size: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.toast.hidden {
+    opacity: 0;
+    visibility: hidden;
 }

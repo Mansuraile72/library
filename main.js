@@ -10,6 +10,7 @@ const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.querySelector(".lightbox-image");
 const closeLightboxBtn = document.querySelector(".close-lightbox");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
+const toastNotification = document.getElementById("toast-notification");
 
 let selectedTags = new Set();
 let isPopupOpen = false;
@@ -181,13 +182,27 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// ✅ लाइटबॉक्स को खोलने और बंद करने का लॉजिक
+// ✅ लाइटबॉक्स का लॉजिक
 imageGrid.addEventListener('click', function(e) {
   if (e.target.tagName === 'IMG') {
-    lightbox.classList.remove('hidden');
-    // ✅ सुधार: क्लिक की गई .webp इमेज के पाथ को .png पाथ में बदलकर पॉपअप में दिखाना
-    const highQualitySrc = e.target.src.replace('.webp', '.png');
+    const clickedImage = e.target;
+    
+    const highQualitySrc = clickedImage.src.replace('.webp', '.png');
     lightboxImage.src = highQualitySrc;
+    
+    lightbox.classList.remove('hidden');
+    
+    // ✅ सुधार: यहाँ .png को .svg से बदला गया है
+    const filenameToCopy = clickedImage.alt.replace('.png', '.svg');
+    
+    navigator.clipboard.writeText(filenameToCopy).then(() => {
+        toastNotification.classList.remove('hidden');
+        setTimeout(() => {
+            toastNotification.classList.add('hidden');
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy text: ', err);
+    });
   }
 });
 
