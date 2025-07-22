@@ -192,8 +192,10 @@ imageGrid.addEventListener('click', function(e) {
     
     lightbox.classList.remove('hidden');
     
-    // ✅ सुधार: यहाँ .png को .svg से बदला गया है
-    const filenameToCopy = clickedImage.alt.replace('.png', '.svg');
+    // ✅ सुधार: यहाँ पूरे पाथ से सिर्फ फाइल का नाम निकालने का लॉजिक जोड़ा गया है
+    const fullPath = clickedImage.alt; // जैसे: "images/Category/File.png"
+    const filenameOnly = fullPath.substring(fullPath.lastIndexOf('/') + 1); // सिर्फ "File.png" मिलेगा
+    const filenameToCopy = filenameOnly.replace('.png', '.svg'); // "File.svg" बन जाएगा
     
     navigator.clipboard.writeText(filenameToCopy).then(() => {
         toastNotification.classList.remove('hidden');
