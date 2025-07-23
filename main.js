@@ -10,10 +10,16 @@ const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.querySelector(".lightbox-image");
 const closeLightboxBtn = document.querySelector(".close-lightbox");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
+const sentinel = document.getElementById("sentinel");
 
-// ✅ सुधार: टैग्स को दो अलग-अलग सेट में बांटा गया
-let selectedCategoryTags = new Set(); // 'Category' 📁 के लिए (OR लॉजिक)
-let selectedFilterTags = new Set(); // बाकी सब के लिए (AND लॉजिक)
+// ✅ सुधार: इनफिनिट स्क्रॉल और फिल्टरिंग के लिए वेरिएबल्स
+let allImageData = [];
+let filteredImageData = [];
+let currentImageIndex = 0;
+const BATCH_SIZE = 50; // एक बार में 50 इमेज लोड होंगी
+
+let selectedCategoryTags = new Set();
+let selectedFilterTags = new Set();
 
 let isPopupOpen = false;
 let zoomSize = 140;
@@ -45,62 +51,91 @@ window.addEventListener("scroll", function() {
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }, false);
 
+// ✅ सुधार: लेज़ी लोडिंग के लिए एक ही Observer बनेगा
+const lazyImageObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const lazyImage = entry.target;
+            lazyImage.src = lazyImage.dataset.src;
+            lazyImage.classList.remove("lazy");
+            lazyImage.onload = () => lazyImage.style.opacity = '1';
+            lazyImageObserver.unobserve(lazyImage);
+        }
+    });
+});
+
+// ✅ सुधार: इमेज का अगला बैच दिखाने का फंक्शन
+function renderNextBatch() {
+    const batch = filteredImageData.slice(currentImageIndex, currentImageIndex + BATCH_SIZE);
+    if (batch.length === 0) {
+        sentinelObserver.disconnect(); // सारी इमेज लोड हो गईं
+        return false;
+    }
+
+    batch.forEach(img => {
+        const div = document.createElement("div");
+        div.className = "image-item";
+        div.setAttribute("data-tags", img.tags.join(","));
+        const imgElement = document.createElement('img');
+        imgElement.dataset.src = img.filename;
+        imgElement.className = 'lazy';
+        imgElement.alt = img.filename.replace('.webp', '.png');
+        div.appendChild(imgElement);
+        imageGrid.appendChild(div);
+        lazyImageObserver.observe(imgElement);
+    });
+
+    currentImageIndex += batch.length;
+    return true; // और इमेज बाकी हैं
+}
+
+// ✅ सुधार: स्क्रीन भरने तक इमेज लोड करने का स्मार्ट फंक्शन
+function loadUntilScroll() {
+    if (currentImageIndex >= filteredImageData.length) return;
+
+    // अगर स्क्रॉलबार नहीं है तो और इमेज लोड करो
+    if (document.documentElement.scrollHeight <= document.documentElement.clientHeight) {
+        if (renderNextBatch()) {
+            setTimeout(loadUntilScroll, 100); // DOM को अपडेट होने का समय दें
+        }
+    } else {
+        // स्क्रीन भर गई है, अब स्क्रॉल का इंतजार करो
+        sentinelObserver.observe(sentinel);
+    }
+}
+
+// ✅ सुधार: इनफिनिट स्क्रॉल के लिए Observer
+const sentinelObserver = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+        renderNextBatch();
+    }
+});
 
 // ✅ Load images
 fetch("images.json")
   .then(res => res.json())
   .then(images => {
-    images.forEach(img => {
-      const div = document.createElement("div");
-      div.className = "image-item";
-      div.setAttribute("data-tags", img.tags.join(",")); 
-      div.innerHTML = `<img data-src="${img.filename}" class="lazy" alt="${img.filename.replace('.webp', '.png')}" />`;
-      imageGrid.appendChild(div);
-    });
-    filterImages();
-    initializeLazyLoading();
+    allImageData = images;
+    filteredImageData = images;
+    startRendering();
   })
   .catch(err => console.error("❌ Error loading images:", err));
-
-
-// ✅ लेज़ी लोडिंग के लिए Intersection Observer
-function initializeLazyLoading() {
-  const lazyImages = document.querySelectorAll('img.lazy');
-  if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          let lazyImage = entry.target;
-          lazyImage.src = lazyImage.dataset.src;
-          lazyImage.classList.remove("lazy");
-          lazyImage.onload = () => lazyImage.style.opacity = '1'; 
-          lazyImageObserver.unobserve(lazyImage);
-        }
-      });
-    });
-    lazyImages.forEach(function(lazyImage) {
-      lazyImageObserver.observe(lazyImage);
-    });
-  } else {
-    lazyImages.forEach(img => {
-        img.src = img.dataset.src;
-        img.classList.remove('lazy');
-        img.style.opacity = '1';
-    });
-  }
+  
+function startRendering() {
+    imageGrid.innerHTML = '';
+    currentImageIndex = 0;
+    sentinelObserver.disconnect();
+    loadUntilScroll();
 }
 
-// ✅ Load Krantikari buttons
+// Load Krantikari buttons
 Object.keys(categories).forEach(category => {
   const btn = document.createElement("button");
   btn.className = "tag-btn large-btn";
   btn.innerText = `${emojiMap[category] || ""} ${category}`;
-  
-  // ✅ सुधार: 'Category' बटन को एक ख़ास ID दी गई
   if (category === 'Category') {
       btn.id = 'mainCategoryBtn';
   }
-
   btn.addEventListener("click", (e) => {
     e.stopPropagation();
     openPopup(category, e.target);
@@ -117,7 +152,6 @@ function openPopup(category, buttonElement) {
   if (popupLeft + popupWidth > screenWidth) {
     popupLeft = screenWidth - popupWidth - 20;
   }
-
   popup.style.top = `${rect.bottom + 5}px`;
   popup.style.left = `${popupLeft}px`;
   
@@ -134,7 +168,7 @@ function openPopup(category, buttonElement) {
 
     subBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      toggleTag(tag, subBtn, category); // ✅ सुधार: कैटेगरी का नाम भी भेजा गया
+      toggleTag(tag, subBtn, category);
       updateSelectedTagsDisplay();
       filterImages();
     });
@@ -142,10 +176,8 @@ function openPopup(category, buttonElement) {
   });
 }
 
-// ✅ सुधार: toggleTag फंक्शन को अपडेट किया गया ताकि वह सही सेट में टैग्स डाले
 function toggleTag(tag, btn, category) {
   const targetSet = category === 'Category' ? selectedCategoryTags : selectedFilterTags;
-  
   if (targetSet.has(tag)) {
     targetSet.delete(tag);
     btn.classList.remove("active");
@@ -155,7 +187,6 @@ function toggleTag(tag, btn, category) {
   }
 }
 
-// ✅ सुधार: updateSelectedTagsDisplay फंक्शन को अपडेट किया गया ताकि वह दोनों सेट से टैग्स दिखाए
 function updateSelectedTagsDisplay() {
   selectedTagsDisplay.innerHTML = "";
   const allSelectedTags = [...selectedCategoryTags, ...selectedFilterTags];
@@ -184,27 +215,21 @@ function updateSelectedTagsDisplay() {
   });
 }
 
-// ✅ सुधार: filterImages फंक्शन में नया AND/OR लॉजिक डाला गया
+// ✅ सुधार: filterImages अब सिर्फ डेटा को फिल्टर करेगा, DOM को नहीं
 function filterImages() {
-  const allImages = document.querySelectorAll(".image-item");
-  allImages.forEach(item => {
-    const imageTags = item.dataset.tags.split(",");
-    
-    // OR लॉजिक 'Category' के लिए
-    const categoryMatch = selectedCategoryTags.size === 0 || 
-                          [...selectedCategoryTags].some(tag => imageTags.includes(tag));
-                          
-    // AND लॉजिक बाकी फिल्टर्स के लिए
-    const filterMatch = selectedFilterTags.size === 0 || 
-                        [...selectedFilterTags].every(tag => imageTags.includes(tag));
-    
-    // इमेज तभी दिखेगी जब दोनों शर्तें पूरी होंगी
-    if (categoryMatch && filterMatch) {
-        item.style.display = "block";
-    } else {
-        item.style.display = "none";
-    }
-  });
+    filteredImageData = allImageData.filter(item => {
+        const imageTags = item.tags; // JSON से सीधे टैग्स लें
+        
+        const categoryMatch = selectedCategoryTags.size === 0 || 
+                              [...selectedCategoryTags].some(tag => imageTags.includes(tag));
+                              
+        const filterMatch = selectedFilterTags.size === 0 || 
+                            [...selectedFilterTags].every(tag => imageTags.includes(tag));
+        
+        return categoryMatch && filterMatch;
+    });
+
+    startRendering(); // फिल्टर किए गए डेटा के साथ रेंडरिंग फिर से शुरू करें
 }
 
 document.addEventListener("click", function (event) {
@@ -214,7 +239,7 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// लाइटबॉक्स को खोलने और बंद करने का लॉजिक
+// लाइटबॉक्स
 imageGrid.addEventListener('click', function(e) {
   if (e.target.tagName === 'IMG') {
     lightbox.classList.remove('hidden');
@@ -226,16 +251,14 @@ imageGrid.addEventListener('click', function(e) {
 function closeLightbox() {
   lightbox.classList.add('hidden');
 }
-
 closeLightboxBtn.addEventListener('click', closeLightbox);
-
 lightbox.addEventListener('click', function(e) {
   if (e.target === lightbox) {
     closeLightbox();
   }
 });
 
-// Clear All बटन के लिए Click Listener
+// Clear All बटन
 clearFiltersBtn.addEventListener('click', function() {
     selectedCategoryTags.clear();
     selectedFilterTags.clear();
