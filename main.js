@@ -10,18 +10,13 @@ const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.querySelector(".lightbox-image");
 const closeLightboxBtn = document.querySelector(".close-lightbox");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
-const toastNotification = document.getElementById("toast-notification");
 
-// ✅ इनफिनिट स्क्रॉल के लिए वेरिएबल्स
-let allImagesData = []; 
-let filteredImagesData = []; 
-let currentImageIndex = 0; 
-const imagesPerLoad = 100;
-let isLoading = false; 
+// ✅ सुधार: टैग्स को दो अलग-अलग सेट में बांटा गया
+let selectedCategoryTags = new Set(); // 'Category' 📁 के लिए (OR लॉजिक)
+let selectedFilterTags = new Set(); // बाकी सब के लिए (AND लॉजिक)
 
-let selectedTags = new Set();
 let isPopupOpen = false;
-let zoomSize = 100;
+let zoomSize = 140;
 
 // ✅ Responsive Zoom System
 function updateZoom() {
@@ -30,12 +25,10 @@ function updateZoom() {
 zoomInBtn.addEventListener("click", () => {
   zoomSize = Math.min(zoomSize + 20, 400);
   updateZoom();
-  checkAndLoadMore(); // सुधार: ज़ूम इन के बाद चेक करें कि और इमेज लोड करनी है या नहीं
 });
 zoomOutBtn.addEventListener("click", () => {
-  zoomSize = Math.max(zoomSize - 20, 50);
+  zoomSize = Math.max(zoomSize - 20, 80);
   updateZoom();
-  checkAndLoadMore(); // सुधार: ज़ूम आउट के बाद चेक करें कि और इमेज लोड करनी है या नहीं
 });
 updateZoom();
 
@@ -52,51 +45,27 @@ window.addEventListener("scroll", function() {
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }, false);
 
-// ✅ Load images (सिर्फ एक बार)
+
+// ✅ Load images
 fetch("images.json")
   .then(res => res.json())
   .then(images => {
-    allImagesData = images;
-    filteredImagesData = images;
-    loadMoreImages();
-  })
-  .catch(err => console.error("❌ Error loading images:", err));
-
-// ✅ सुधार: यह फंक्शन चेक करेगा कि स्क्रीन भरने के लिए और इमेज चाहिए या नहीं
-function checkAndLoadMore() {
-    if (isLoading) return;
-    // अगर स्क्रॉलबार नहीं है और लोड करने के लिए और इमेज हैं
-    if (document.body.scrollHeight <= window.innerHeight && currentImageIndex < filteredImagesData.length) {
-        loadMoreImages();
-    }
-}
-
-// ✅ इमेज लोड करने का फंक्शन
-function loadMoreImages() {
-    if (isLoading) return;
-    isLoading = true;
-
-    const batch = filteredImagesData.slice(currentImageIndex, currentImageIndex + imagesPerLoad);
-
-    batch.forEach(img => {
+    images.forEach(img => {
       const div = document.createElement("div");
       div.className = "image-item";
       div.setAttribute("data-tags", img.tags.join(",")); 
       div.innerHTML = `<img data-src="${img.filename}" class="lazy" alt="${img.filename.replace('.webp', '.png')}" />`;
       imageGrid.appendChild(div);
     });
-
+    filterImages();
     initializeLazyLoading();
-    currentImageIndex += imagesPerLoad;
-    isLoading = false;
-    
-    // लोड होने के बाद फिर से चेक करें, ताकि स्क्रीन पूरी तरह भर जाए
-    setTimeout(checkAndLoadMore, 100); 
-}
+  })
+  .catch(err => console.error("❌ Error loading images:", err));
+
 
 // ✅ लेज़ी लोडिंग के लिए Intersection Observer
 function initializeLazyLoading() {
-  const lazyImages = document.querySelectorAll('img.lazy:not(.observed)');
+  const lazyImages = document.querySelectorAll('img.lazy');
   if ("IntersectionObserver" in window) {
     let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
       entries.forEach(function(entry) {
@@ -104,7 +73,6 @@ function initializeLazyLoading() {
           let lazyImage = entry.target;
           lazyImage.src = lazyImage.dataset.src;
           lazyImage.classList.remove("lazy");
-          lazyImage.classList.add("observed");
           lazyImage.onload = () => lazyImage.style.opacity = '1'; 
           lazyImageObserver.unobserve(lazyImage);
         }
@@ -127,6 +95,12 @@ Object.keys(categories).forEach(category => {
   const btn = document.createElement("button");
   btn.className = "tag-btn large-btn";
   btn.innerText = `${emojiMap[category] || ""} ${category}`;
+  
+  // ✅ सुधार: 'Category' बटन को एक ख़ास ID दी गई
+  if (category === 'Category') {
+      btn.id = 'mainCategoryBtn';
+  }
+
   btn.addEventListener("click", (e) => {
     e.stopPropagation();
     openPopup(category, e.target);
@@ -143,6 +117,7 @@ function openPopup(category, buttonElement) {
   if (popupLeft + popupWidth > screenWidth) {
     popupLeft = screenWidth - popupWidth - 20;
   }
+
   popup.style.top = `${rect.bottom + 5}px`;
   popup.style.left = `${popupLeft}px`;
   
@@ -153,74 +128,83 @@ function openPopup(category, buttonElement) {
     const subBtn = document.createElement("button");
     subBtn.className = "tag-btn small-btn";
     subBtn.innerText = `${emojiMap[tag] || ""} ${tag}`;
-    if (selectedTags.has(tag)) subBtn.classList.add("active");
+    
+    const isSelected = selectedCategoryTags.has(tag) || selectedFilterTags.has(tag);
+    if (isSelected) subBtn.classList.add("active");
+
     subBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      toggleTag(tag, subBtn);
+      toggleTag(tag, subBtn, category); // ✅ सुधार: कैटेगरी का नाम भी भेजा गया
+      updateSelectedTagsDisplay();
       filterImages();
     });
     subcategoryButtons.appendChild(subBtn);
   });
 }
 
-function toggleTag(tag, btn) {
-  if (selectedTags.has(tag)) {
-    selectedTags.delete(tag);
+// ✅ सुधार: toggleTag फंक्शन को अपडेट किया गया ताकि वह सही सेट में टैग्स डाले
+function toggleTag(tag, btn, category) {
+  const targetSet = category === 'Category' ? selectedCategoryTags : selectedFilterTags;
+  
+  if (targetSet.has(tag)) {
+    targetSet.delete(tag);
     btn.classList.remove("active");
   } else {
-    selectedTags.add(tag);
+    targetSet.add(tag);
     btn.classList.add("active");
   }
-  updateSelectedTagsDisplay();
 }
 
+// ✅ सुधार: updateSelectedTagsDisplay फंक्शन को अपडेट किया गया ताकि वह दोनों सेट से टैग्स दिखाए
 function updateSelectedTagsDisplay() {
   selectedTagsDisplay.innerHTML = "";
-  selectedTags.forEach(tag => {
+  const allSelectedTags = [...selectedCategoryTags, ...selectedFilterTags];
+
+  allSelectedTags.forEach(tag => {
     const span = document.createElement("span");
     span.className = "selected-tag";
     span.innerHTML = `${emojiMap[tag] || ""} ${tag} <span class="remove-tag" data-tag="${tag}">&times;</span>`;
     selectedTagsDisplay.appendChild(span);
   });
   
-  if (selectedTags.size > 0) {
+  if (allSelectedTags.length > 0) {
       clearFiltersBtn.classList.remove('hidden');
   } else {
       clearFiltersBtn.classList.add('hidden');
   }
+
+  document.querySelectorAll(".remove-tag").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const tagToRemove = e.target.dataset.tag;
+      selectedCategoryTags.delete(tagToRemove);
+      selectedFilterTags.delete(tagToRemove);
+      updateSelectedTagsDisplay();
+      filterImages();
+    });
+  });
 }
 
-// ✅ सुधार: टैग हटाने का लॉजिक अब इस नए Event Listener से चलेगा
-selectedTagsDisplay.addEventListener('click', function(e) {
-    if (e.target.classList.contains('remove-tag')) {
-        const tagToRemove = e.target.dataset.tag;
-        selectedTags.delete(tagToRemove);
-
-        // पॉपअप में संबंधित बटन को भी डीएक्टिवेट करें
-        const subcategoryButtons = document.querySelectorAll('#subcategoryButtons .tag-btn');
-        subcategoryButtons.forEach(btn => {
-            if(btn.innerText.includes(tagToRemove)){
-                btn.classList.remove('active');
-            }
-        });
-        
-        updateSelectedTagsDisplay();
-        filterImages();
-    }
-});
-
+// ✅ सुधार: filterImages फंक्शन में नया AND/OR लॉजिक डाला गया
 function filterImages() {
-    if (selectedTags.size === 0) {
-        filteredImagesData = allImagesData;
+  const allImages = document.querySelectorAll(".image-item");
+  allImages.forEach(item => {
+    const imageTags = item.dataset.tags.split(",");
+    
+    // OR लॉजिक 'Category' के लिए
+    const categoryMatch = selectedCategoryTags.size === 0 || 
+                          [...selectedCategoryTags].some(tag => imageTags.includes(tag));
+                          
+    // AND लॉजिक बाकी फिल्टर्स के लिए
+    const filterMatch = selectedFilterTags.size === 0 || 
+                        [...selectedFilterTags].every(tag => imageTags.includes(tag));
+    
+    // इमेज तभी दिखेगी जब दोनों शर्तें पूरी होंगी
+    if (categoryMatch && filterMatch) {
+        item.style.display = "block";
     } else {
-        filteredImagesData = allImagesData.filter(item => {
-            const tags = item.tags;
-            return [...selectedTags].every(tag => tags.includes(tag));
-        });
+        item.style.display = "none";
     }
-    imageGrid.innerHTML = '';
-    currentImageIndex = 0;
-    loadMoreImages();
+  });
 }
 
 document.addEventListener("click", function (event) {
@@ -230,33 +214,21 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// लाइटबॉक्स का लॉजिक
+// लाइटबॉक्स को खोलने और बंद करने का लॉजिक
 imageGrid.addEventListener('click', function(e) {
   if (e.target.tagName === 'IMG') {
-    const clickedImage = e.target;
-    const highQualitySrc = clickedImage.src.replace('.webp', '.png');
-    lightboxImage.src = highQualitySrc;
     lightbox.classList.remove('hidden');
-    
-    const fullPath = clickedImage.alt;
-    const filenameOnly = fullPath.substring(fullPath.lastIndexOf('/') + 1);
-    const filenameToCopy = filenameOnly.replace('.png', '.svg');
-    
-    navigator.clipboard.writeText(filenameToCopy).then(() => {
-        toastNotification.classList.remove('hidden');
-        setTimeout(() => {
-            toastNotification.classList.add('hidden');
-        }, 2000);
-    }).catch(err => {
-        console.error('Failed to copy text: ', err);
-    });
+    const highQualitySrc = e.target.src.replace('.webp', '.png');
+    lightboxImage.src = highQualitySrc;
   }
 });
 
 function closeLightbox() {
   lightbox.classList.add('hidden');
 }
+
 closeLightboxBtn.addEventListener('click', closeLightbox);
+
 lightbox.addEventListener('click', function(e) {
   if (e.target === lightbox) {
     closeLightbox();
@@ -265,17 +237,11 @@ lightbox.addEventListener('click', function(e) {
 
 // Clear All बटन के लिए Click Listener
 clearFiltersBtn.addEventListener('click', function() {
-    selectedTags.clear();
+    selectedCategoryTags.clear();
+    selectedFilterTags.clear();
     document.querySelectorAll('#subcategoryButtons .tag-btn.active').forEach(btn => {
         btn.classList.remove('active');
     });
     updateSelectedTagsDisplay();
     filterImages();
-});
-
-// स्क्रॉल करने पर और इमेज लोड करने का लॉजिक
-window.addEventListener('scroll', () => {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500 && currentImageIndex < filteredImagesData.length) {
-        loadMoreImages();
-    }
 });
