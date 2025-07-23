@@ -22,7 +22,7 @@ let selectedCategoryTags = new Set();
 let selectedFilterTags = new Set();
 
 let isPopupOpen = false;
-let zoomSize = 140;
+let zoomSize = 100;
 
 // Responsive Zoom System
 function updateZoom() {
