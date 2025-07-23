@@ -15,7 +15,7 @@ body {
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
-  align-items: center; /* ✅ सुधार: बटनों को वर्टिकली सेंटर किया गया */
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,7 +27,6 @@ body {
 .krantikari-area.hidden-nav {
   transform: translateY(-100%);
 }
-
 
 .tag-grid {
   display: flex;
@@ -62,9 +61,8 @@ body {
   font-weight: bold;
 }
 
-/* ✅ सुधार: खास 'Category' बटन के लिए अलग स्टाइल */
 #mainCategoryBtn {
-    background-color: #f59e0b; /* नारंगी रंग */
+    background-color: #f59e0b;
     color: #1f2937;
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
@@ -75,7 +73,6 @@ body {
     background-color: #fbbf24;
     transform: scale(1.1);
 }
-
 
 .small-btn {
   font-size: 0.8rem;
@@ -218,6 +215,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  /* ✅ सुधार: ज़ूम बटन को पॉपअप के ऊपर रखने के लिए z-index ठीक किया गया */
   z-index: 1200;
 }
 
@@ -271,4 +269,10 @@ body {
 
 .close-lightbox:hover {
   color: #bbb;
+}
+
+/* ✅ सुधार: इनफिनिट स्क्रॉल के sentinel के लिए स्टाइल */
+#sentinel {
+    width: 100%;
+    height: 10px;
 }
