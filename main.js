@@ -12,11 +12,11 @@ const closeLightboxBtn = document.querySelector(".close-lightbox");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
 const sentinel = document.getElementById("sentinel");
 
-// ✅ सुधार: इनफिनिट स्क्रॉल और फिल्टरिंग के लिए वेरिएबल्स
+// ✅ इनफिनिट स्क्रॉल और फिल्टरिंग के लिए वेरिएबल्स
 let allImageData = [];
 let filteredImageData = [];
 let currentImageIndex = 0;
-const BATCH_SIZE = 50; // एक बार में 50 इमेज लोड होंगी
+const BATCH_SIZE = 50; 
 
 let selectedCategoryTags = new Set();
 let selectedFilterTags = new Set();
@@ -24,7 +24,7 @@ let selectedFilterTags = new Set();
 let isPopupOpen = false;
 let zoomSize = 140;
 
-// ✅ Responsive Zoom System
+// Responsive Zoom System
 function updateZoom() {
   document.documentElement.style.setProperty('--img-size', `${zoomSize}px`);
 }
@@ -38,7 +38,7 @@ zoomOutBtn.addEventListener("click", () => {
 });
 updateZoom();
 
-// ✅ स्क्रॉल पर हेडर दिखाने/छिपाने के लिए लॉजिक
+// स्क्रॉल पर हेडर दिखाने/छिपाने के लिए लॉजिक
 let lastScrollTop = 0;
 const krantikariArea = document.querySelector('.krantikari-area');
 window.addEventListener("scroll", function() {
@@ -51,7 +51,7 @@ window.addEventListener("scroll", function() {
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }, false);
 
-// ✅ सुधार: लेज़ी लोडिंग के लिए एक ही Observer बनेगा
+// लेज़ी लोडिंग के लिए एक ही Observer बनेगा
 const lazyImageObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -64,11 +64,11 @@ const lazyImageObserver = new IntersectionObserver((entries, observer) => {
     });
 });
 
-// ✅ सुधार: इमेज का अगला बैच दिखाने का फंक्शन
+// इमेज का अगला बैच दिखाने का फंक्शन
 function renderNextBatch() {
     const batch = filteredImageData.slice(currentImageIndex, currentImageIndex + BATCH_SIZE);
     if (batch.length === 0) {
-        sentinelObserver.disconnect(); // सारी इमेज लोड हो गईं
+        if(sentinelObserver) sentinelObserver.disconnect();
         return false;
     }
 
@@ -86,32 +86,30 @@ function renderNextBatch() {
     });
 
     currentImageIndex += batch.length;
-    return true; // और इमेज बाकी हैं
+    return true;
 }
 
-// ✅ सुधार: स्क्रीन भरने तक इमेज लोड करने का स्मार्ट फंक्शन
+// स्क्रीन भरने तक इमेज लोड करने का स्मार्ट फंक्शन
 function loadUntilScroll() {
     if (currentImageIndex >= filteredImageData.length) return;
-
-    // अगर स्क्रॉलबार नहीं है तो और इमेज लोड करो
+    
     if (document.documentElement.scrollHeight <= document.documentElement.clientHeight) {
         if (renderNextBatch()) {
-            setTimeout(loadUntilScroll, 100); // DOM को अपडेट होने का समय दें
+            setTimeout(loadUntilScroll, 100); 
         }
     } else {
-        // स्क्रीन भर गई है, अब स्क्रॉल का इंतजार करो
-        sentinelObserver.observe(sentinel);
+        if(sentinelObserver) sentinelObserver.observe(sentinel);
     }
 }
 
-// ✅ सुधार: इनफिनिट स्क्रॉल के लिए Observer
+// इनफिनिट स्क्रॉल के लिए Observer
 const sentinelObserver = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) {
         renderNextBatch();
     }
 });
 
-// ✅ Load images
+// Load images
 fetch("images.json")
   .then(res => res.json())
   .then(images => {
@@ -168,7 +166,7 @@ function openPopup(category, buttonElement) {
 
     subBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      toggleTag(tag, subBtn, category);
+      toggleTag(tag, subBtn, category); 
       updateSelectedTagsDisplay();
       filterImages();
     });
@@ -178,6 +176,7 @@ function openPopup(category, buttonElement) {
 
 function toggleTag(tag, btn, category) {
   const targetSet = category === 'Category' ? selectedCategoryTags : selectedFilterTags;
+  
   if (targetSet.has(tag)) {
     targetSet.delete(tag);
     btn.classList.remove("active");
@@ -215,10 +214,9 @@ function updateSelectedTagsDisplay() {
   });
 }
 
-// ✅ सुधार: filterImages अब सिर्फ डेटा को फिल्टर करेगा, DOM को नहीं
 function filterImages() {
     filteredImageData = allImageData.filter(item => {
-        const imageTags = item.tags; // JSON से सीधे टैग्स लें
+        const imageTags = item.tags;
         
         const categoryMatch = selectedCategoryTags.size === 0 || 
                               [...selectedCategoryTags].some(tag => imageTags.includes(tag));
@@ -229,7 +227,7 @@ function filterImages() {
         return categoryMatch && filterMatch;
     });
 
-    startRendering(); // फिल्टर किए गए डेटा के साथ रेंडरिंग फिर से शुरू करें
+    startRendering();
 }
 
 document.addEventListener("click", function (event) {
@@ -239,14 +237,33 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// लाइटबॉक्स
+// ✅ सुधार: लाइटबॉक्स खोलने और फाइलनाम कॉपी करने का नया लॉजिक
 imageGrid.addEventListener('click', function(e) {
   if (e.target.tagName === 'IMG') {
+    // 1. पॉपअप दिखाना (पहले जैसा)
     lightbox.classList.remove('hidden');
     const highQualitySrc = e.target.src.replace('.webp', '.png');
     lightboxImage.src = highQualitySrc;
+
+    // 2. फाइलनाम को .svg में बदलकर कॉपी करना (नया फीचर)
+    const filename = e.target.alt; // alt में .png वाला नाम है
+    const svgFilename = filename.replace(/\.png$/, '.svg'); // सिर्फ अंत के .png को .svg में बदलें
+
+    navigator.clipboard.writeText(svgFilename).then(() => {
+      // यह मैसेज सिर्फ कुछ देर के लिए दिखेगा
+      const toast = document.createElement('div');
+      toast.className = 'toast-notification';
+      toast.textContent = `Copied: ${svgFilename}`;
+      document.body.appendChild(toast);
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+    }).catch(err => {
+      console.error('Failed to copy: ', err);
+    });
   }
 });
+
 
 function closeLightbox() {
   lightbox.classList.add('hidden');
