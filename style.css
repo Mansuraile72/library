@@ -276,3 +276,18 @@ body {
     width: 100%;
     height: 10px;
 }
+
+/* ✅ सुधार: कॉपी नोटिफिकेशन के लिए स्टाइल */
+.toast-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 3000;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
