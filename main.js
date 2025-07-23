@@ -237,20 +237,24 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// ✅ सुधार: लाइटबॉक्स खोलने और फाइलनाम कॉपी करने का नया लॉजिक
+// लाइटबॉक्स और कॉपी फंक्शन
 imageGrid.addEventListener('click', function(e) {
   if (e.target.tagName === 'IMG') {
-    // 1. पॉपअप दिखाना (पहले जैसा)
+    // 1. पॉपअप दिखाना
     lightbox.classList.remove('hidden');
     const highQualitySrc = e.target.src.replace('.webp', '.png');
     lightboxImage.src = highQualitySrc;
 
-    // 2. फाइलनाम को .svg में बदलकर कॉपी करना (नया फीचर)
-    const filename = e.target.alt; // alt में .png वाला नाम है
-    const svgFilename = filename.replace(/\.png$/, '.svg'); // सिर्फ अंत के .png को .svg में बदलें
+    // 2. फाइलनाम को .svg में बदलकर कॉपी करना
+    const fullPath = e.target.alt; 
+    
+    // ✅ सुधार: सिर्फ फाइल का नाम निकालने के लिए पाथ को split किया गया
+    const pathParts = fullPath.split('/');
+    const filenameOnly = pathParts[pathParts.length - 1]; // पाथ का आखिरी हिस्सा यानी फाइल का नाम
+
+    const svgFilename = filenameOnly.replace(/\.png$/, '.svg'); 
 
     navigator.clipboard.writeText(svgFilename).then(() => {
-      // यह मैसेज सिर्फ कुछ देर के लिए दिखेगा
       const toast = document.createElement('div');
       toast.className = 'toast-notification';
       toast.textContent = `Copied: ${svgFilename}`;
@@ -263,7 +267,6 @@ imageGrid.addEventListener('click', function(e) {
     });
   }
 });
-
 
 function closeLightbox() {
   lightbox.classList.add('hidden');
