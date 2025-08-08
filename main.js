@@ -11,8 +11,11 @@ const lightboxImage = document.querySelector(".lightbox-image");
 const closeLightboxBtn = document.querySelector(".close-lightbox");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
 const sentinel = document.getElementById("sentinel");
+const krantikariArea = document.querySelector('.krantikari-area');
+// ✅ सुधार: चुने हुए टैग्स के सेक्शन का reference
+const selectedTagsSection = document.querySelector('.selected-tags-section');
 
-// ✅ इनफिनिट स्क्रॉल और फिल्टरिंग के लिए वेरिएबल्स
+// इनफिनिट स्क्रॉल और फिल्टरिंग के लिए वेरिएबल्स
 let allImageData = [];
 let filteredImageData = [];
 let currentImageIndex = 0;
@@ -23,6 +26,8 @@ let selectedFilterTags = new Set();
 
 let isPopupOpen = false;
 let zoomSize = 100;
+// ✅ सुधार: होवर मेन्यू के लिए टाइमआउट वेरिएबल
+let popupCloseTimeout;
 
 // Responsive Zoom System
 function updateZoom() {
@@ -38,19 +43,25 @@ zoomOutBtn.addEventListener("click", () => {
 });
 updateZoom();
 
-// स्क्रॉल पर हेडर और Selected Tags सेक्शन दिखाने/छिपाने के लिए लॉजिक
-let lastScrollTop = 0;
-const krantikariArea = document.querySelector('.krantikari-area');
-const selectedTagsSection = document.querySelector('.selected-tags-section');
+// ✅ सुधार: स्टिकी एलिमेंट्स की पोजीशन और बॉडी पैडिंग सेट करने का लॉजिक
+function setStickyPositions() {
+    const headerHeight = krantikariArea.offsetHeight;
+    selectedTagsSection.style.top = `${headerHeight}px`;
 
+    const tagsHeight = selectedTagsSection.offsetHeight;
+    document.body.style.paddingTop = `${headerHeight + tagsHeight}px`;
+}
+
+// स्क्रॉल पर हेडर और टैग्स पट्टी दिखाने/छिपाने के लिए लॉजिक
+let lastScrollTop = 0;
 window.addEventListener("scroll", function() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (scrollTop > lastScrollTop && scrollTop > 100) { 
         krantikariArea.classList.add('hidden-nav');
-        selectedTagsSection.classList.add('hidden-tags');
+        selectedTagsSection.classList.add('hidden-tags'); // ✅ सुधार: टैग्स पट्टी को भी छिपाएं
     } else {
         krantikariArea.classList.remove('hidden-nav');
-        selectedTagsSection.classList.remove('hidden-tags');
+        selectedTagsSection.classList.remove('hidden-tags'); // ✅ सुधार: टैग्स पट्टी को भी दिखाएं
     }
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }, false);
@@ -126,7 +137,7 @@ fetch("images.json")
 function startRendering() {
     imageGrid.innerHTML = '';
     currentImageIndex = 0;
-    sentinelObserver.disconnect();
+    if (sentinelObserver) sentinelObserver.disconnect();
     loadUntilScroll();
 }
 
@@ -139,19 +150,36 @@ Object.keys(categories).forEach(category => {
       btn.id = 'mainCategoryBtn';
   }
 
-  // Hover पर ऑटो खोलना
+  // ✅ सुधार: क्लिक की जगह mouseenter (होवर) पर पॉपअप खोलना
   btn.addEventListener("mouseenter", (e) => {
+    clearTimeout(popupCloseTimeout); // पुराने क्लोज टाइमआउट को रद्द करें
     openPopup(category, e.target);
   });
 
-  // Click से भी काम करे
-  btn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    openPopup(category, e.target);
+  // ✅ सुधार: जब माउस बटन से हटे तो पॉपअप को थोड़ी देर बाद बंद करें
+  btn.addEventListener("mouseleave", () => {
+    popupCloseTimeout = setTimeout(() => {
+        closePopup();
+    }, 300); // 300 मिलीसेकंड की देरी
   });
 
   krantikariButtons.appendChild(btn);
 });
+
+// ✅ सुधार: पॉपअप पर माउस ले जाने पर उसे बंद होने से रोकना
+popup.addEventListener('mouseenter', () => {
+    clearTimeout(popupCloseTimeout);
+});
+// ✅ सुधार: पॉपअप से माउस हटाने पर उसे बंद करना
+popup.addEventListener('mouseleave', () => {
+    closePopup();
+});
+
+// ✅ सुधार: पॉपअप बंद करने का फंक्शन
+function closePopup() {
+    popup.classList.add('hidden');
+    isPopupOpen = false;
+}
 
 function openPopup(category, buttonElement) {
   const rect = buttonElement.getBoundingClientRect();
@@ -218,21 +246,88 @@ function updateSelectedTagsDisplay() {
   document.querySelectorAll(".remove-tag").forEach(btn => {
     btn.addEventListener("click", (e) => {
       const tagToRemove = e.target.dataset.tag;
-      selectedCategoryTags.delete(tagToRemove);
-      selectedFilterTags.delete(tagToRemove);
+      if(selectedCategoryTags.has(tagToRemove)) {
+          selectedCategoryTags.delete(tagToRemove);
+      } else {
+          selectedFilterTags.delete(tagToRemove);
+      }
       updateSelectedTagsDisplay();
       filterImages();
     });
   });
+  // ✅ सुधार: टैग्स अपडेट होने के बाद स्टिकी पोजीशन को फिर से सेट करें
+  setTimeout(setStickyPositions, 0);
 }
 
 function filterImages() {
-    filteredImageData = allImageData.filter(img => {
-        const tags = img.tags;
-        const matchesCategory = selectedCategoryTags.size === 0 || [...selectedCategoryTags].every(tag => tags.includes(tag));
-        const matchesFilter = selectedFilterTags.size === 0 || [...selectedFilterTags].every(tag => tags.includes(tag));
-        return matchesCategory && matchesFilter;
+    filteredImageData = allImageData.filter(item => {
+        const imageTags = item.tags;
+        
+        const categoryMatch = selectedCategoryTags.size === 0 || 
+                              [...selectedCategoryTags].some(tag => imageTags.includes(tag));
+                              
+        const filterMatch = selectedFilterTags.size === 0 || 
+                            [...selectedFilterTags].every(tag => imageTags.includes(tag));
+        
+        return categoryMatch && filterMatch;
     });
 
     startRendering();
 }
+
+document.addEventListener("click", function (event) {
+  if (isPopupOpen && !popup.contains(event.target) && !event.target.classList.contains("tag-btn")) {
+    closePopup();
+  }
+});
+
+// लाइटबॉक्स और कॉपी फंक्शन
+imageGrid.addEventListener('click', function(e) {
+  if (e.target.tagName === 'IMG') {
+    lightbox.classList.remove('hidden');
+    const highQualitySrc = e.target.src.replace('.webp', '.png');
+    lightboxImage.src = highQualitySrc;
+
+    const fullPath = e.target.alt; 
+    const pathParts = fullPath.split('/');
+    const filenameOnly = pathParts[pathParts.length - 1];
+    const svgFilename = filenameOnly.replace(/\.png$/, '.svg'); 
+
+    navigator.clipboard.writeText(svgFilename).then(() => {
+      const toast = document.createElement('div');
+      toast.className = 'toast-notification';
+      toast.textContent = `Copied: ${svgFilename}`;
+      document.body.appendChild(toast);
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+    }).catch(err => {
+      console.error('Failed to copy: ', err);
+    });
+  }
+});
+
+function closeLightbox() {
+  lightbox.classList.add('hidden');
+}
+closeLightboxBtn.addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', function(e) {
+  if (e.target === lightbox) {
+    closeLightbox();
+  }
+});
+
+// Clear All बटन
+clearFiltersBtn.addEventListener('click', function() {
+    selectedCategoryTags.clear();
+    selectedFilterTags.clear();
+    document.querySelectorAll('#subcategoryButtons .tag-btn.active').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    updateSelectedTagsDisplay();
+    filterImages();
+});
+
+// ✅ सुधार: पेज लोड होने पर और विंडो का आकार बदलने पर स्टिकी पोजीशन सेट करें
+window.addEventListener('load', setStickyPositions);
+window.addEventListener('resize', setStickyPositions);
