@@ -38,15 +38,19 @@ zoomOutBtn.addEventListener("click", () => {
 });
 updateZoom();
 
-// स्क्रॉल पर हेडर दिखाने/छिपाने के लिए लॉजिक
+// स्क्रॉल पर हेडर और Selected Tags सेक्शन दिखाने/छिपाने के लिए लॉजिक
 let lastScrollTop = 0;
 const krantikariArea = document.querySelector('.krantikari-area');
+const selectedTagsSection = document.querySelector('.selected-tags-section');
+
 window.addEventListener("scroll", function() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (scrollTop > lastScrollTop && scrollTop > 100) { 
         krantikariArea.classList.add('hidden-nav');
+        selectedTagsSection.classList.add('hidden-tags');
     } else {
         krantikariArea.classList.remove('hidden-nav');
+        selectedTagsSection.classList.remove('hidden-tags');
     }
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }, false);
@@ -134,10 +138,18 @@ Object.keys(categories).forEach(category => {
   if (category === 'Category') {
       btn.id = 'mainCategoryBtn';
   }
+
+  // Hover पर ऑटो खोलना
+  btn.addEventListener("mouseenter", (e) => {
+    openPopup(category, e.target);
+  });
+
+  // Click से भी काम करे
   btn.addEventListener("click", (e) => {
     e.stopPropagation();
     openPopup(category, e.target);
   });
+
   krantikariButtons.appendChild(btn);
 });
 
@@ -215,76 +227,12 @@ function updateSelectedTagsDisplay() {
 }
 
 function filterImages() {
-    filteredImageData = allImageData.filter(item => {
-        const imageTags = item.tags;
-        
-        const categoryMatch = selectedCategoryTags.size === 0 || 
-                              [...selectedCategoryTags].some(tag => imageTags.includes(tag));
-                              
-        const filterMatch = selectedFilterTags.size === 0 || 
-                            [...selectedFilterTags].every(tag => imageTags.includes(tag));
-        
-        return categoryMatch && filterMatch;
+    filteredImageData = allImageData.filter(img => {
+        const tags = img.tags;
+        const matchesCategory = selectedCategoryTags.size === 0 || [...selectedCategoryTags].every(tag => tags.includes(tag));
+        const matchesFilter = selectedFilterTags.size === 0 || [...selectedFilterTags].every(tag => tags.includes(tag));
+        return matchesCategory && matchesFilter;
     });
 
     startRendering();
 }
-
-document.addEventListener("click", function (event) {
-  if (isPopupOpen && !popup.contains(event.target) && !event.target.classList.contains("tag-btn")) {
-    popup.classList.add("hidden");
-    isPopupOpen = false;
-  }
-});
-
-// लाइटबॉक्स और कॉपी फंक्शन
-imageGrid.addEventListener('click', function(e) {
-  if (e.target.tagName === 'IMG') {
-    // 1. पॉपअप दिखाना
-    lightbox.classList.remove('hidden');
-    const highQualitySrc = e.target.src.replace('.webp', '.png');
-    lightboxImage.src = highQualitySrc;
-
-    // 2. फाइलनाम को .svg में बदलकर कॉपी करना
-    const fullPath = e.target.alt; 
-    
-    // ✅ सुधार: सिर्फ फाइल का नाम निकालने के लिए पाथ को split किया गया
-    const pathParts = fullPath.split('/');
-    const filenameOnly = pathParts[pathParts.length - 1]; // पाथ का आखिरी हिस्सा यानी फाइल का नाम
-
-    const svgFilename = filenameOnly.replace(/\.png$/, '.svg'); 
-
-    navigator.clipboard.writeText(svgFilename).then(() => {
-      const toast = document.createElement('div');
-      toast.className = 'toast-notification';
-      toast.textContent = `Copied: ${svgFilename}`;
-      document.body.appendChild(toast);
-      setTimeout(() => {
-        toast.remove();
-      }, 3000);
-    }).catch(err => {
-      console.error('Failed to copy: ', err);
-    });
-  }
-});
-
-function closeLightbox() {
-  lightbox.classList.add('hidden');
-}
-closeLightboxBtn.addEventListener('click', closeLightbox);
-lightbox.addEventListener('click', function(e) {
-  if (e.target === lightbox) {
-    closeLightbox();
-  }
-});
-
-// Clear All बटन
-clearFiltersBtn.addEventListener('click', function() {
-    selectedCategoryTags.clear();
-    selectedFilterTags.clear();
-    document.querySelectorAll('#subcategoryButtons .tag-btn.active').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    updateSelectedTagsDisplay();
-    filterImages();
-});
