@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  padding-top: 110px; /* Krantikari + Selected tags section space */
+  /* ✅ सुधार: padding-top अब JavaScript से सेट होगा */
 }
 
 /* Krantikari Area */
@@ -25,7 +25,7 @@ body {
 }
 
 .krantikari-area.hidden-nav {
-  transform: translateY(-100%);
+  transform: translateY(-110%);
 }
 
 .tag-grid {
@@ -92,6 +92,21 @@ body {
   overflow-y: auto;
 }
 
+.popup::-webkit-scrollbar {
+  width: 6px;
+}
+.popup::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.popup::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+}
+.popup::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
 .popup.hidden {
   display: none;
 }
@@ -103,21 +118,37 @@ body {
   justify-items: center;
 }
 
-/* Selected Tags */
-.selected-tags-section {
-  position: fixed;
-  top: 60px; /* Krantikari area के नीचे */
-  left: 0;
-  width: 100%;
-  background-color: #f3f4f6;
-  padding: 0.5rem 1rem;
-  border-bottom: 1px solid #ccc;
-  z-index: 999;
-  transition: transform 0.3s ease-in-out;
+.tag-btn.small-btn {
+  min-width: 80px;
+  justify-self: center;
+  margin: 0 auto;
 }
 
+.tag-btn.small-btn.active {
+  background-color: #3b82f6;
+  color: #fff;
+  box-shadow: 0 0 0 3px #60a5fa;
+  font-weight: bold;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+/* ✅ सुधार: चुने हुए टैग्स सेक्शन के लिए नई स्टिकी स्टाइल */
+.selected-tags-section {
+  padding: 1rem;
+  min-height: 25px;
+  background-color: #e5e7eb; /* हल्का ग्रे बैकग्राउंड */
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* हेडर से ठीक नीचे */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* ✅ सुधार: टैग्स पट्टी को छिपाने के लिए क्लास */
 .selected-tags-section.hidden-tags {
-  transform: translateY(-100%);
+    transform: translateY(-150%);
 }
 
 .selected-tags-container {
@@ -251,8 +282,21 @@ body {
   color: #bbb;
 }
 
-/* ✅ सुधार: इनफिनिट स्क्रॉल के sentinel के लिए स्टाइल */
 #sentinel {
     width: 100%;
     height: 10px;
+}
+
+.toast-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 3000;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
