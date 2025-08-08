@@ -4,18 +4,10 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  /* ✅ सुधार: padding-top अब JavaScript से सेट होगा */
 }
 
-/* Krantikari Area */
-.krantikari-area {
-  background-color: #1f2937;
-  padding: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-  align-items: center;
+/* ✅ सुधार: हेडर और टैग्स के लिए नया स्टिकी कंटेनर */
+.sticky-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,8 +16,19 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
-.krantikari-area.hidden-nav {
-  transform: translateY(-110%);
+.sticky-header.hidden {
+  transform: translateY(-100%);
+}
+
+/* Krantikari Area (अब यह स्टिकी नहीं है) */
+.krantikari-area {
+  background-color: #1f2937;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .tag-grid {
@@ -133,22 +136,14 @@ body {
   z-index: 1;
 }
 
-/* ✅ सुधार: चुने हुए टैग्स सेक्शन के लिए नई स्टिकी स्टाइल */
+/* ✅ सुधार: चुने हुए टैग्स सेक्शन से स्टिकी स्टाइल हटा दी गई */
 .selected-tags-section {
   padding: 1rem;
   min-height: 25px;
-  background-color: #e5e7eb; /* हल्का ग्रे बैकग्राउंड */
-  position: fixed;
-  left: 0;
+  background-color: #e5e7eb; 
   width: 100%;
-  z-index: 999; /* हेडर से ठीक नीचे */
-  transition: transform 0.3s ease-in-out;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* ✅ सुधार: टैग्स पट्टी को छिपाने के लिए क्लास */
-.selected-tags-section.hidden-tags {
-    transform: translateY(-150%);
+  box-sizing: border-box; /* padding को सही से मैनेज करने के लिए */
 }
 
 .selected-tags-container {
