@@ -11,9 +11,8 @@ const lightboxImage = document.querySelector(".lightbox-image");
 const closeLightboxBtn = document.querySelector(".close-lightbox");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
 const sentinel = document.getElementById("sentinel");
-const krantikariArea = document.querySelector('.krantikari-area');
-// ✅ सुधार: चुने हुए टैग्स के सेक्शन का reference
-const selectedTagsSection = document.querySelector('.selected-tags-section');
+// ✅ सुधार: नए स्टिकी हेडर का reference
+const stickyHeader = document.getElementById("stickyHeader");
 
 // इनफिनिट स्क्रॉल और फिल्टरिंग के लिए वेरिएबल्स
 let allImageData = [];
@@ -26,7 +25,6 @@ let selectedFilterTags = new Set();
 
 let isPopupOpen = false;
 let zoomSize = 100;
-// ✅ सुधार: होवर मेन्यू के लिए टाइमआउट वेरिएबल
 let popupCloseTimeout;
 
 // Responsive Zoom System
@@ -43,25 +41,20 @@ zoomOutBtn.addEventListener("click", () => {
 });
 updateZoom();
 
-// ✅ सुधार: स्टिकी एलिमेंट्स की पोजीशन और बॉडी पैडिंग सेट करने का लॉजिक
-function setStickyPositions() {
-    const headerHeight = krantikariArea.offsetHeight;
-    selectedTagsSection.style.top = `${headerHeight}px`;
-
-    const tagsHeight = selectedTagsSection.offsetHeight;
-    document.body.style.paddingTop = `${headerHeight + tagsHeight}px`;
+// ✅ सुधार: बॉडी पैडिंग सेट करने का लॉजिक
+function setBodyPadding() {
+    const headerHeight = stickyHeader.offsetHeight;
+    document.body.style.paddingTop = `${headerHeight}px`;
 }
 
-// स्क्रॉल पर हेडर और टैग्स पट्टी दिखाने/छिपाने के लिए लॉजिक
+// ✅ सुधार: स्क्रॉल पर सिर्फ एक कंटेनर को छिपाने/दिखाने का लॉजिक
 let lastScrollTop = 0;
 window.addEventListener("scroll", function() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (scrollTop > lastScrollTop && scrollTop > 100) { 
-        krantikariArea.classList.add('hidden-nav');
-        selectedTagsSection.classList.add('hidden-tags'); // ✅ सुधार: टैग्स पट्टी को भी छिपाएं
+        stickyHeader.classList.add('hidden');
     } else {
-        krantikariArea.classList.remove('hidden-nav');
-        selectedTagsSection.classList.remove('hidden-tags'); // ✅ सुधार: टैग्स पट्टी को भी दिखाएं
+        stickyHeader.classList.remove('hidden');
     }
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }, false);
@@ -150,32 +143,27 @@ Object.keys(categories).forEach(category => {
       btn.id = 'mainCategoryBtn';
   }
 
-  // ✅ सुधार: क्लिक की जगह mouseenter (होवर) पर पॉपअप खोलना
   btn.addEventListener("mouseenter", (e) => {
-    clearTimeout(popupCloseTimeout); // पुराने क्लोज टाइमआउट को रद्द करें
+    clearTimeout(popupCloseTimeout);
     openPopup(category, e.target);
   });
 
-  // ✅ सुधार: जब माउस बटन से हटे तो पॉपअप को थोड़ी देर बाद बंद करें
   btn.addEventListener("mouseleave", () => {
     popupCloseTimeout = setTimeout(() => {
         closePopup();
-    }, 300); // 300 मिलीसेकंड की देरी
+    }, 300);
   });
 
   krantikariButtons.appendChild(btn);
 });
 
-// ✅ सुधार: पॉपअप पर माउस ले जाने पर उसे बंद होने से रोकना
 popup.addEventListener('mouseenter', () => {
     clearTimeout(popupCloseTimeout);
 });
-// ✅ सुधार: पॉपअप से माउस हटाने पर उसे बंद करना
 popup.addEventListener('mouseleave', () => {
     closePopup();
 });
 
-// ✅ सुधार: पॉपअप बंद करने का फंक्शन
 function closePopup() {
     popup.classList.add('hidden');
     isPopupOpen = false;
@@ -255,8 +243,7 @@ function updateSelectedTagsDisplay() {
       filterImages();
     });
   });
-  // ✅ सुधार: टैग्स अपडेट होने के बाद स्टिकी पोजीशन को फिर से सेट करें
-  setTimeout(setStickyPositions, 0);
+  setTimeout(setBodyPadding, 0);
 }
 
 function filterImages() {
@@ -328,6 +315,6 @@ clearFiltersBtn.addEventListener('click', function() {
     filterImages();
 });
 
-// ✅ सुधार: पेज लोड होने पर और विंडो का आकार बदलने पर स्टिकी पोजीशन सेट करें
-window.addEventListener('load', setStickyPositions);
-window.addEventListener('resize', setStickyPositions);
+// पेज लोड होने पर और विंडो का आकार बदलने पर बॉडी पैडिंग सेट करें
+window.addEventListener('load', setBodyPadding);
+window.addEventListener('resize', setBodyPadding);
