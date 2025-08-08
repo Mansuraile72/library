@@ -4,26 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Image Tagging Gallery</title>
-  
   <link rel="icon" type="image/png" href="images/favicon.png">
-  
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <section class="krantikari-area">
-    <div class="tag-grid" id="krantikariButtons"></div>
-  </section>
+  <header id="stickyHeader" class="sticky-header">
+    <section class="krantikari-area">
+      <div class="tag-grid" id="krantikariButtons"></div>
+    </section>
+  
+    <section class="selected-tags-section">
+      <div class="selected-tags-container">
+        <div id="selectedTagsDisplay" class="selected-tags"></div>
+        <button id="clearFiltersBtn" class="tag-btn clear-btn hidden">✖️ Clear All</button>
+      </div>
+    </section>
+  </header>
 
   <div id="popup" class="popup hidden">
     <div id="subcategoryButtons" class="popup-grid"></div>
   </div>
-
-  <section class="selected-tags-section">
-    <div class="selected-tags-container">
-      <div id="selectedTagsDisplay" class="selected-tags"></div>
-      <button id="clearFiltersBtn" class="tag-btn clear-btn hidden">✖️ Clear All</button>
-    </div>
-  </section>
 
   <div class="zoom-controls">
     <button id="zoomIn">➕</button>
