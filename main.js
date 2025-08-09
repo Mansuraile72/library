@@ -11,17 +11,18 @@ const lightboxImage = document.querySelector(".lightbox-image");
 const closeLightboxBtn = document.querySelector(".close-lightbox");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
 const sentinel = document.getElementById("sentinel");
-// ✅ सुधार: नए स्टिकी हेडर का reference
 const stickyHeader = document.getElementById("stickyHeader");
 
-// इनफिनिट स्क्रॉल और फिल्टरिंग के लिए वेरिएबल्स
+// ✅ सुधार: Include/Exclude फिल्टरिंग के लिए वेरिएबल्स
 let allImageData = [];
 let filteredImageData = [];
 let currentImageIndex = 0;
 const BATCH_SIZE = 50; 
 
-let selectedCategoryTags = new Set();
-let selectedFilterTags = new Set();
+let selectedCategoryIncludeTags = new Set();
+let selectedCategoryExcludeTags = new Set();
+let selectedFilterIncludeTags = new Set();
+let selectedFilterExcludeTags = new Set();
 
 let isPopupOpen = false;
 let zoomSize = 100;
@@ -41,13 +42,13 @@ zoomOutBtn.addEventListener("click", () => {
 });
 updateZoom();
 
-// ✅ सुधार: बॉडी पैडिंग सेट करने का लॉजिक
+// स्टिकी एलिमेंट्स की पोजीशन और बॉडी पैडिंग सेट करने का लॉजिक
 function setBodyPadding() {
     const headerHeight = stickyHeader.offsetHeight;
     document.body.style.paddingTop = `${headerHeight}px`;
 }
 
-// ✅ सुधार: स्क्रॉल पर सिर्फ एक कंटेनर को छिपाने/दिखाने का लॉजिक
+// स्क्रॉल पर हेडर और टैग्स पट्टी दिखाने/छिपाने के लिए लॉजिक
 let lastScrollTop = 0;
 window.addEventListener("scroll", function() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -79,7 +80,6 @@ function renderNextBatch() {
         if(sentinelObserver) sentinelObserver.disconnect();
         return false;
     }
-
     batch.forEach(img => {
         const div = document.createElement("div");
         div.className = "image-item";
@@ -92,7 +92,6 @@ function renderNextBatch() {
         imageGrid.appendChild(div);
         lazyImageObserver.observe(imgElement);
     });
-
     currentImageIndex += batch.length;
     return true;
 }
@@ -100,7 +99,6 @@ function renderNextBatch() {
 // स्क्रीन भरने तक इमेज लोड करने का स्मार्ट फंक्शन
 function loadUntilScroll() {
     if (currentImageIndex >= filteredImageData.length) return;
-    
     if (document.documentElement.scrollHeight <= document.documentElement.clientHeight) {
         if (renderNextBatch()) {
             setTimeout(loadUntilScroll, 100); 
@@ -142,27 +140,20 @@ Object.keys(categories).forEach(category => {
   if (category === 'Category') {
       btn.id = 'mainCategoryBtn';
   }
-
   btn.addEventListener("mouseenter", (e) => {
     clearTimeout(popupCloseTimeout);
     openPopup(category, e.target);
   });
-
   btn.addEventListener("mouseleave", () => {
     popupCloseTimeout = setTimeout(() => {
         closePopup();
     }, 300);
   });
-
   krantikariButtons.appendChild(btn);
 });
 
-popup.addEventListener('mouseenter', () => {
-    clearTimeout(popupCloseTimeout);
-});
-popup.addEventListener('mouseleave', () => {
-    closePopup();
-});
+popup.addEventListener('mouseenter', () => clearTimeout(popupCloseTimeout));
+popup.addEventListener('mouseleave', () => closePopup());
 
 function closePopup() {
     popup.classList.add('hidden');
@@ -189,12 +180,15 @@ function openPopup(category, buttonElement) {
     subBtn.className = "tag-btn small-btn";
     subBtn.innerText = `${emojiMap[tag] || ""} ${tag}`;
     
-    const isSelected = selectedCategoryTags.has(tag) || selectedFilterTags.has(tag);
-    if (isSelected) subBtn.classList.add("active");
+    const isInclude = (category === 'Category' ? selectedCategoryIncludeTags : selectedFilterIncludeTags).has(tag);
+    const isExclude = (category === 'Category' ? selectedCategoryExcludeTags : selectedFilterExcludeTags).has(tag);
+
+    if (isInclude) subBtn.classList.add("active-include");
+    if (isExclude) subBtn.classList.add("active-exclude");
 
     subBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      toggleTag(tag, subBtn, category); 
+      cycleTagState(tag, subBtn, category); 
       updateSelectedTagsDisplay();
       filterImages();
     });
@@ -202,30 +196,49 @@ function openPopup(category, buttonElement) {
   });
 }
 
-function toggleTag(tag, btn, category) {
-  const targetSet = category === 'Category' ? selectedCategoryTags : selectedFilterTags;
-  
-  if (targetSet.has(tag)) {
-    targetSet.delete(tag);
-    btn.classList.remove("active");
-  } else {
-    targetSet.add(tag);
-    btn.classList.add("active");
-  }
+// ✅ सुधार: टैग की स्टेट बदलने का नया फंक्शन (Include -> Exclude -> Off)
+function cycleTagState(tag, btn, category) {
+    const includeSet = category === 'Category' ? selectedCategoryIncludeTags : selectedFilterIncludeTags;
+    const excludeSet = category === 'Category' ? selectedCategoryExcludeTags : selectedFilterExcludeTags;
+
+    if (includeSet.has(tag)) {
+        // State 1: Include -> Exclude
+        includeSet.delete(tag);
+        excludeSet.add(tag);
+        btn.classList.remove('active-include');
+        btn.classList.add('active-exclude');
+    } else if (excludeSet.has(tag)) {
+        // State 2: Exclude -> Off
+        excludeSet.delete(tag);
+        btn.classList.remove('active-exclude');
+    } else {
+        // State 3: Off -> Include
+        includeSet.add(tag);
+        btn.classList.add('active-include');
+    }
 }
 
+// ✅ सुधार: दोनों तरह के टैग्स (Include/Exclude) को दिखाने का लॉजिक
 function updateSelectedTagsDisplay() {
   selectedTagsDisplay.innerHTML = "";
-  const allSelectedTags = [...selectedCategoryTags, ...selectedFilterTags];
+  const allIncludeTags = [...selectedCategoryIncludeTags, ...selectedFilterIncludeTags];
+  const allExcludeTags = [...selectedCategoryExcludeTags, ...selectedFilterExcludeTags];
 
-  allSelectedTags.forEach(tag => {
+  allIncludeTags.forEach(tag => {
     const span = document.createElement("span");
-    span.className = "selected-tag";
-    span.innerHTML = `${emojiMap[tag] || ""} ${tag} <span class="remove-tag" data-tag="${tag}">&times;</span>`;
+    span.className = "selected-tag included-tag"; // Include के लिए क्लास
+    span.innerHTML = `+ ${tag} <span class="remove-tag" data-tag="${tag}">&times;</span>`;
     selectedTagsDisplay.appendChild(span);
   });
   
-  if (allSelectedTags.length > 0) {
+  allExcludeTags.forEach(tag => {
+    const span = document.createElement("span");
+    span.className = "selected-tag excluded-tag"; // Exclude के लिए क्लास
+    span.innerHTML = `- ${tag} <span class="remove-tag" data-tag="${tag}">&times;</span>`;
+    selectedTagsDisplay.appendChild(span);
+  });
+  
+  if (allIncludeTags.length > 0 || allExcludeTags.length > 0) {
       clearFiltersBtn.classList.remove('hidden');
   } else {
       clearFiltersBtn.classList.add('hidden');
@@ -234,11 +247,11 @@ function updateSelectedTagsDisplay() {
   document.querySelectorAll(".remove-tag").forEach(btn => {
     btn.addEventListener("click", (e) => {
       const tagToRemove = e.target.dataset.tag;
-      if(selectedCategoryTags.has(tagToRemove)) {
-          selectedCategoryTags.delete(tagToRemove);
-      } else {
-          selectedFilterTags.delete(tagToRemove);
-      }
+      // सभी सेट से टैग हटाएं
+      selectedCategoryIncludeTags.delete(tagToRemove);
+      selectedCategoryExcludeTags.delete(tagToRemove);
+      selectedFilterIncludeTags.delete(tagToRemove);
+      selectedFilterExcludeTags.delete(tagToRemove);
       updateSelectedTagsDisplay();
       filterImages();
     });
@@ -246,17 +259,26 @@ function updateSelectedTagsDisplay() {
   setTimeout(setBodyPadding, 0);
 }
 
+// ✅ सुधार: Include/Exclude वाला नया फिल्टर लॉजिक
 function filterImages() {
     filteredImageData = allImageData.filter(item => {
         const imageTags = item.tags;
         
-        const categoryMatch = selectedCategoryTags.size === 0 || 
-                              [...selectedCategoryTags].some(tag => imageTags.includes(tag));
-                              
-        const filterMatch = selectedFilterTags.size === 0 || 
-                            [...selectedFilterTags].every(tag => imageTags.includes(tag));
+        // OR लॉजिक 'Category' के Include टैग्स के लिए
+        const categoryIncludeMatch = selectedCategoryIncludeTags.size === 0 || 
+                                     [...selectedCategoryIncludeTags].some(tag => imageTags.includes(tag));
         
-        return categoryMatch && filterMatch;
+        // AND लॉजिक बाकी फिल्टर्स के Include टैग्स के लिए
+        const filterIncludeMatch = selectedFilterIncludeTags.size === 0 || 
+                                   [...selectedFilterIncludeTags].every(tag => imageTags.includes(tag));
+
+        // NOT लॉजिक 'Category' के Exclude टैग्स के लिए
+        const categoryExcludeMatch = [...selectedCategoryExcludeTags].every(tag => !imageTags.includes(tag));
+
+        // NOT लॉजिक बाकी फिल्टर्स के Exclude टैग्स के लिए
+        const filterExcludeMatch = [...selectedFilterExcludeTags].every(tag => !imageTags.includes(tag));
+        
+        return categoryIncludeMatch && filterIncludeMatch && categoryExcludeMatch && filterExcludeMatch;
     });
 
     startRendering();
@@ -274,12 +296,10 @@ imageGrid.addEventListener('click', function(e) {
     lightbox.classList.remove('hidden');
     const highQualitySrc = e.target.src.replace('.webp', '.png');
     lightboxImage.src = highQualitySrc;
-
     const fullPath = e.target.alt; 
     const pathParts = fullPath.split('/');
     const filenameOnly = pathParts[pathParts.length - 1];
     const svgFilename = filenameOnly.replace(/\.png$/, '.svg'); 
-
     navigator.clipboard.writeText(svgFilename).then(() => {
       const toast = document.createElement('div');
       toast.className = 'toast-notification';
@@ -288,9 +308,7 @@ imageGrid.addEventListener('click', function(e) {
       setTimeout(() => {
         toast.remove();
       }, 3000);
-    }).catch(err => {
-      console.error('Failed to copy: ', err);
-    });
+    }).catch(err => console.error('Failed to copy: ', err));
   }
 });
 
@@ -298,18 +316,19 @@ function closeLightbox() {
   lightbox.classList.add('hidden');
 }
 closeLightboxBtn.addEventListener('click', closeLightbox);
-lightbox.addEventListener('click', function(e) {
-  if (e.target === lightbox) {
-    closeLightbox();
-  }
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) closeLightbox();
 });
 
 // Clear All बटन
 clearFiltersBtn.addEventListener('click', function() {
-    selectedCategoryTags.clear();
-    selectedFilterTags.clear();
-    document.querySelectorAll('#subcategoryButtons .tag-btn.active').forEach(btn => {
-        btn.classList.remove('active');
+    selectedCategoryIncludeTags.clear();
+    selectedCategoryExcludeTags.clear();
+    selectedFilterIncludeTags.clear();
+    selectedFilterExcludeTags.clear();
+    
+    document.querySelectorAll('#subcategoryButtons .tag-btn.active-include, #subcategoryButtons .tag-btn.active-exclude').forEach(btn => {
+        btn.classList.remove('active-include', 'active-exclude');
     });
     updateSelectedTagsDisplay();
     filterImages();
