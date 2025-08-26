@@ -1,13 +1,13 @@
+/* Base */
 body { background-color: #f3f4f6; color: #1f2937; font-family: sans-serif; margin: 0; padding: 0; }
 .sticky-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; transition: transform 0.3s ease-in-out; }
 .sticky-header.hidden { transform: translateY(-100%); }
 
+/* Top bar + tags */
 .krantikari-area { background-color: #1f2937; padding: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; align-items: center; }
 .tag-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
 .tag-btn { background-color: #dbeafe; padding: 0.4rem 0.75rem; border-radius: 0.5rem; cursor: pointer; border: none; transition: all 0.2s ease-in-out; font-size: 0.95rem; }
 .tag-btn:hover { background-color: #bfdbfe; transform: scale(1.05); }
-
-/* Include / Exclude states */
 .tag-btn.active-include { background-color: #3b82f6; color: #ffffff; font-weight: bold; }
 .tag-btn.active-exclude { background-color: #fee2e2; color: #ef4444; font-weight: bold; box-shadow: 0 0 0 2px #fca5a5; }
 
@@ -40,7 +40,7 @@ body { background-color: #f3f4f6; color: #1f2937; font-family: sans-serif; margi
 .clear-btn.hidden { display: none; }
 .clear-btn:hover { background-color: #fecaca; }
 
-/* Images */
+/* Grid */
 .image-section { padding: 1rem; }
 .image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--img-size, 180px), 1fr)); gap: 1rem; justify-content: center; }
 .image-item img { width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.15); display: block; margin: 0 auto; transition: opacity 0.3s; cursor: pointer; }
@@ -50,27 +50,23 @@ body { background-color: #f3f4f6; color: #1f2937; font-family: sans-serif; margi
 .zoom-controls { position: fixed; bottom: 1rem; right: 1rem; display: flex; flex-direction: column; gap: 0.5rem; z-index: 1200; }
 .zoom-controls button { background-color: #4f46e5; color: white; border: none; padding: 0.6rem; border-radius: 50%; font-size: 1.2rem; cursor: pointer; }
 
-/* Lightbox base */
-.lightbox-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); z-index: 2000; display: flex; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; }
-/* पुरानी rule हटाई गई: .lightbox-container.hidden { display: none; } */
+/* Lightbox backdrop only (fade) */
+#lightbox { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 2000; opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 220ms ease, visibility 0s linear 220ms; }
+#lightbox.open { opacity: 1; visibility: visible; pointer-events: auto; transition: opacity 220ms ease; }
 
-.lightbox-image { max-width: 90%; max-height: 90%; border-radius: 5px; box-shadow: 0 0 30px rgba(255, 255, 255, 0.3); }
-.close-lightbox { position: absolute; top: 20px; right: 30px; color: #fff; font-size: 40px; font-weight: bold; cursor: pointer; transition: color 0.2s; }
+/* Hidden rule deliberately absent: display:none; नहीं, ताकि transitions चलें */
+
+/* Close button style (stays top-right) */
+.close-lightbox { position: fixed; top: 20px; right: 30px; color: #fff; font-size: 40px; font-weight: bold; cursor: pointer; transition: color 0.2s; z-index: 2200; }
 .close-lightbox:hover { color: #bbb; }
 
-#sentinel { width: 100%; height: 10px; }
+/* The flying clone image for FLIP animation */
+.fly-clone { position: absolute; left: 0; top: 0; will-change: transform, width, height, opacity; z-index: 2100; border-radius: 8px; box-shadow: 0 12px 48px rgba(0,0,0,0.3); transform-origin: top left; }
+
+/* Center target constraints */
+:root { --modal-max-w: 90vw; --modal-max-h: 90vh; }
 
 /* Toast */
 .toast-notification { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background-color: #28a745; color: white; padding: 10px 20px; border-radius: 5px; z-index: 3000; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
 
-/* === Lightbox Animation States === */
-#lightbox { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 220ms ease, visibility 0s linear 220ms; }
-#lightbox.open { opacity: 1; visibility: visible; pointer-events: auto; transition: opacity 220ms ease; }
-
-/* pop-in on open */
-#lightbox .lightbox-image { transform: scale(0.96); transition: transform 220ms ease; }
-#lightbox.open .lightbox-image { transform: scale(1); }
-
-/* pop-out on close */
-@keyframes popOut { from { opacity: 1; transform: scale(1); } to { opacity: 0; transform: scale(0.95); } }
-#lightbox.closing { animation: popOut 180ms ease forwards; }
+#sentinel { width: 100%; height: 10px; }
