@@ -28,8 +28,8 @@ let zoomSize = 100;
 let popupCloseTimeout;
 
 // FLIP animation state
-let activeThumb = null;       // clicked IMG element
-let flyClone = null;          // animated clone element
+let activeThumb = null;        // clicked IMG element
+let flyClone = null;           // animated clone element
 let closing = false;
 
 // ===== Zoom control =====
@@ -297,6 +297,9 @@ async function closeLightboxFLIP() {
   lightbox.classList.remove('open');
 }
 
+// =========================================================================
+// ===== बदला हुआ कोड यहाँ है / MODIFIED CODE IS HERE =====
+// =========================================================================
 // Grid click → open FLIP + clipboard toast
 imageGrid.addEventListener('click', async (e) => {
   if (e.target.tagName !== 'IMG') return;
@@ -310,10 +313,16 @@ imageGrid.addEventListener('click', async (e) => {
   const filenameOnly = parts[parts.length - 1];
   const svgFilename = filenameOnly.replace(/\.png$/, '.svg');
 
-  navigator.clipboard.writeText(svgFilename).then(() => {
+  // 1. अपना पूरा लोकल पाथ यहाँ डिफाइन करें
+  // ध्यान दें: जावास्क्रिप्ट स्ट्रिंग में आपको सिंगल (\) की जगह डबल (\\) बैकस्लैश का इस्तेमाल करना होगा।
+  const fullLocalPath = `"C:\\videoscribe SVG\\${svgFilename}"`;
+
+  // 2. अब svgFilename की जगह fullLocalPath को क्लिपबोर्ड पर कॉपी करें
+  navigator.clipboard.writeText(fullLocalPath).then(() => {
     const toast = document.createElement('div');
     toast.className = 'toast-notification';
-    toast.textContent = `Copied: ${svgFilename}`;
+    // 3. नोटिफिकेशन में भी पूरा पाथ दिखाएं
+    toast.textContent = `Copied: ${fullLocalPath}`;
     document.body.appendChild(toast);
     setTimeout(() => toast.remove(), 3000);
   }).catch(err => console.error('Failed to copy: ', err));
