@@ -44,7 +44,7 @@ function setBodyPadding() {
   document.body.style.paddingTop = `${headerHeight}px`;
 }
 let lastScrollTop = 0;
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   if (stickyHeader) {
     if (scrollTop > lastScrollTop && scrollTop > 100) stickyHeader.classList.add('hidden');
@@ -103,7 +103,21 @@ const sentinelObserver = new IntersectionObserver((entries) => {
 // Data load
 fetch("images.json")
   .then(r => r.json())
-  .then(images => { allImageData = images; filteredImageData = images; startRendering(); })
+  .then(images => {
+    allImageData = images;
+    filteredImageData = images;
+
+    // ===== डिफ़ॉल्ट टैग सेट करें / Set Default Tags =====
+    // Quality से "Best" और Subject से "Human" को डिफ़ॉल्ट सेलेक्ट करें
+    selectedFilterIncludeTags.add("best");   // Quality (filter category)
+    selectedFilterIncludeTags.add("human");  // Subject (filter category)
+
+    // UI अपडेट करें
+    updateSelectedTagsDisplay();
+
+    // Images को फ़िल्टर करें डिफ़ॉल्ट टैग्स के हिसाब से
+    filterImages();
+  })
   .catch(e => console.error("Error loading images:", e));
 
 function startRendering() {
@@ -218,7 +232,7 @@ function computeTargetBox(naturalW, naturalH) {
   const w = naturalW * scale;
   const h = naturalH * scale;
   const left = window.scrollX + (window.innerWidth - w) / 2;
-  const top  = window.scrollY + (window.innerHeight - h) / 2;
+  const top = window.scrollY + (window.innerHeight - h) / 2;
   return { w, h, left, top };
 }
 
@@ -288,7 +302,7 @@ async function closeLightboxFLIP() {
   const toRect = activeThumb.getBoundingClientRect();
   try {
     await animateBackToThumb(flyClone, toRect).finished;
-  } catch (_) {}
+  } catch (_) { }
 
   // cleanup
   if (flyClone && flyClone.parentNode) flyClone.parentNode.removeChild(flyClone);
@@ -333,7 +347,7 @@ closeLightboxBtn.addEventListener('click', closeLightboxFLIP);
 lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightboxFLIP(); });
 
 // Clear filters
-clearFiltersBtn.addEventListener('click', function() {
+clearFiltersBtn.addEventListener('click', function () {
   selectedCategoryIncludeTags.clear();
   selectedCategoryExcludeTags.clear();
   selectedFilterIncludeTags.clear();
