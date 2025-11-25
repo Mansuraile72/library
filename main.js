@@ -4,6 +4,8 @@ const selectedTagsDisplay = document.getElementById("selectedTagsDisplay");
 const popup = document.getElementById("popup");
 const krantikariButtons = document.getElementById("krantikariButtons");
 const subcategoryButtons = document.getElementById("subcategoryButtons");
+const qualityToggle = document.getElementById("qualityToggle");
+const subjectToggle = document.getElementById("subjectToggle");
 const zoomInBtn = document.getElementById("zoomIn");
 const zoomOutBtn = document.getElementById("zoomOut");
 const lightbox = document.getElementById("lightbox");
@@ -17,6 +19,10 @@ let allImageData = [];
 let filteredImageData = [];
 let currentImageIndex = 0;
 const BATCH_SIZE = 50;
+
+// Toggle button state
+let activeQuality = "best";   // default
+let activeSubject = "human";  // default
 
 let selectedCategoryIncludeTags = new Set();
 let selectedCategoryExcludeTags = new Set();
@@ -107,16 +113,10 @@ fetch("images.json")
     allImageData = images;
     filteredImageData = images;
 
-    // ===== डिफ़ॉल्ट टैग सेट करें / Set Default Tags =====
-    // Quality से "Best" और Subject से "Human" को डिफ़ॉल्ट सेलेक्ट करें
-    selectedFilterIncludeTags.add("best");   // Quality (filter category)
-    selectedFilterIncludeTags.add("human");  // Subject (filter category)
-
-    // UI अपडेट करें
-    updateSelectedTagsDisplay();
-
-    // Images को फ़िल्टर करें डिफ़ॉल्ट टैग्स के हिसाब से
-    filterImages();
+    // ===== डिफ़ॉल्ट Toggle सेट करें / Set Default Toggles =====
+    // activeQuality और activeSubject पहले से ही "best" और "human" पर set हैं
+    // अब सिर्फ फ़िल्टर करें
+    filterImagesByToggles();
   })
   .catch(e => console.error("Error loading images:", e));
 
@@ -127,8 +127,59 @@ function startRendering() {
   loadUntilScroll();
 }
 
-// Krantikari buttons (assumes `categories`, `emojiMap` available globally)
+// ===== Toggle Buttons Creation =====
+// Create Quality toggle buttons
+const qualityOptions = ["best", "normal", "junk"];
+qualityOptions.forEach(option => {
+  const btn = document.createElement("button");
+  btn.className = "toggle-btn";
+  btn.innerText = `${emojiMap[option.charAt(0).toUpperCase() + option.slice(1)] || ""} ${option.charAt(0).toUpperCase() + option.slice(1)}`;
+  btn.dataset.value = option;
+  if (option === activeQuality) btn.classList.add("active");
+
+  btn.addEventListener("click", () => {
+    activeQuality = option;
+    updateToggleButtons(qualityToggle, option);
+    filterImagesByToggles();
+  });
+
+  qualityToggle.appendChild(btn);
+});
+
+// Create Subject toggle buttons
+const subjectOptions = ["human", "animal", "object"];
+subjectOptions.forEach(option => {
+  const btn = document.createElement("button");
+  btn.className = "toggle-btn";
+  btn.innerText = `${emojiMap[option.charAt(0).toUpperCase() + option.slice(1)] || ""} ${option.charAt(0).toUpperCase() + option.slice(1)}`;
+  btn.dataset.value = option;
+  if (option === activeSubject) btn.classList.add("active");
+
+  btn.addEventListener("click", () => {
+    activeSubject = option;
+    updateToggleButtons(subjectToggle, option);
+    filterImagesByToggles();
+  });
+
+  subjectToggle.appendChild(btn);
+});
+
+// Update toggle button active state
+function updateToggleButtons(container, activeValue) {
+  container.querySelectorAll(".toggle-btn").forEach(btn => {
+    if (btn.dataset.value === activeValue) {
+      btn.classList.add("active");
+    } else {
+      btn.classList.remove("active");
+    }
+  });
+}
+
+// Krantikari buttons (Category only now, excluding Quality and Subject)
 Object.keys(categories).forEach(category => {
+  // Skip Quality and Subject as they are now toggle buttons
+  if (category === 'Quality' || category === 'Subject') return;
+
   const btn = document.createElement("button");
   btn.className = "tag-btn large-btn";
   btn.innerText = `${emojiMap[category] || ""} ${category}`;
@@ -166,7 +217,7 @@ function openPopup(category, buttonElement) {
     if (incSet.has(tag)) sub.classList.add("active-include");
     if (excSet.has(tag)) sub.classList.add("active-exclude");
 
-    sub.addEventListener("click", (e) => { e.stopPropagation(); cycleTagState(tag, sub, category); updateSelectedTagsDisplay(); filterImages(); });
+    sub.addEventListener("click", (e) => { e.stopPropagation(); cycleTagState(tag, sub, category); updateSelectedTagsDisplay(); filterImagesByToggles(); });
 
     subcategoryButtons.appendChild(sub);
   });
@@ -214,6 +265,24 @@ function filterImages() {
     const catExc = [...selectedCategoryExcludeTags].every(x => !t.includes(x)); // NOT
     const filExc = [...selectedFilterExcludeTags].every(x => !t.includes(x));   // NOT
     return catInc && filInc && catExc && filExc;
+  });
+  startRendering();
+}
+
+// New filter function for toggle buttons
+function filterImagesByToggles() {
+  filteredImageData = allImageData.filter(item => {
+    const t = item.tags;
+
+    // Check toggle requirements (must have active quality AND active subject)
+    const hasQuality = t.includes(activeQuality);
+    const hasSubject = t.includes(activeSubject);
+
+    // Check category filters (existing system for Category tags)
+    const catInc = selectedCategoryIncludeTags.size === 0 || [...selectedCategoryIncludeTags].some(x => t.includes(x)); // OR
+    const catExc = [...selectedCategoryExcludeTags].every(x => !t.includes(x)); // NOT
+
+    return hasQuality && hasSubject && catInc && catExc;
   });
   startRendering();
 }
@@ -318,25 +387,36 @@ async function closeLightboxFLIP() {
 imageGrid.addEventListener('click', async (e) => {
   if (e.target.tagName !== 'IMG') return;
 
-  const hiSrc = e.target.src.replace('.webp', '.png');
-  await openLightboxFromThumb(e.target, hiSrc);
+  // ===== बदलाव: PNG की जगह SVG दिखाएं =====
+  // .webp → .svg (PNG की जगह)
+  const svgSrc = e.target.src.replace('.webp', '.svg');
+  await openLightboxFromThumb(e.target, svgSrc);
 
-  // Clipboard toast (existing behavior)
+  // ===== बदलाव: GitHub URL copy करें =====
   const fullPath = e.target.alt;
   const parts = fullPath.split('/');
   const filenameOnly = parts[parts.length - 1];
   const svgFilename = filenameOnly.replace(/\.png$/, '.svg');
 
-  // 1. अपना पूरा लोकल पाथ यहाँ डिफाइन करें
-  // ध्यान दें: जावास्क्रिप्ट स्ट्रिंग में आपको सिंगल (\) की जगह डबल (\\) बैकस्लैश का इस्तेमाल करना होगा।
-  const fullLocalPath = `"C:\\videoscribe SVG\\${svgFilename}"`;
+  // GitHub Pages base URL
+  const baseURL = 'https://mansuraile72.github.io/library/';
 
-  // 2. अब svgFilename की जगह fullLocalPath को क्लिपबोर्ड पर कॉपी करें
-  navigator.clipboard.writeText(fullLocalPath).then(() => {
+  // Full GitHub URL with proper encoding
+  // Example: images/Celebration/Celebration P1 N17.png
+  // Path को construct करें (images/ se pehle ka path nikalen)
+  const imagePath = fullPath.replace('.png', '.svg');
+
+  // URL encode करें (spaces को %20 में convert)
+  const encodedPath = encodeURI(imagePath);
+
+  // Final GitHub URL
+  const githubURL = baseURL + encodedPath;
+
+  // Clipboard पर GitHub URL copy करें
+  navigator.clipboard.writeText(githubURL).then(() => {
     const toast = document.createElement('div');
     toast.className = 'toast-notification';
-    // 3. नोटिफिकेशन में भी पूरा पाथ दिखाएं
-    toast.textContent = `Copied: ${fullLocalPath}`;
+    toast.textContent = `Copied: ${githubURL}`;
     document.body.appendChild(toast);
     setTimeout(() => toast.remove(), 3000);
   }).catch(err => console.error('Failed to copy: ', err));
@@ -355,7 +435,7 @@ clearFiltersBtn.addEventListener('click', function () {
   document.querySelectorAll('#subcategoryButtons .tag-btn.active-include, #subcategoryButtons .tag-btn.active-exclude')
     .forEach(btn => btn.classList.remove('active-include', 'active-exclude'));
   updateSelectedTagsDisplay();
-  filterImages();
+  filterImagesByToggles();
 });
 
 // Init

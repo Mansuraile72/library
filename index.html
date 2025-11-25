@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,12 +8,20 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header id="stickyHeader" class="sticky-header">
     <section class="krantikari-area">
+      <!-- Quality toggles (left) -->
+      <div id="qualityToggle" class="toggle-buttons"></div>
+
+      <!-- Category button (center) -->
       <div class="tag-grid" id="krantikariButtons"></div>
+
+      <!-- Subject toggles (right) -->
+      <div id="subjectToggle" class="toggle-buttons"></div>
     </section>
-  
+
     <section class="selected-tags-section">
       <div class="selected-tags-container">
         <div id="selectedTagsDisplay" class="selected-tags"></div>
@@ -34,7 +43,7 @@
     <div id="imageGrid" class="image-grid"></div>
     <div id="sentinel"></div>
   </section>
-  
+
   <div id="lightbox" class="lightbox-container hidden">
     <span class="close-lightbox">&times;</span>
     <img src="" alt="Lightbox Image" class="lightbox-image">
@@ -43,4 +52,5 @@
   <script src="config.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>
