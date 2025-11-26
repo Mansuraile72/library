@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-primary">
+	<rect x="246.3" y="77.5" fill="#FCEE1B" width="168.2" height="168.2"/>
+	<rect x="414.2" y="245.7" fill="#FCEE1B" width="168.2" height="168.2"/>
+	<rect x="582.5" y="77.5" fill="#FCEE1B" width="168.2" height="168.2"/>
+	<rect x="246.3" y="414" fill="#FCEE1B" width="168.2" height="168.2"/>
+	<rect x="414.2" y="582.2" fill="#FCEE1B" width="168.2" height="168.2"/>
+	<rect x="582.5" y="414" fill="#FCEE1B" width="168.2" height="168.2"/>
+	<rect x="246.3" y="750.2" fill="#FCEE1B" width="168.2" height="168.2"/>
+	<rect x="582.5" y="750.2" fill="#FCEE1B" width="168.2" height="168.2"/>
+</g>
+<g id="vs-reveal" opacity="0">
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		274.8,113.4 384.1,113.4 386.4,210.7 273.6,210.3 302.1,132 	"/>
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		611.2,111.3 720.1,113 720.1,210.7 612.4,209.6 635.5,132.6 	"/>
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		442.1,277.9 550.5,279.6 551,378.7 443.2,377.6 465.7,298.8 	"/>
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		274.1,445.9 381.3,447.1 383,546.7 275.2,545.6 297.9,467.2 	"/>
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		611.2,444.8 717.8,448.2 720.1,545.6 610.7,546 635.1,464.5 	"/>
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		441.8,617.9 551.7,617.9 553.3,715.9 443.9,711.9 468.7,635.5 	"/>
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		275.2,783.1 383.4,781.5 384.1,883.9 274.8,881.1 300.2,805.8 	"/>
+	
+		<polyline fill="none" stroke="#FF0000" stroke-width="92.6867" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		614.7,785.4 722.9,785.9 723.6,886.2 607,879.7 636,814.8 	"/>
+</g>
+</svg>

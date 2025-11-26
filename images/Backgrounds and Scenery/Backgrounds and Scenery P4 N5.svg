@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1920px" height="1080px" viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080" xml:space="preserve">
+<g id="vs-highlight">
+	<path fill="#5DBFD9" d="M68.3,289.5c-0.9,0-1.9-0.2-2.8-0.6c-3.8-1.6-5.7-6-4.1-9.8l72.1-176.6V60.8l-107-37.5
+		c-3.9-1.4-6-5.7-4.6-9.6s5.7-6,9.6-4.6l112,39.3c3,1.1,5,3.9,5,7.1V104c0,1-0.2,1.9-0.6,2.8l-72.7,178
+		C74.1,287.8,71.3,289.5,68.3,289.5z"/>
+	<path fill="#5DBFD9" d="M294,319.1c-0.3,0-0.5,0-0.8,0L92.5,297.3c-3.9-0.4-6.9-3.8-6.7-7.8s3.3-7.1,7.3-7.2l93.7-2.8
+		c0.5,0,0.9,0,1.4,0.1L307.9,298c2.9,0.4,5.2,2.5,6,5.1l25.4-1.3c4.2-0.2,7.7,3,7.9,7.1s-3,7.7-7.1,7.9l-45.7,2.3
+		C294.3,319.1,294.1,319.1,294,319.1z"/>
+	<path fill="#5DBFD9" d="M189.2,105.1c-0.1,0-0.2,0-0.3,0c-4.2-0.2-7.4-3.6-7.2-7.8l1.7-45.7c0.2-4.2,3.6-7.4,7.8-7.2
+		s7.4,3.6,7.2,7.8l-1.7,45.7C196.6,101.9,193.2,105.1,189.2,105.1z"/>
+	<path fill="#5DBFD9" d="M417.1,334.7c-1,0-1.9-0.2-2.9-0.6c-3.8-1.6-5.7-6-4.1-9.8l50.8-122l0.8-21l-224.3-77.8
+		c-3.9-1.4-6-5.6-4.6-9.6c1.4-3.9,5.6-6,9.6-4.6L472,169c3.1,1.1,5.2,4.1,5.1,7.4l-1.1,27.9c0,0.9-0.2,1.8-0.6,2.6L424,330.1
+		C422.8,333,420,334.7,417.1,334.7z"/>
+	<path fill="#5DBFD9" d="M503.5,206.5c-4.1,0-7.4-3.3-7.5-7.4l-0.5-25.6c-0.1-4.2,3.2-7.6,7.4-7.7c4.1-0.1,7.6,3.2,7.7,7.4l0.5,25.6
+		c0.1,4.2-3.2,7.6-7.4,7.7C503.6,206.5,503.5,206.5,503.5,206.5z"/>
+	<path fill="#5DBFD9" d="M579.9,359.4c-0.2,0-0.4,0-0.6,0l-136.6-21.7c-2-0.3-3.3-2.1-3.2-4.1c0.2-2,1.8-3.5,3.9-3.4l57.4,1.6
+		c0.2,0,0.4,0,0.6,0.1l80.8,15.6c1.9,0.4,3.1,2,3,3.9l27.1-2.7c2.1-0.2,3.9,1.3,4.1,3.4c0.2,2.1-1.3,3.9-3.4,4.1l-32.8,3.3
+		C580.2,359.4,580,359.4,579.9,359.4z"/>
+	<path fill="#5DBFD9" d="M589.9,291.7c-0.1,0-0.2,0-0.2,0c-3.2-0.1-5.7-2.8-5.6-6.1l2.3-60.4l-49.7-16.1c-3.1-1-4.8-4.3-3.8-7.4
+		c1-3.1,4.3-4.8,7.4-3.8l53.9,17.5c2.5,0.8,4.1,3.2,4,5.8l-2.5,64.8C595.6,289.2,593,291.7,589.9,291.7z"/>
+	<path fill="#5DBFD9" d="M588.2,544.1c-4.6,0-8.4-3.7-8.4-8.4V352.3c0-4.6,3.7-8.4,8.4-8.4s8.4,3.7,8.4,8.4v183.4
+		C596.6,540.3,592.8,544.1,588.2,544.1z"/>
+	<path fill="#5DBFD9" d="M683.2,229.9h-81.5c-4.6,0-8.4-3.7-8.4-8.4s3.7-8.4,8.4-8.4h81.5c4.6,0,8.4,3.7,8.4,8.4
+		S687.8,229.9,683.2,229.9z"/>
+	<path fill="#5DBFD9" d="M908.9,357.8c-0.3,0-0.6,0-0.9,0l-6.4-0.5c-0.9-0.1-1.7-0.2-2.5-0.5l-165.5-54.3c-5.7-1.9-8.8-8-6.9-13.7
+		c1.9-5.7,8-8.8,13.7-6.9l23.5,7.7c0.1-1.1,0.4-2.1,0.8-3.2c2.3-5.5,8.7-8.1,14.2-5.8L913.1,337c4.9,2.1,7.6,7.4,6.4,12.6
+		C918.3,354.4,913.9,357.8,908.9,357.8z"/>
+	<path fill="#5DBFD9" d="M703.2,288.3c-4.4,0-8.1-3.5-8.3-8l-7.6-172.6c-0.2-4.6,3.4-8.5,8-8.7s8.5,3.4,8.7,8l7.6,172.6
+		c0.2,4.6-3.4,8.5-8,8.7C703.4,288.3,703.3,288.3,703.2,288.3z"/>
+	<path fill="#5DBFD9" d="M854.1,295c-0.1,0-0.2,0-0.3,0c-3.5-0.2-6.1-3.1-5.9-6.6l4.8-89.1l-47.2-36.4c-2.7-2.1-3.3-6.1-1.1-8.8
+		c2.1-2.7,6.1-3.2,8.8-1.1l49.8,38.4c1.6,1.3,2.5,3.2,2.4,5.3l-5,92.4C860.2,292.4,857.4,295,854.1,295z"/>
+	<path fill="#5DBFD9" d="M913.4,321.4c-0.2,0-0.4,0-0.5,0c-3.5-0.3-6-3.3-5.7-6.8l6.4-74.5L884,219.9c-2.9-1.9-3.6-5.8-1.7-8.7
+		c1.9-2.9,5.8-3.6,8.7-1.7l32.6,22.2c1.9,1.3,2.9,3.5,2.7,5.7l-6.7,78.2C919.4,318.9,916.6,321.4,913.4,321.4z"/>
+	<path fill="#5DBFD9" d="M1461.9,242c-2.9,0-5.7-1.3-7.5-3.9c-2.9-4.1-2-9.9,2.2-12.8L1694.8,56c4.1-2.9,9.9-2,12.8,2.2
+		c2.9,4.1,2,9.9-2.2,12.8l-238.2,169.3C1465.6,241.4,1463.8,242,1461.9,242z"/>
+	<path fill="#5DBFD9" d="M1534.5,352.4c-4.7,0-9-2.9-10.7-7.6c-2.1-5.9,1.1-12.3,6.9-14.4l231.6-80.8c5.9-2.1,12.3,1.1,14.4,6.9
+		c2.1,5.9-1.1,12.3-6.9,14.4l-231.6,80.8C1537,352.2,1535.7,352.4,1534.5,352.4z"/>
+	<path fill="#5DBFD9" d="M1518.9,502.6c-2.7,0-5.4-1-7.4-2.8c-2.4-2.1-3.8-5.2-3.9-8.5l-0.5-139.6c0-6.2,5-11.3,11.2-11.3l0,0
+		c4.2,0,7.9,2.3,9.8,5.8c0.2-0.1,0.3-0.2,0.5-0.2l18.4-8.4c3.5-1.6,7.5-1.3,10.7,0.7s5.2,5.6,5.2,9.4l1.7,139
+		c0.1,5.7-4.2,10.6-9.8,11.3l-34.6,4.5C1519.9,502.6,1519.4,502.6,1518.9,502.6z"/>
+	<path fill="#5DBFD9" d="M1603.6,513.8c-0.4,0-0.8,0-1.2-0.1l-20.9-3.3c-4.1-0.6-6.9-4.5-6.3-8.6s4.5-6.9,8.6-6.3l20.9,3.3
+		c4.1,0.6,6.9,4.5,6.3,8.6C1610.4,511.2,1607.2,513.8,1603.6,513.8z"/>
+	<path fill="#5DBFD9" d="M1586.9,489.8c-0.5,0-1-0.1-1.5-0.3c-3.1-1.1-4.2-3.3-4.6-4.5c-1.3-4,1.4-7.9,4.2-11.9l0.2-0.3
+		c1.4-2.1,4.3-2.6,6.4-1.2s2.6,4.3,1.2,6.4l-0.2,0.3c-0.7,1.1-1.7,2.5-2.4,3.6c1.2,1.2,1.7,3.1,1.1,4.8
+		C1590.5,488.6,1588.8,489.8,1586.9,489.8z"/>
+	<path fill="#5DBFD9" d="M1600.3,482.8c-0.1,0-0.2,0-0.3,0c-2.1-0.2-3.8-1.7-4.2-3.8l-0.8-4.5c-0.4-2.5,1.2-4.9,3.7-5.3
+		c0.9-0.2,1.7-0.1,2.5,0.3c0.6-0.1,1.3,0,2,0.2c2.4,0.8,3.7,3.4,2.9,5.8l-1.4,4.2C1604,481.5,1602.3,482.8,1600.3,482.8z"/>
+	<path fill="#5DBFD9" d="M1612,485c-0.9,0-1.8-0.3-2.6-0.8c-2.1-1.4-2.7-4.3-1.3-6.4l4.5-6.7c1.4-2.1,4.3-2.7,6.4-1.3
+		c2.1,1.4,2.7,4.3,1.3,6.4l-4.5,6.7C1614.9,484.3,1613.5,485,1612,485z"/>
+	<path fill="#5DBFD9" d="M1708.4,529.9c-10.7,0-24.9-4.7-25.5-4.9c-2.4-0.8-3.7-3.4-2.9-5.8c0.8-2.4,3.4-3.7,5.8-2.9
+		c0.1,0,13.3,4.5,22.5,4.5c2.5,0,4.6,2.1,4.6,4.6S1710.9,529.9,1708.4,529.9z"/>
+	<path fill="#5DBFD9" d="M1688.1,508.7c-0.5,0-1.1-0.1-1.6-0.3c-2.4-0.9-3.6-3.5-2.7-5.9c0.6-1.6,2-2.7,3.6-2.9
+		c0.5-0.2,1.6-0.7,2.5-1.1c8.3-3.6,13.7-5.6,17.1-2.5c1.9,1.7,2,4.6,0.3,6.5c-1.3,1.5-3.4,1.9-5.1,1.2c-2,0.3-6.8,2.4-8.7,3.2
+		C1690.9,508.1,1689.5,508.7,1688.1,508.7z M1689.7,499.8L1689.7,499.8L1689.7,499.8z M1689.7,499.8L1689.7,499.8L1689.7,499.8z"/>
+	<path fill="#5DBFD9" d="M1870.6,634.5c-0.8,0-1.6-0.1-2.4-0.3l-409.9-111.6l-9.9-2.5c-4.1-1-7-4.7-7-8.9v-274l-494.7,8.6
+		c-5.1,0.1-9.3-4-9.4-9s4-9.3,9-9.4l504.1-8.8c2.4,0,4.8,0.9,6.6,2.6c1.8,1.7,2.8,4.1,2.8,6.6V504l3,0.8c0.1,0,0.1,0,0.2,0
+		l410,111.6c4.9,1.3,7.8,6.4,6.5,11.3C1878.4,631.8,1874.7,634.5,1870.6,634.5z"/>
+	<path fill="#5DBFD9" d="M1657.4,932.4c-2.4,0-4.7-0.9-6.5-2.7l-264.1-265.8c-1.7-1.8-2.7-4.1-2.7-6.6l1.9-144.1
+		c0.1-4.8,3.8-8.7,8.6-9.1l49-3.3c5.1-0.3,9.5,3.5,9.8,8.6c0.3,5.1-3.5,9.5-8.6,9.8l-40.5,2.7l-1.7,131.8L1664,916.8
+		c3.6,3.6,3.6,9.4,0,13C1662.1,931.5,1659.7,932.4,1657.4,932.4z"/>
+	<path fill="#5DBFD9" d="M1511.1,654.5c-2.4,0-4.5-1.9-4.6-4.4l-2-38.7l-82-40.6c-2.3-1.1-3.2-3.9-2.1-6.2s3.9-3.2,6.2-2.1
+		l84.4,41.8c1.5,0.7,2.5,2.2,2.6,3.9l2.1,41.4c0.1,2.5-1.8,4.7-4.4,4.8C1511.3,654.5,1511.2,654.5,1511.1,654.5z"/>
+	<path fill="#5DBFD9" d="M1512,730.5c-2.5,0-4.6-2-4.6-4.5l-0.5-41l-84.9-56.4c-2.1-1.4-2.7-4.3-1.3-6.4c1.4-2.1,4.3-2.7,6.4-1.3
+		l86.9,57.7c1.3,0.8,2,2.3,2.1,3.8l0.5,43.4C1516.6,728.4,1514.6,730.5,1512,730.5L1512,730.5z"/>
+	<path fill="#5DBFD9" d="M1650.7,736.4c-2.5,0-4.6-2.1-4.6-4.6v-58.6l-101.9-47.7c-2.3-1.1-3.3-3.8-2.2-6.1s3.8-3.3,6.1-2.2
+		l104.5,48.9c1.6,0.8,2.6,2.4,2.6,4.2v61.5C1655.3,734.3,1653.2,736.4,1650.7,736.4z"/>
+	<path fill="#5DBFD9" d="M1651.6,851.7c-2.4,0-4.5-1.9-4.6-4.4l-3.7-70.8l-102.1-66.8c-2.1-1.4-2.7-4.2-1.3-6.4s4.2-2.7,6.4-1.3
+		l104.1,68.1c1.2,0.8,2,2.1,2.1,3.6l3.8,73.1c0.1,2.5-1.8,4.7-4.4,4.8C1651.8,851.7,1651.7,851.7,1651.6,851.7z"/>
+	<path fill="#5DBFD9" d="M1274.8,650.4L1274.8,650.4c-2.8,0-5-2.3-5-5.1l3.8-314.6l-173.7,5.9c-2.8,0.1-5.1-2.1-5.2-4.8
+		c-0.1-2.8,2.1-5.1,4.8-5.2l178.9-6.1c1.4,0,2.7,0.5,3.7,1.4c1,1,1.5,2.3,1.5,3.6l-3.9,319.9
+		C1279.8,648.2,1277.5,650.4,1274.8,650.4z"/>
+	<path fill="#5DBFD9" d="M1204.9,444.4c-1.5,0-3-0.9-3.5-2.4c-0.7-1.9,0.3-4.1,2.2-4.8c17-6.4,21.4-35.2,15.9-50.7
+		c-1.7-4.7-5-8.1-10.1-10.1c-10.1-4.1-25.7-2.2-40.7,5.1c-1.9,0.9-4.1,0.1-5-1.7c-0.9-1.9-0.1-4.1,1.7-5
+		c17.2-8.3,34.7-10.3,46.9-5.3c7,2.9,11.9,7.9,14.3,14.6c6.5,18.5,1.8,52-20.3,60.3C1205.8,444.3,1205.3,444.4,1204.9,444.4z"/>
+	<path fill="#5DBFD9" d="M1188.1,460c-11.5,0-22.9-3.2-32.2-12.3c-18.2-18-19.1-50.7-14.5-64c0.7-2,2.8-3,4.8-2.3s3,2.8,2.3,4.8
+		c-3.8,11-2.8,40.8,12.7,56.2c11.9,11.8,30,13.4,53.8,4.9c2-0.7,4.1,0.3,4.8,2.3c0.7,2-0.3,4.1-2.3,4.8
+		C1208.8,457.4,1198.5,460,1188.1,460z"/>
+	<path fill="#5DBFD9" d="M1114.6,581.8c-1,0-1.9-0.4-2.6-1.1c-0.7-0.7-1.1-1.7-1.1-2.7l-0.3-95.9c0-2.1,1.7-3.8,3.8-3.8l0,0
+		c2.1,0,3.8,1.7,3.8,3.8l0.3,92l24.2-0.8c2.1,0,3.8,1.6,3.9,3.6c0.1,2.1-1.6,3.8-3.6,3.9l-28.1,0.9
+		C1114.7,581.8,1114.6,581.8,1114.6,581.8z"/>
+	<path fill="#5DBFD9" d="M982.8,654c-5.1,0-9.2-4.1-9.2-9.2c0-5.1,4.1-9.2,9.2-9.2l405.4-1.6l0,0c5.1,0,9.2,4.1,9.2,9.2
+		c0,5.1-4.1,9.2-9.2,9.2L982.8,654L982.8,654z"/>
+	<path fill="#5DBFD9" d="M959.8,695.5L959.8,695.5c-2.1,0-3.8-1.7-3.8-3.8l0.8-109.1l-10.2,5.4c-1.8,1-4.1,0.3-5.1-1.6
+		c-1-1.8-0.3-4.1,1.6-5.1l15.8-8.3c1.2-0.6,2.6-0.6,3.7,0.1s1.8,1.9,1.8,3.2l-0.8,115.4C963.5,693.8,961.9,695.5,959.8,695.5z"/>
+	<path fill="#5DBFD9" d="M929.3,737.3c-2.1,0-3.7-1.6-3.8-3.7l-2-133.7l-16.9,10.9c-1.7,1.1-4.1,0.6-5.2-1.1
+		c-1.1-1.7-0.6-4.1,1.1-5.2l22.6-14.6c1.1-0.7,2.6-0.8,3.8-0.2s2,1.9,2,3.3l2.1,140.5C933.1,735.5,931.4,737.2,929.3,737.3
+		L929.3,737.3z"/>
+	<path fill="#5DBFD9" d="M887.9,807.9c-2.1,0-3.8-1.7-3.8-3.8l-0.4-174.7l-33.8,23.1c-1.7,1.2-4.1,0.7-5.2-1c-1.2-1.7-0.7-4.1,1-5.2
+		l39.7-27.1c1.2-0.8,2.6-0.9,3.9-0.2c1.2,0.6,2,1.9,2,3.3l0.4,181.8C891.7,806.2,890,807.9,887.9,807.9L887.9,807.9z"/>
+	<path fill="#5DBFD9" d="M834.8,587.6c-0.3,0-0.6,0-0.9-0.1l-17.9-4.2c-1-0.2-1.9-0.9-2.4-1.7l-6.6,2.8c-1.9,0.8-4.1-0.1-4.9-2
+		c-0.8-1.9,0.1-4.1,2-4.9l29.2-12.6c1.2-0.5,2.5-0.4,3.6,0.3s1.7,1.9,1.7,3.1v15.5c0,1.1-0.5,2.2-1.4,2.9
+		C836.5,587.3,835.6,587.6,834.8,587.6z"/>
+	<path fill="#5DBFD9" d="M780.1,624c-0.1,0-0.1,0-0.2,0c-4.4-0.2-9-0.2-13.6-0.2c-10.6,0.1-20.6,0.2-28.2-3c-1.9-0.8-2.8-3-2-4.9
+		s3-2.8,4.9-2c6.1,2.6,15.4,2.5,25.2,2.4c4.6,0,9.4-0.1,14.1,0.2c2.1,0.1,3.7,1.9,3.5,4C783.7,622.4,782.1,624,780.1,624z"/>
+	<path fill="#5DBFD9" d="M835.6,608.1c-0.4,0-0.8-0.1-1.3-0.2c-1.9-0.5-3.3-2-3.7-3.8c-2.8-1.5-10.8-3-14.4-3.7
+		c-2.4-0.5-4.5-0.9-6.2-1.3c-2.7-0.7-4.3-3.4-3.6-6.1c0.7-2.7,3.4-4.3,6.1-3.6c1.3,0.3,3.4,0.7,5.6,1.1c11.1,2.1,18.6,3.8,21.4,8.3
+		c1.1,1.7,1.4,3.6,0.9,5.5C839.9,606.6,837.8,608.1,835.6,608.1z M831.3,604.5L831.3,604.5L831.3,604.5z M830.7,601.8L830.7,601.8
+		L830.7,601.8z"/>
+	<path fill="#5DBFD9" d="M820.6,937c-0.5,0-1.1-0.1-1.6-0.2c-8.4-2.3-35.8-4.8-118.5-3.8c-49.8,0.6-96.4,2.3-96.9,2.3
+		c-1.7,0.1-3.4-0.6-4.6-1.8s-1.9-2.9-1.9-4.6l5-284.2c0.1-3.5,2.9-6.2,6.4-6.2c3.5,0.1,6.2,2.9,6.2,6.4l-4.9,277.6
+		c34-1.1,184.1-5.6,212.6,2.1c3.3,0.9,5.3,4.4,4.4,7.7C825.9,935.1,823.4,937,820.6,937z"/>
+	<path fill="#5DBFD9" d="M239.6,912.8c-0.1,0-0.2,0-0.3,0l-170.5-7.5c-3.5-0.2-6.1-3.1-6-6.5c0.2-3.5,3.1-6.1,6.5-6l169,7.4
+		l358.1-169c3.1-1.5,6.9-0.1,8.3,3c1.5,3.1,0.1,6.9-3,8.3L242.3,912.2C241.4,912.6,240.5,912.8,239.6,912.8z"/>
+	<path fill="#5DBFD9" d="M377.6,827.7L377.6,827.7c-4.5,0-8-3.6-7.9-8l1.6-195c0-4.4,3.6-7.9,7.9-7.9c0,0,0,0,0.1,0
+		c4.4,0,7.9,3.6,7.9,8l-1.6,195C385.5,824.2,382,827.7,377.6,827.7z"/>
+	<path fill="#5DBFD9" d="M556.9,726c-3.4,0-6.2-2.8-6.3-6.2l-0.8-66.4L470,670.2c-3.4,0.7-6.7-1.5-7.4-4.8c-0.7-3.4,1.5-6.7,4.8-7.4
+		l87.3-18.4c1.8-0.4,3.7,0.1,5.2,1.2c1.5,1.2,2.3,2.9,2.3,4.8l0.9,74C563.2,723.1,560.4,725.9,556.9,726
+		C557,726,556.9,726,556.9,726z"/>
+	<path fill="#5DBFD9" d="M472.9,649.9c-0.1,0-0.3,0-0.4,0l-18.4-1.7c-2.5-0.2-4.4-2.5-4.2-5c0.2-2.5,2.5-4.4,5-4.2l17.6,1.6
+		l81.9-20.7c2.5-0.6,5,0.9,5.6,3.3s-0.9,5-3.3,5.6l-82.7,21C473.7,649.9,473.3,649.9,472.9,649.9z"/>
+	<path fill="#5DBFD9" d="M745.8,434.6c-4.6,0-8.7-3.3-9.5-8c-0.9-5.2-2.3-18.1,4-25.3c2.9-3.3,6.9-4.9,11.3-4.7
+		c5.3,0.2,9.4,4.7,9.2,10c-0.2,3.8-2.6,7.1-5.9,8.4c-0.2,2.3,0,5.8,0.4,8.3c0.9,5.2-2.6,10.2-7.8,11.1
+		C746.9,434.6,746.3,434.6,745.8,434.6z"/>
+	<path fill="#5DBFD9" d="M766.7,511.2c-0.8,0-1.6-0.2-2.4-0.5c-2.9-1.3-4.3-4.8-2.9-7.7c1.9-4.2,3-14.8,3.3-20.5
+		c0.2-3.2,2.9-5.7,6.1-5.6c3.2,0.2,5.7,2.9,5.6,6.1c-0.1,1.7-1,17.2-4.3,24.7C771.1,509.9,768.9,511.2,766.7,511.2z"/>
+	<path fill="#5DBFD9" d="M752.5,405c-3.2,0-5.9-2.6-5.9-5.9v-9.6c0-3.2,2.6-5.9,5.9-5.9s5.9,2.6,5.9,5.9v9.6
+		C758.4,402.3,755.7,405,752.5,405z"/>
+	<path fill="#5DBFD9" d="M793.9,494.4c-3.1,0-5.7-2.4-5.8-5.5l-2.1-37.6c-0.2-3.2,2.3-6,5.5-6.2s6,2.3,6.2,5.5l1.8,31.8l36-1.5
+		c3.2-0.1,6,2.4,6.1,5.6s-2.4,6-5.6,6.1l-41.8,1.7C794.1,494.4,794,494.4,793.9,494.4z"/>
+	<path fill="#5DBFD9" d="M854.9,425.4c-3.2,0-5.9-2.6-5.9-5.9V412c0-3.2,2.6-5.9,5.9-5.9s5.9,2.6,5.9,5.9v7.5
+		C860.8,422.7,858.1,425.4,854.9,425.4z"/>
+	<path fill="#5DBFD9" d="M854.5,499.8c-2.8,0-5.3-2-5.8-4.9c-0.5-3.2,1.6-6.2,4.8-6.7c6.1-1,10.2-16.9,12.1-31.5
+		c2.1-16.6,1.8-33,1.8-33.2c-0.1-3.2,2.5-5.9,5.7-6s5.9,2.5,6,5.7c0,0.7,0.3,17.5-1.9,34.9c-3.3,26.1-10.4,39.7-21.8,41.6
+		C855.1,499.7,854.8,499.8,854.5,499.8z"/>
+	<path fill="#5DBFD9" d="M920.1,477.3C920.1,477.3,920,477.3,920.1,477.3l-26.8-0.4c-3.2,0-5.8-2.7-5.8-5.9c0-3.2,2.7-5.8,5.8-5.8
+		h0.1l26.7,0.4c3.2,0,5.8,2.7,5.8,5.9C925.9,474.7,923.3,477.3,920.1,477.3z"/>
+	<path fill="#5DBFD9" d="M891.7,422.1c-2.9,0-5.4-2.1-5.8-5.1c-0.4-3.2,1.8-6.2,5-6.6l5.8-0.8c3.2-0.4,6.2,1.8,6.6,5s-1.8,6.2-5,6.6
+		l-5.8,0.8C892.2,422,892,422.1,891.7,422.1z"/>
+</g>
+<g id="vs-outline">
+	
+		<path id="XMLID_7_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M978.2,540.8l-33.8,23.3l-118.3,76.2L600.4,639c0,0-3.5,220.3-3.9,261.1c-0.1,9.3,0.1,35.6,0.1,35.6s79.8-1.7,106.3-2
+		c31.1-0.3,124.4,1.2,124.4,1.2s70.4-108.1,94.1-148c11.7-19.7,54.6-92,54.6-92l2.5-51L978.2,540.8z"/>
+	
+		<path id="XMLID_8_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M978.2,540.8c0,0-24.2-1-30.5-1.3c-31.6-1.1-83.2,0-83.2,0s-92.7,33.2-102.4,37.6c-45.7,20.9-160,60.7-160,60.7"/>
+	
+		<line id="XMLID_12_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="826.6" y1="667" x2="826.5" y2="642.8"/>
+	
+		<line id="XMLID_10_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="827.4" y1="934.9" x2="826.8" y2="763.5"/>
+	
+		<polygon id="XMLID_11_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		843.5,874.4 892.1,803.7 890.6,612.1 844,645.3 	"/>
+	
+		<polygon id="XMLID_13_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		904.6,775.4 931.5,733.7 931.4,584.2 903,604.7 	"/>
+	
+		<polygon id="XMLID_14_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		944.1,717.7 962.2,691.7 965.2,567.1 943.5,582.1 	"/>
+	
+		<polyline id="XMLID_16_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		594.9,748.5 236.8,916.2 63.8,907.4 65,611.5 240.6,619 669.3,540.3 670.2,613.1 	"/>
+	
+		<line id="XMLID_17_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="237.1" y1="883.9" x2="240.6" y2="619"/>
+	
+		<polygon id="XMLID_15_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		422.4,329.3 500.5,328.8 641.7,355.6 534.7,216 508.9,204 473,203.1 	"/>
+	
+		<polyline id="XMLID_18_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		534.7,216 534.7,181.7 507.7,168.6 473.7,168.6 473,203.1 	"/>
+	
+		<polyline id="XMLID_21_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		505,263.2 508.9,204 509.1,183.4 	"/>
+	
+		<line id="XMLID_19_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="500.5" y1="328.8" x2="502.2" y2="303.4"/>
+	
+		<polyline id="XMLID_20_" fill="none" stroke="#0A060A" stroke-width="5.0157" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		642.2,357.7 576.7,356.6 566.9,344.7 	"/>
+	
+		<polygon id="XMLID_26_" fill="none" stroke="#0A060A" stroke-width="13.3753" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		71.7,288.7 184.2,277.5 396.8,315.5 237.8,119 196.2,101.7 148.2,105.4 	"/>
+	
+		<polyline id="XMLID_25_" fill="none" stroke="#0A060A" stroke-width="13.3753" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		238.1,119.5 235.2,68 194.4,48.2 149.3,49.5 148.2,101.7 	"/>
+	
+		<polyline id="XMLID_24_" fill="none" stroke="#0A060A" stroke-width="6.3182" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		194.2,128.7 196.2,101.7 198,52.2 	"/>
+	
+		<line id="XMLID_23_" fill="none" stroke="#0A060A" stroke-width="6.3182" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="183.4" y1="278.7" x2="194.2" y2="140"/>
+	
+		<polyline id="XMLID_22_" fill="none" stroke="#0A060A" stroke-width="7.5819" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		397.1,317.7 289.5,314.3 283.9,296.9 	"/>
+	
+		<line id="XMLID_31_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="149.5" y1="54.6" x2="28.7" y2="12.1"/>
+	
+		<line id="XMLID_29_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="473.7" y1="168.6" x2="239.7" y2="86.3"/>
+	
+		<polyline id="XMLID_27_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		538.9,194.3 599.1,217.7 596.6,291.2 	"/>
+	
+		<polyline id="XMLID_28_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		669.3,540.3 572.9,541.3 65,611.5 	"/>
+	
+		<polygon id="XMLID_32_" fill="none" stroke="#0A060A" stroke-width="8.3596" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		276.4,639 390.1,617.3 388.4,823.7 273.9,873.9 	"/>
+	
+		<polyline id="XMLID_35_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		388.4,822.9 371.7,822.1 370.9,624.8 	"/>
+	
+		<line id="XMLID_37_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="371.7" y1="822.1" x2="275.6" y2="867.2"/>
+	
+		<line id="XMLID_38_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="596.6" y1="538.7" x2="594.4" y2="360.6"/>
+	
+		<polygon id="XMLID_30_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		440.5,614.5 577.1,587.2 578.2,732.6 440.5,794.2 	"/>
+	
+		<path id="XMLID_33_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M456.1,623.9c20.3-3.1,23.8,2.1,24.2,9.2c0.4,7.1-7.2,8.4-23.8,5.9"/>
+	
+		<line id="XMLID_36_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="454.5" y1="623.4" x2="454.8" y2="639.8"/>
+	
+		<path id="XMLID_34_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M475.2,626.4c-3.3,0-7.7,0-7.7,5.9s4.4,6.3,7.9,5.9"/>
+	
+		<path id="XMLID_39_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M471,622.1l85.9-15.8c0,0,7.6,0.4,7.7,7.9c0,5-4.2,7.2-4.2,7.2l-86.9,20.3"/>
+	
+		<polygon id="XMLID_40_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		464.8,660.4 560.9,639 560.9,721.7 463.9,760.5 	"/>
+	
+		<line id="XMLID_42_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="487.9" y1="676.6" x2="541" y2="662.8"/>
+	
+		<line id="XMLID_43_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="489.2" y1="702.5" x2="539.7" y2="687.5"/>
+	
+		<line id="XMLID_44_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="489.6" y1="728" x2="541.8" y2="709.2"/>
+	
+		<path id="XMLID_41_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M782,584.5c-64.5,1.1-85.8,30.4-3.3,27.9C859.6,609.9,860,583.2,782,584.5z"/>
+	
+		<path id="XMLID_45_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M724,603.2l12.8,17c0,0,10.5,8.6,47.6,6.7c32.9-1.7,44-7.8,44-7.8l13.7-20.6"/>
+	
+		<path id="XMLID_47_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M740.2,608.5c5.6-3.9,26.8-8.1,49.6-8.4"/>
+	
+		<polyline id="XMLID_46_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		835.9,588 863,588.8 901.1,565.8 838.6,563.8 794.1,581.7 	"/>
+	
+		<line id="XMLID_49_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="839" y1="565.2" x2="838.8" y2="578.6"/>
+	
+		<path id="XMLID_50_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M907.4,549.5l-2.3,3.8l-2.1,3.5c-22.4-0.2-34.5-9.4-34.5-9.4l60,1.7c0,0,3.8,3.6,1,4.6c-2.7,1-23-0.6-23-0.6"/>
+	
+		<line id="XMLID_51_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="981.6" y1="652.8" x2="1397.9" y2="651.6"/>
+	
+		<polyline id="XMLID_52_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1096.1,649.1 1096.1,323.1 1287.6,316.8 1283.8,651.6 	"/>
+	
+		<polygon id="XMLID_48_" fill="none" stroke="#0A060A" stroke-width="5.8517" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1116.6,480.4 1145,479.3 1145.5,574.1 1117.1,574.6 	"/>
+	
+		<path id="XMLID_53_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1191.2,352.3c69.7,0.6,68,102.6,4.5,104.2C1141.1,457.9,1117.7,351.7,1191.2,352.3z"/>
+	
+		<path id="XMLID_54_" fill="none" stroke="#0A060A" stroke-width="5.8517" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1191.5,365.9c55.4-2.1,42.9,75.2,6.1,77.7S1138.8,367.9,1191.5,365.9z"/>
+	
+		<line id="XMLID_56_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1178" y1="414" x2="1213.8" y2="389.9"/>
+	
+		<line id="XMLID_57_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1196.3" y1="374.6" x2="1196.4" y2="428.2"/>
+	
+		<line id="XMLID_58_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1221.1" y1="410.5" x2="1174" y2="390.9"/>
+	
+		<polyline id="XMLID_55_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1191.1,376.7 1195.5,382 1201.8,375.6 	"/>
+	
+		<polyline id="XMLID_59_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1178.3,386.8 1180.8,393.7 1173.1,397.2 	"/>
+	
+		<polyline id="XMLID_60_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1176.4,408.8 1182.5,410.9 1182.3,417.2 	"/>
+	
+		<polyline id="XMLID_61_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1190.4,426.3 1196.2,421.4 1202.1,425.9 	"/>
+	
+		<polyline id="XMLID_62_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1217.8,415 1214.8,408 1222.1,403.5 	"/>
+	
+		<polyline id="XMLID_63_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1215.5,395.4 1208.4,393.4 1208.4,386 	"/>
+	
+		<polyline id="XMLID_64_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1200.7,387.5 1196,391.7 1190.7,387.3 	"/>
+	
+		<polyline id="XMLID_65_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1187.1,389.5 1188.6,396.7 1183,399.5 	"/>
+	
+		<polyline id="XMLID_66_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1182.3,404.1 1189.1,406 1189.8,411.9 	"/>
+	
+		<polyline id="XMLID_67_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1191.3,416.1 1196.4,414.4 1201.3,417 	"/>
+	
+		<polyline id="XMLID_68_" fill="none" stroke="#0A060A" stroke-width="3.3438" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1208.3,411.7 1206.8,404.6 1213,400.2 	"/>
+	
+		<path id="XMLID_71_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M735.3,459.5c1.7,64.5,31.2,85.6,27.9,3.1C760,381.7,733.3,381.5,735.3,459.5z"/>
+	
+		<path id="XMLID_70_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M754.5,517.3l16.9-13c0,0,8.5-10.6,6.3-47.7c-2-32.9-8.2-44-8.2-44l-20.7-13.5"/>
+	
+		<path id="XMLID_69_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M759.6,501.1c-4-5.5-8.3-26.7-8.8-49.5"/>
+	
+		<path id="XMLID_73_" fill="none" stroke="#0A060A" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M745.6,398.3c0,0,0-46-2.1-63.5c-2.1-17.6,16.7-9.6,17.1,2.1c0.4,11.7,1.4,52,1.4,52l-15,0.6"/>
+	
+		<line id="XMLID_74_" fill="none" stroke="#0A060A" stroke-width="5.8517" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="757.3" y1="406.7" x2="756.7" y2="391.1"/>
+	
+		<polyline id="XMLID_84_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1894,639.8 1457.6,518.6 1400.8,518.6 1400.8,655.7 1695.1,952.1 1690.1,642.8 1407.5,523.6 	"/>
+	
+		<polyline id="XMLID_76_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1457.6,518.6 1460.6,222.8 1718.9,41 	"/>
+	
+		<polygon id="XMLID_72_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1508.3,501.1 1777.8,547.5 1775.3,246.6 1508.3,341.9 	"/>
+	
+		<polyline id="XMLID_77_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1515.8,344.4 1559.7,341.9 1767.8,269.2 	"/>
+	
+		<polyline id="XMLID_80_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1510.6,499.9 1560.7,495.5 1559.7,341.9 	"/>
+	
+		<polygon id="XMLID_78_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1422,557.3 1514.5,604.4 1516.7,655.7 1422.5,597.5 	"/>
+	
+		<polygon id="XMLID_81_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1420.6,615.9 1515.6,679.4 1516.1,734.6 1420.8,649.9 	"/>
+	
+		<polygon id="XMLID_82_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1542.1,615.6 1656.6,665.7 1654.9,737.6 1542.9,669.1 	"/>
+	
+		<polygon id="XMLID_83_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1538.7,696.7 1654.1,771.1 1656.6,855.5 1537.9,751 	"/>
+	
+		<line id="XMLID_85_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1690.1" y1="642.8" x2="1719.3" y2="642.7"/>
+	
+		<path id="XMLID_75_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1784.1,641.1"/>
+	
+		<line id="XMLID_87_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1766.1" y1="639.4" x2="1891.1" y2="641.1"/>
+	
+		<path id="XMLID_89_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1644,485.5c26.7,5.5,30.5,15.9-29.5,14.3c-63.4-1.7-71-13.2-34.4-16.7"/>
+	
+		<path id="XMLID_88_" fill="none" stroke="#0A060A" stroke-width="5.8517" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1573.3,498.3c0,0,0,10.9,34.9,12.7c40.1,2.2,39.1-11.3,39.1-11.3"/>
+	
+		<path id="XMLID_90_" fill="none" stroke="#0A060A" stroke-width="5.8517" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1580.6,487.1c-2.5-0.4,3.6-12,7.7-14.2c8.6-4.7,14.1-0.6,14.1-0.6s10-11.9,11.7,0.1c0.3,2.2,19.2-11,21.8,2.2
+		c0.8,4.2,4.3-0.7,5.6,1.7c1.3,2.4,0.4,12.4,0.4,12.4S1618.1,493.2,1580.6,487.1z"/>
+	
+		<path id="XMLID_92_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1748.2,504.4c26.7,5.5,30.5,15.9-29.5,14.3c-63.4-1.7-71-13.2-34.4-16.7"/>
+	
+		<path id="XMLID_91_" fill="none" stroke="#0A060A" stroke-width="5.8517" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1677.5,517.3c0,0,0,10.9,34.9,12.7c40.1,2.2,39.1-11.3,39.1-11.3"/>
+	
+		<path id="XMLID_86_" fill="none" stroke="#0A060A" stroke-width="5.8517" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1684.9,506.1c-2.5-0.4-0.8-4.2,5.6-7.5c8.5-4.5,16.2-7.3,16.2-7.3s6.9-4.2,8.6,7.8c0.3,2.2,10.1-13.3,12.7-0.1
+		c0.8,4.2,6.3-1.7,15.6-1.3c2.7,0.1,2.6,9.9,2.6,9.9S1722.3,512.2,1684.9,506.1z"/>
+	
+		<line id="XMLID_93_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1665.2" y1="511" x2="1641.5" y2="507.5"/>
+	
+		<line id="XMLID_79_" fill="none" stroke="#0A060A" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1778.4" y1="527.8" x2="1748.9" y2="523.4"/>
+	
+		<polygon id="XMLID_94_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		782.3,285.4 694.1,285.4 686.5,97.8 788.5,99.9 	"/>
+	
+		<polyline id="XMLID_96_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		788.5,99.9 941.5,227.8 934.8,348.9 782.3,285.4 	"/>
+	
+		<polyline id="XMLID_95_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		932.6,352.6 896.1,351.3 699.4,287.6 	"/>
+	
+		<polygon id="XMLID_97_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		805.9,149.1 800.3,271.2 857.4,294.6 862.4,193.4 	"/>
+	
+		<polygon id="XMLID_98_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		885.5,207.4 924.6,234.7 917.9,321 880.5,307.1 	"/>
+	
+		<path id="XMLID_99_" fill="none" stroke="#0A060A" stroke-width="8.3596" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M802.5,351.6c10.4,0,14.6,10.4,12.5,21.3s-2.5,58.1,1.3,65.2c3.8,7.1,21.3,5.9,23,12.5c1.7,6.7,1.3,41,1.3,41l-52.2-1.7
+		c0,0-2.1-34.7-1.7-39.7c0.4-5,15.5-6.3,15.5-13.4s-3.3-61.4-3.3-61.4S792.5,351.6,802.5,351.6z"/>
+	
+		<line id="XMLID_101_" fill="none" stroke="#0A060A" stroke-width="5.0157" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="799.9" y1="457.4" x2="800.4" y2="476.1"/>
+	
+		<line id="XMLID_102_" fill="none" stroke="#0A060A" stroke-width="5.0157" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="812.4" y1="458.3" x2="813" y2="475.3"/>
+	
+		<line id="XMLID_103_" fill="none" stroke="#0A060A" stroke-width="5.0157" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="824.1" y1="458.8" x2="824.9" y2="476.4"/>
+	
+		<path id="XMLID_100_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M858.2,364.5c7.2,0.5,7.5,12.8,6.1,44.3l-12.8,0.8C851.5,409.7,850.6,364,858.2,364.5z"/>
+	
+		<path id="XMLID_104_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M851.8,421.4l24.2-0.6c0,0,5.3,78.9-25.6,75L851.8,421.4z"/>
+	
+		<line id="XMLID_106_" fill="none" stroke="#0A060A" stroke-width="5.0157" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="850.4" y1="409.2" x2="850.9" y2="424.5"/>
+	
+		<line id="XMLID_107_" fill="none" stroke="#0A060A" stroke-width="5.0157" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="859.4" y1="409.5" x2="859.4" y2="419.2"/>
+	
+		<path id="XMLID_105_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M901.2,416.8c0,0-0.5,6.1,4.1,6.5s19,1,19,1l-1.3,52c0,0-21.1,0-24.7,0c-3.6,0-10.7-4.4-10.4-9.4s1.3-53.8,1.3-53.8"/>
+	
+		<path id="XMLID_108_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M888.2,412.2h17.1c0,0,0.3-41.9,0.3-45.5s-18.6,2.1-18.6,2.1L888.2,412.2z"/>
+	
+		<path id="XMLID_109_" fill="none" stroke="#0A060A" stroke-width="2.5079" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M897,463.6c3.3-0.5,2.6,5.9,0.3,5.6C894.9,468.9,892.9,464.1,897,463.6z"/>
+	
+		<polyline id="XMLID_110_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		896.3,374.8 892.9,374.4 891.5,341 	"/>
+	
+		<polyline id="XMLID_111_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		858.5,373.8 848.8,371.1 848.6,324 	"/>
+	
+		<line id="XMLID_113_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="805.4" y1="361.7" x2="804.3" y2="311.1"/>
+	
+		<line id="XMLID_114_" fill="none" stroke="#0A060A" stroke-width="4.1798" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="752.3" y1="335.1" x2="748.7" y2="293.7"/>
+	
+		<line id="XMLID_116_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="689.1" y1="214.5" x2="593.2" y2="213.5"/>
+	
+		<line id="XMLID_112_" fill="none" stroke="#0A060A" stroke-width="10.8674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1460.6" y1="222.8" x2="946.5" y2="229"/>
+	
+		<polyline id="XMLID_169_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		91,608 89,369 291,389 292,576 	"/>
+	
+		<polyline id="XMLID_170_" fill="none" stroke="#0A060A" stroke-width="6.6877" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		431,560 429,399 567,414 568,540 	"/>
+</g>
+<g id="vs-h-reveal">
+	
+		<polyline id="XMLID_214_" fill="none" stroke="#5DBFD9" stroke-width="15.0472" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		29,16.2 141,55.5 141,104 68.3,282 	"/>
+	
+		<polyline id="XMLID_213_" fill="none" stroke="#5DBFD9" stroke-width="15.0472" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		339.7,309.3 294,311.6 93.3,289.8 187,287 306.8,305.4 	"/>
+	
+		<line id="XMLID_212_" fill="none" stroke="#5DBFD9" stroke-width="15.0472" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="190.9" y1="51.9" x2="189.2" y2="97.6"/>
+	
+		<polyline id="XMLID_211_" fill="none" stroke="#5DBFD9" stroke-width="15.0472" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		239.9,96.5 469.5,176.1 468.4,204 417.1,327.2 	"/>
+	
+		<line id="XMLID_210_" fill="none" stroke="#5DBFD9" stroke-width="15.0472" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="503" y1="173.4" x2="503.5" y2="199"/>
+	
+		<polyline id="XMLID_209_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		612.7,352.3 579.9,355.6 443.3,333.9 500.7,335.5 581.5,351.1 	"/>
+	
+		<polyline id="XMLID_208_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		538.5,203.5 592.4,221 589.9,285.8 	"/>
+	
+		<line id="XMLID_207_" fill="none" stroke="#5DBFD9" stroke-width="16.7191" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="588.2" y1="352.3" x2="588.2" y2="535.7"/>
+	
+		<line id="XMLID_206_" fill="none" stroke="#5DBFD9" stroke-width="16.7191" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="601.7" y1="221.5" x2="683.2" y2="221.5"/>
+	
+		<polyline id="XMLID_205_" fill="none" stroke="#5DBFD9" stroke-width="21.7349" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		737,292.1 902.5,346.4 908.9,346.9 774.7,290.5 	"/>
+	
+		<line id="XMLID_204_" fill="none" stroke="#5DBFD9" stroke-width="16.7191" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="695.6" y1="107.3" x2="703.2" y2="279.9"/>
+	
+		<polyline id="XMLID_203_" fill="none" stroke="#5DBFD9" stroke-width="12.5394" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		809.3,157.9 859.1,196.3 854.1,288.7 	"/>
+	
+		<polyline id="XMLID_202_" fill="none" stroke="#5DBFD9" stroke-width="12.5394" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		887.5,214.7 920.1,236.9 913.4,315.1 	"/>
+	
+		<line id="XMLID_201_" fill="none" stroke="#5DBFD9" stroke-width="18.3911" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="1461.9" y1="232.8" x2="1700.1" y2="63.5"/>
+	
+		<line id="XMLID_200_" fill="none" stroke="#5DBFD9" stroke-width="22.5708" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="1534.5" y1="341.1" x2="1766.1" y2="260.3"/>
+	
+		<polyline id="XMLID_199_" fill="none" stroke="#5DBFD9" stroke-width="22.5708" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1518.4,351.7 1518.9,491.3 1553.5,486.8 1551.8,347.8 1533.4,356.2 1534.5,476 	"/>
+	
+		<line id="XMLID_198_" fill="none" stroke="#5DBFD9" stroke-width="15.0472" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="1582.7" y1="503" x2="1603.6" y2="506.3"/>
+	
+		<path id="XMLID_197_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M1588.9,475.4c-3.1,4.5-5.9,8.4-2,9.8"/>
+	
+		<polyline id="XMLID_196_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1601.7,474 1600.3,478.2 1599.5,473.7 	"/>
+	
+		<line id="XMLID_195_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="1616.5" y1="473.7" x2="1612" y2="480.4"/>
+	
+		<path id="XMLID_194_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M1684.4,520.6c0,0,13.9,4.7,24,4.7"/>
+	
+		<path id="XMLID_193_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M1688.1,504.1c0.8,0.3,13.7-6.7,15.9-4.7"/>
+	
+		<polyline id="XMLID_192_" fill="none" stroke="#5DBFD9" stroke-width="18.3911" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1870.6,625.3 1460.6,513.7 1450.6,511.2 1450.6,227.8 946.5,236.6 	"/>
+	
+		<polyline id="XMLID_191_" fill="none" stroke="#5DBFD9" stroke-width="18.3911" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1444.2,510 1395.2,513.3 1393.3,657.4 1657.4,923.2 	"/>
+	
+		<polyline id="XMLID_190_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1424.6,566.7 1509,608.5 1511.1,649.9 	"/>
+	
+		<polyline id="XMLID_189_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1424.6,624.8 1511.5,682.5 1512,725.9 	"/>
+	
+		<polyline id="XMLID_188_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1546.2,621.4 1650.7,670.3 1650.7,731.8 	"/>
+	
+		<polyline id="XMLID_187_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1543.7,705.9 1647.8,774 1651.6,847.1 	"/>
+	
+		<polyline id="XMLID_186_" fill="none" stroke="#5DBFD9" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1099.8,331.6 1278.7,325.5 1274.8,645.4 	"/>
+	
+		<path id="XMLID_185_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M1167,377.9c24.8-12,49.9-10,56,7.2c6.1,17.3,1.4,48.2-18.1,55.5"/>
+	
+		<path id="XMLID_184_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M1145,384.9c-6.4,18.4-1.7,92,71.3,65.8"/>
+	
+		<polyline id="XMLID_183_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		1114.3,482.1 1114.6,578 1142.7,577.1 	"/>
+	
+		<line id="XMLID_182_" fill="none" stroke="#5DBFD9" stroke-width="18.3911" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="1388.2" y1="643.2" x2="982.8" y2="644.8"/>
+	
+		<polyline id="XMLID_181_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		944.8,584.6 960.6,576.3 959.8,691.7 	"/>
+	
+		<polyline id="XMLID_180_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		904.6,607.6 927.2,593 929.3,733.5 	"/>
+	
+		<polyline id="XMLID_179_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		887.9,804.1 887.5,622.3 847.8,649.4 	"/>
+	
+		<polyline id="XMLID_178_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		805.6,580.9 834.8,568.3 834.8,583.8 816.9,579.6 829.8,575.9 	"/>
+	
+		<path id="XMLID_177_" fill="none" stroke="#5DBFD9" stroke-width="7.5236" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M780.1,620.2c-14.2-0.8-30.5,1.3-40.5-2.9"/>
+	
+		<path id="XMLID_176_" fill="none" stroke="#5DBFD9" stroke-width="10.0315" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M811.4,594.3c6.7,1.7,25.5,3.8,24.2,8.8"/>
+	
+		<path id="XMLID_175_" fill="none" stroke="#5DBFD9" stroke-width="12.5394" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M608.3,644.8l-5,284.2c0,0,186.4-6.7,217.3,1.7"/>
+	
+		<polyline id="XMLID_174_" fill="none" stroke="#5DBFD9" stroke-width="12.5394" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		599.1,736.8 239.6,906.5 69.1,899 	"/>
+	
+		<line id="XMLID_173_" fill="none" stroke="#5DBFD9" stroke-width="15.8832" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="379.2" y1="624.8" x2="377.6" y2="819.8"/>
+	
+		<polyline id="XMLID_172_" fill="none" stroke="#5DBFD9" stroke-width="12.5394" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		468.7,664.1 556,645.7 556.9,719.7 	"/>
+	
+		<polyline id="XMLID_171_" fill="none" stroke="#5DBFD9" stroke-width="9.1955" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		555.6,624.4 472.9,645.3 454.5,643.6 	"/>
+	
+		<path id="XMLID_164_" fill="none" stroke="#5DBFD9" stroke-width="19.227" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M745.8,425c0,0-3.3-19.2,5.4-18.8"/>
+	
+		<path id="XMLID_9_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M770.5,482.7c0,0-0.8,15.9-3.8,22.6"/>
+	
+		<line id="XMLID_6_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="752.5" y1="389.5" x2="752.5" y2="399.1"/>
+	
+		<polyline id="XMLID_5_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		791.8,450.9 793.9,488.5 835.7,486.8 	"/>
+	
+		<line id="XMLID_4_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="854.9" y1="412" x2="854.9" y2="419.5"/>
+	
+		<path id="XMLID_3_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M873.3,423.3c0,0,1.3,67.3-18.8,70.6"/>
+	
+		<line id="XMLID_2_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="920.1" y1="471.4" x2="893.4" y2="471"/>
+	
+		<line id="XMLID_1_" fill="none" stroke="#5DBFD9" stroke-width="11.7034" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="897.5" y1="415.4" x2="891.7" y2="416.2"/>
+</g>
+</svg>

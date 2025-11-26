@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="900px" height="900px" viewBox="0 0 900 900" enable-background="new 0 0 900 900" xml:space="preserve">
+<g id="vs-colour">
+	<path fill="#FFFFFF" d="M446.7,95.5c40.9-3.1,44,86.8,2.5,88.7C409.5,186.1,397.2,99.3,446.7,95.5z"/>
+	<path fill="#FFFFFF" d="M403.6,761.5c4.7,0,55.8-16.8,76.3-5.6c20.5,11.2-12.1,19.5-12.1,19.5L403.6,761.5z"/>
+	<polygon fill="#FFFFFF" points="447,471.3 443.7,481.7 443.7,494.7 447.3,499 454.7,494.7 453.7,485.7 448.7,471 	"/>
+</g>
+<g id="vs-primary">
+	<path fill="#27A8CB" d="M427.5,203.5c13-7.4,34.1-6.8,38.5,3.7c4.3,10.5,25.4,81.9,26.7,147.6c1.2,65.8-9.3,63.9-9.3,63.9
+		s-92.4,5-93.1,0.6C389.7,415,417,311.4,417,311.4l0.6-78.8L427.5,203.5z"/>
+</g>
+<g id="vs-secondary">
+	<path fill="#FFFFFF" d="M477.1,422.8l-82.8-2.8c-0.9,24.2,12.1,49.4,12.1,49.4s-17.7,134,27.9,134.9S477.1,422.8,477.1,422.8z
+		 M447.3,499l-3.7-4.3v-13l3.3-10.3l1.7-0.3l5,14.7l1,9L447.3,499z"/>
+</g>
+<g id="vs-shade">
+	<path opacity="0.4" fill="#2B2B2B" enable-background="new    " d="M449.8,314.5c3.1,13.6-6.2,57.7-22.3,53.4s-15.5-44-15.5-44
+		l7.4,0.6c0,0,5,18,16.7,12.4C448,331.3,449.8,314.5,449.8,314.5z"/>
+	<path opacity="0.4" fill="#2B2B2B" enable-background="new    " d="M394,422.5c0.2,2.1,0.7,4.2,1.4,6.1c6.5,18,30,29.1,28.3,39.8
+		c-1.9,11.8-18,120.4,13.6,129.7s0,6.2,0,6.2l-6.8,3.1c0,0-23-13-23.6-45.3s1.9-94.9,1.9-94.9l-14.6-42.5"/>
+	<path opacity="0.4" fill="#2B2B2B" enable-background="new    " d="M461.6,434.9"/>
+	<path opacity="0.4" fill="#2B2B2B" enable-background="new    " d="M425,114.8c-5.6,27.3,14.3,81.9,45.9,55.8
+		c0,0-16.7,25.4-40.9,1.9S425,114.8,425,114.8z"/>
+</g>
+<g id="vs-outline">
+	
+		<path fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M402.1,762.4c0,0,50.2,16.7,76.3,9.3s-5.6-20.5-29.8-20.5S402.1,762.4,402.1,762.4z"/>
+	
+		<line fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="430" y1="598.7" x2="402.1" y2="762.4"/>
+	
+		<path fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M476.5,427.4c0,39.1,0,177.7-42.8,177.7s-27-134.9-27-134.9s-15.8-34.1-14-47.1"/>
+	
+		<ellipse transform="matrix(0.9992 -4.106818e-02 4.106818e-02 0.9992 -5.3679 18.5092)" fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="447.8" cy="139.9" rx="30.7" ry="44"/>
+	
+		<path fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M450.1,225.5c0,25.6,7.4,110.7-15.8,110.7c-23.3,0-19.5-97.7-16.3-113.5c1.9-9.3,6.3-23.5,21.4-22.8c9.6,0.4,21.7,0,27.7,14.4
+		c28.7,68,30.2,205.7,17.4,205.7c0,0-93.7,8.4-93.7-4.7c0-5.9,17.6-57,26.7-108.4"/>
+	
+		<line fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="434.3" y1="336.2" x2="445.5" y2="465.9"/>
+	
+		<path fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M445.8,467.1c5.3-1.9,13.6,21.1,11.2,28.8s-26.1,8.4-24.8,1.2c1.2-7.1,1.6-11.2,1.6-11.2"/>
+	
+		<path fill="none" stroke="#2B2B2B" stroke-width="10.5647" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M443,471.2c-1.6,3.7-5.3,24.2-0.6,27"/>
+</g>
+<g id="vs-stroke">
+	
+		<path fill="none" stroke="#EA1149" stroke-width="98.0671" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M462.2,109c-5.6,11.3-28.2,41.4-26.4,48.9s3.8,39.5,9.4,37.7s11.3,48.9,9.4,56.5c-1.9,7.5-37.7,114.8-37.7,114.8l48.9-28.2
+		l-47.1,193.9c0,0,50.8-5.6,48.9,1.9s-28.2,65.9-28.2,65.9s-20.7,178.8-16.9,173.2c3.8-5.6,16.9-9.4,16.9-9.4"/>
+</g>
+</svg>

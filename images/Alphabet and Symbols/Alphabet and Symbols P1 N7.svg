@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-primary">
+	<path fill="#5EBED9" d="M476.4,507.6L477,458l101.6-0.6c0,2.6,0,9.1,0,17.9c0,6.4,0,14,0,22.1c0,32,0.1,72.1,0.1,79.4
+		c0,23.2,1.6,46.2-4.1,69c-3.3,13-8.4,25.5-15.6,36.8c-19.7,30.7-53.2,44.7-89,44.7c-36.8,0-73-13-94.2-44.4
+		c-13.3-19.7-18.4-40.9-18.4-64.3c0-10.3,0-20.5,0-30.8c0-31.2,0-62.4,0-93.7c0-30.7,0-61.5-0.2-92.2c-0.1-28.8-2.9-58.5,1.5-87.1
+		c1.7-10.7,4.5-21.3,8.9-31.3c13.2-29.6,38.6-50.3,70.3-57.2c9.9-2.1,20-3,30.1-3c36.7,0,71.5,14.1,91.7,45.7
+		c23.8,37.2,18.9,81.4,18.9,123.5c0.1,0.1-53.4,0.1-53.4,0.1c0-36.8,11-96.3-32.7-114.2c-7.8-3.2-16.3-4.4-24.7-4.4
+		c-18.2,0-35.8,6.6-46,22.4c-7.7,12-9.6,25.6-9.7,39.6c0,13.8-0.1,27.6-0.1,41.4c0,32.4,0,64.9,0,97.3c0,32.6,0,65.2,0,97.8
+		c0,34-6.5,83,32.3,100c7.6,3.3,16,4.7,24.3,4.7c20.4,0,38.7-10.7,48.5-28.7c9.2-17,8.1-35.6,8.1-54.3l-1-76.4l-0.1-7.5L476.4,507.6
+		z"/>
+</g>
+<g id="vs-secondary">
+	<path fill="#5F5F5F" d="M517.9,300.1c0,0-28.7-43.4-80.7-17.4c0,0-25-4.1-25,76.6v259c0,0-1.5,41.4,32.8,49.7c0,0-9.5-61.3-5.5-90
+		V457.5v-86.8c0,0-2.8-36.5,13.5-52.9c16.3-16.3,37.4-23.2,66.9-11.6L517.9,300.1z"/>
+	<path fill="#5F5F5F" d="M527.5,395l22,20.9c0,0,46.2,1.7,49-4.1c2.8-5.8,14.9-97.2-24.6-137.4l-11.9-3c0,0,24,50.7,16.1,116.6
+		c0,0-5.1,5.6-9.9,4.8C563.3,391.9,527.5,395,527.5,395z"/>
+	<polygon fill="#5F5F5F" points="478.5,510 496.9,530.7 524.3,530.7 524.1,510.4 	"/>
+	<path fill="#5F5F5F" d="M580.3,458.5l-2.6,154.2c0,0,4.6,52.4-35.2,86.3s-56.7,28.6-69.9,28.3c-13.2-0.3-59.3-3.3-69.8-16.5
+		l3.2,11.1c0,0,34.4,38.7,91.4,30.9s86.3-49.3,86.3-49.3s22.9-36.2,18-101.9l-0.6-122.8L580.3,458.5z"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M578.6,576.9c0,16.5,0.8,33-0.8,49.3c-0.7,6.6-1.7,13.1-3.4,19.7c-3.3,13-8.4,25.5-15.6,36.8c-4.6,7.2-10.1,13.6-16.1,19
+		c-19.5,17.5-45.6,25.7-72.8,25.7c-27.4,0-54.4-7.2-75.2-23.8c-7.2-5.7-13.6-12.6-19-20.6c-7.3-10.8-12.1-22-15-33.8
+		c-2.4-9.8-3.4-19.9-3.4-30.5c0-10.3,0-20.5,0-30.8c0-31.2,0-62.4,0-93.7c0-30.7,0-61.5-0.2-92.2c-0.1-28.8-2.9-58.5,1.5-87.1
+		c1.7-10.7,4.5-21.3,8.9-31.3c9.2-20.8,24.5-37.1,43.7-47.5c8.2-4.4,17.1-7.7,26.6-9.7c9.9-2.1,20-3,30.1-3c9.2,0,18.2,0.9,27,2.7
+		c7.8,1.6,15.4,4,22.6,7.2c16.9,7.4,31.5,19.2,42.2,35.8c21.9,34.2,19.5,74.4,19,113.5c0,1.7,0,3.5-0.1,5.2c0,1.6,0,3.2,0,4.9
+		c0,0-1.5,0-4,0c-1,0-2.2,0-3.6,0c-10.2,0-28.1,0-38.3,0c-1.6,0-3.1,0-4.3,0c-2-0.2-3.2-0.2-3.2-0.2c0-1,0-2.1,0-3.1
+		c0-1.5,0.1-2.9,0.1-4.5c0.8-27.7,4.9-64.4-10.3-88c-5.1-7.9-12.3-14.4-22.6-18.5c-7.8-3.2-16.3-4.4-24.7-4.4
+		c-7.5,0-15,1.1-21.8,3.6c-9.7,3.5-18.2,9.6-24.1,18.8c-7.7,12-9.6,25.6-9.7,39.6c0,13.8-0.1,27.6-0.1,41.4c0,32.4,0,64.9,0,97.3
+		c0,32.6,0,65.2,0,97.8c0,26.2-3.8,61.3,12.1,83.8c4.8,6.7,11.3,12.3,20.1,16.2c7.6,3.3,16,4.7,24.3,4.7c8.6,0,16.9-1.9,24.3-5.5
+		c10.1-4.9,18.6-12.8,24.2-23.2c9.2-17,8.1-35.6,8.1-54.3v-74.8v-6v-5.2h-5.3h-4.5h-30.1h-5.5h-4.1v-5.9V497v-29.3V462l0,0
+		c0-2.5,2-4.5,4.5-4.5h0.1h5.5h83.9h4.1h4.8v4.7v5.1L578.6,576.9z"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M519.8,306.4c0,0-12.4-6.1-29-6.3c-8.8-0.1-18.8,1.4-28.7,6.4c-9.8,4.9-15.8,13.1-19.4,22.7c-4.8,12.6-5.5,27.6-5.5,40.3
+		c0,32.4,0.7,64.8,0.7,97.2c0,46.2,0,92.4,0,138.7c0,13.6-0.1,27.9,1.9,41.8c1.4,9.3,3.7,18.4,7.7,26.8"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M525.2,392.5l13.6,15.1l4.8,5.3c1.9,2,4.5,3.2,7.3,3.1l6.3-0.1l28.2-0.6l8.3-0.2c4.1-0.1,7.5-3.5,7.5-7.6v-7.4v-46.4
+		c0-25.4-5.4-51.9-22-71.9c-12-14.5-26.9-27-42.3-37.8"/>
+	
+		<line fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="579.1" y1="394.2" x2="597.7" y2="412.8"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M579.2,457.5l15.8,15.4l3.8,3.7c1.6,1.5,2.4,3.6,2.4,5.7v6.8l0.1,87.4c0.7,47.2,5.3,103.5-28.6,140.9
+		c-9.5,10.5-21.2,18.7-34.1,24.6c-9.4,4.3-19.4,7.4-29.7,9.3c-9.4,1.7-19,2.4-28.5,2.1c-9.7-0.3-19.4-1.8-28.5-4.3
+		c-35.5-9.7-66.8-44.3-82.7-76.5c-2.5-5.1-4.7-10.5-6.3-16"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M475.7,508.2l14.7,15.6l4.3,4.6c1.4,1.5,3.3,2.3,5.3,2.3h5.2h19.9"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M551.4,699.8c0.9,9.2,5.1,22.9,8.8,31.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M555.6,685.1c7.2,9.6,12.6,30.8,14.5,36.9"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M562,672.7c10.9,21.9,13.6,18.6,15.7,39.7"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M569.1,659.7c5,11.3,12.6,28,16.7,39.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M575.5,641.4c2.6,10.7,10.9,30.1,16.6,40.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M581,628.9c3,11.2,10.9,28.2,17.2,39.1"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M576.3,608.9c10.3,13.3,20,26.5,26.7,40.1"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M579.2,597.5c8.5,10.7,17.8,22.7,25.7,33.8"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M591.1,598.2c4.3,4.5,8.3,9.4,11.9,14.6"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M538.8,390.2c9.4,8.5,14.6,14.4,21.3,24.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M559.5,401.2c3.2,3.4,6.1,7,8.6,10.7"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M572.3,406.6c0.6,1.8,1.7,3.6,3,5.2"/>
+	
+		<path fill="none" stroke="#221F1F" stroke-width="2.2674" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M583.3,370.7c4.2,6.8,8.3,13.6,12.5,20.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M580.3,348.6c7.2,10.7,14.4,21.6,21.6,32.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M580.6,333c7.3,7.2,13.4,15.5,17.8,24.5"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M578,313.4c5.2,9.5,16.1,23.1,24.3,31.4"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#00FF7F" stroke-width="55" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M337.7,230.2c44.3-34.4,226.1-20.1,277.9,11.2c20.2,22.9-235.3,15.7-261.3,34.1c-14.4,4-31.4,16.8-6.1,20.9
+		c7.5,9.8,364.7-15.3,280.9,23.7C572,338.2,400,333.5,345.4,357.7c-4.3,16.1,107.4,6.1,156.1,7c65.8,1.2,117.3-6.5,154.7,11.1
+		C671,402.7,377,402.5,349.5,418c-68.8,25,109.9,12.2,147.6,11.6c61.9,0.5,110.1-7.9,147.9,11.3c5.3,5.3,0.3,9.4-11.7,12.6
+		c-60.2,17.5-240.1,6.9-300,29.6c-5.1,14.8,101.1,9.5,136.7,11.6c208.7-1.9,271.8,34,18.3,42.2c-35.6,0.4-204.9,13.5-135.6,29.8
+		c69.3,12.1,255.3-7.7,322.7,16.1c4.7,4.7-5,8.2-23.8,10.9c-63.4,9.4-237.2,10.3-300.1,26.6c-24.1,6-32.6,17.7,3.9,21.1
+		c69.1,10.2,239.6-8.8,302,10.9c4.5,4.5-6.9,8-27.7,10.9c-31,4.4-83,7.6-135.1,11c-67.1,6.7-121.3,3.1-164.3,20.9
+		c-4.9,4.9,6.1,7.5,26.7,8.8c59.2,4.4,208.6-3.2,272,12c18.4,3.6,37.3,18.2,6.5,21.7c-58.5,7.9-252.9-12.1-292.4,27.6"/>
+</g>
+</svg>

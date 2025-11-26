@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-primary">
+	<path fill="#5EBED9" d="M473.5,274.6h20.3h14.8h12.8v17.2V316v107.6v22V469h19.3h18.6h105.9h21.4h19.7v19.9v16.9v14.4h-19.1h-22.5
+		H557h-21.2H523v23.2v22.1V668v26.5V714h-9.4h-10.7h-11.8h-11.8H467v-21.8v-23.1V559.3v-23.7v-15.4h-18.1h-19.7H316h-23.7h-10.9v-15
+		v-20.8v-8.1c0-3.6,2.9-6.5,6.5-6.5h11h122.4H450h17v-17.5v-19.7V316v-20.8v-14C467,277.5,469.9,274.6,473.5,274.6z"/>
+</g>
+<g id="vs-secondary">
+	<polygon fill="#5F5F5F" points="523,281.3 546.7,301.5 546.7,466.3 521.4,466.3 	"/>
+	<polygon fill="#5F5F5F" points="708.1,475 708.1,515.2 698.4,518.5 532,523.4 523,533.2 524.9,710 508.4,716 472.4,716 493.8,734 
+		537.7,737 552.3,731 546.7,546.7 556.8,540.7 723.5,541.4 731.8,533.2 729.5,494.3 	"/>
+	<polyline fill="#5F5F5F" points="288,520.2 305.9,542.5 463.7,540.7 463.7,520.2 288,520.2 	"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M473.5,274.6h20.3h14.8h12.8v17.2V316v107.6v22V469h19.3h18.6h105.9h21.4h19.7v19.9v16.9v14.4h-19.1h-22.5H557h-21.2H523v23.2v22.1
+		V668v26.5V714h-9.4h-10.7h-11.8h-11.8H467v-21.8v-23.1V559.3v-23.7v-15.4h-18.1h-19.7H316h-23.7h-10.9v-15v-20.8v-8.1
+		c0-3.6,2.9-6.5,6.5-6.5h11h122.4H450h17v-17.5v-19.7V316v-20.8v-14C467,277.5,469.9,274.6,473.5,274.6z"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M521.4,274.6l10.5,10.5l11.1,11.1c3.6,3.6,5.6,8.5,5.6,13.5v15.8v47.3V443v26"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M706.2,469l5.6,5.6l14.7,14.6l5.2,5.2v10.1v7.9v11.3V535v8.4h-8.4h-8.2h-26.2h-87.6h-36.9H555h-6.4v6v6.8v29.3v73.8V712v13.6V737
+		h-7.9h-8.2h-25.9h-9.8c-1.9,0-3.8-0.7-5.3-2l-8.3-7.1L467,714"/>
+	
+		<line fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="706.2" y1="520.2" x2="731.8" y2="543.4"/>
+	
+		<line fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="523" y1="520.2" x2="548.6" y2="543.4"/>
+	
+		<line fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="523" y1="714" x2="548.6" y2="737"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M467,543.4h-28.8H331.8H311c-4.1,0-8-1.6-10.8-4.5l-9.3-9.3l-9.4-9.4"/>
+</g>
+<g id="vs-reveal">
+	
+		<path opacity="0" fill="none" stroke="#00FF7F" stroke-width="55" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M422.4,296.5c74.5-29.5,82.9-6.3,165,11.2c7.3,4-1.4,6.7-20.1,8.7c-75,9.7-88.2,9-145.5,25.6c-13.8,23.5,119,3.3,158.7,21.9
+		c7.3,4.1,0,7.3-17.4,10.2c-74.1,16.7-50.2,14.4-130.1,29.8c-5,2.8,0.6,4.6,14.3,5.8c86.7,6.6,73.1-7.3,156.7,11.5
+		c7,4-2,7.2-22.1,9.7c-108.2,21.3-186.4,6.9-309.4,29.2c74.7,23.5,341.8-7.7,438.6,9.1c148.7,34.8-429.5,22.3-441.4,40.1
+		c104.7,26.3,379.2-4,481.7,26.4c8.3,4.7-2.7,8.1-26.1,10.6c-130.5,10.6-162.7,3.4-272.4,19.8c-78.5,14.3,74.5,18.3,71.8,18.4
+		c0,0-4.5,1.2,42.8,5.4c15.7,1.4,26.7,3.2,30.7,5.6c7,4-7.4,6.9-36.1,9.1c-90.8,10.8-49.3,9.9-139.9,27.5
+		c-5.2,20.9,142.4,7.7,173.9,22c6.7,3.8-10.4,6.7-41.7,9.1c-34,6.8-86.9,16.2-135.8,24.9c-16.4,9,108,9.4,90.8,10.6
+		c-11.2-0.4,146.4,18.5,62.4,27.4c-72.1,6.3-49.5-9.9-134.2,21.1"/>
+</g>
+</svg>

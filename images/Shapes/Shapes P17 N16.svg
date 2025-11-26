@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">]>
+<svg version="1.1" id="vs-outline" x="0px" y="0px" width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aaa="http://www.w3.org/XML/1998/namespace">
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M435,325c0,40,179.3,3.3,238-8c9.5-1.8,28-14.4,37-11c13.9,5.2,28,35.7,32,50c8,28.7,11.1,92.8-3,119c-5.5,10.3-32,22.3-32,34"/>
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M328,502c0,13.3,17.8,42.4,27,52c12.2,12.8,68,1.3,68,19"/>
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M133,446c0-30.9,65.3-73.1,67-104c0.8-15.1-32-39.8-27-54c6.3-17.9,52.5-22.6,69-32c22.4-12.7,60.1-51.4,85-58&#xD;&#xA;&#x9;c18.5-4.9,56.9,8.6,76,8c43.6-1.5,130.9-44.8,172-30c6.2,2.2,17,13.4,17,20"/>
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M931,426c0,18.3-31.9,44.7-42,60c-9.6,14.5-33.5,41.9-37,59c-4.1,20.1,18.5,61.2,13,81c-10,35.9-109,64.7-109,102"/>
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M74,613c0,41.5,128.3,26.1,156,57c22.2,24.7,2.5,113.6,32,129c26.1,13.6,82.6-31.2,110-42c31.9-12.6,93.7-60.3,127-52&#xD;&#xA;&#x9;c22.7,5.7,41.5,57.6,60,72c20.1,15.7,68.5,34.1,92,44c12.8,5.4,52,5.2,52,19"/>
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M688,85c0,16.8,53.7-6.3,67,4c16.6,12.9,12.4,64,26,80c13.3,15.7,52.8,33.9,73,38c20.7,4.2,68-20.7,84-7c5.3,4.6,2,21,2,28"/>
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M883,863c11.5,1.5,22.6-0.9,33-12"/>
+  <path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M78,798c4.5,20.3,11.3,30.3,19,36"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M432.6,284.5c0,36.2,107,23.1,143.2,21.6c41.7-1.7,125.2-57.3,162.5-38.6c25.5,12.7,45.5,76,45.5,104.5&#xD;&#xA;&#x9;c0,36.6-30.7,139.8-30.7,143.2c0,3.4-43.2,14.5-43.2,27.3"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M279.6,510.4c0,27.5,32.6,78.9,54.5,95.5c24.1,18.1,117-1.7,117,28.4"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M627.6,162.4c0-35.9-106.2-20.6-142-20.5c-39.9,0.1-119.5,34.6-158,23.9c-17.5-4.9-37.9-50-55.7-46.6&#xD;&#xA;&#x9;c-39.9,7.7-62.2,115.6-101.1,127.3c-32.1,9.6-106.2-68.1-127.3-42c-28.6,35.4,91.8,111.4,92,156.8c0.1,24.6-48.9,60.7-48.9,85.2"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M779,752.3c0-44.4,114.2-80.7,128.4-122.7c8.7-25.7-32.7-84-18.2-106.8c10.9-17.2,66.1-5.4,78.4-21.6c11.2-14.7,0-55.4,0-73.9"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M32.5,637.4c0,53.4,157.1,63.5,183,110.2c14.1,25.6-25.7,99.5-2.3,117c41.4,31.1,151.1-38.8,197.7-61.4&#xD;&#xA;&#x9;c21.7-10.5,56.1-60.1,79.5-54.5c23.9,5.7,44.3,80.7,48.9,85.2s151.1,13.3,151.1,53.4"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M641.6,46.9c0,36.8,116-0.4,145.5,21.6c19.9,14.8,23.9,72.9,42,89.8c25.8,23.9,113.3,4.1,137.5,29.5c8.5,9,8,36.5,8,48.9"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M972.2,833c0,21.5-39.6,52.5-58,63.6c-19.1,11.6-86.4,0.4-86.4,22.7"/>
+  <path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="&#xD;&#xA;&#x9;M43.9,776c0,18.4,2.9,56.4,11.4,72.7c8,15.5,50,31.4,50,48.9"/>
+</svg>

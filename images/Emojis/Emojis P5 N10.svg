@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="vs-primary">
+	<polygon fill="#FFCE00" points="155,153.7 156.3,197.7 479.7,198.3 479.7,267.7 155,275 153,329 21,236.3 	"/>
+</g>
+<g id="vs-colour">
+	<path opacity="0.4" enable-background="new    " d="M474.3,255.7c0,0-318-8.7-329.3-3.3c-11.3,5.4-2,40-7.3,37.3
+		S32.4,227.7,29,236.4C25.7,245,153,329,153,329l6.7-54.7l320-6.7L474.3,255.7z"/>
+	<polygon opacity="0.4" fill="#FFFFFF" enable-background="new    " points="136.3,167 145.7,203.7 460.3,215.7 476.3,276.3 
+		479.7,198.3 156.3,197.7 155,153.7 	"/>
+</g>
+<g id="vs-outline">
+	
+		<polygon fill="none" stroke="#000000" stroke-width="16.4383" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		16.2,235.8 152.9,152 152.9,199.1 481,197.2 480.3,272.6 158,273.8 154.8,332.5 	"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M151,165c0,0-118.2,64.1-115,73c11,30.5,108.3-64,114-48.7s-100.7,56.7-81,71c19.7,14.3,89-79.7,116-57.3S57.3,266.3,84,278
+		s110.3-87,134.3-75.7s-126.7,75.7-103,92C139,310.7,259.5,181.5,285,190S109.3,307.8,148.5,317.5C183,326,315.5,191.5,346,202
+		s-121.5,49.5-67.5,70.5s103.4-87,125-86C456,189,306.5,278,359,278s77-74,108.5-74.5S457,273,432,266.5c-9-2.4,17-26,17-26"/>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-primary">
+	<polygon fill="#5DBFD9" points="54.6,862.6 166.3,793.8 893.8,793.8 868,771.4 140.5,769.7 	"/>
+	<polygon fill="#5DBFD9" points="897.3,210.7 897.3,740.4 966.1,852.2 873.8,762.8 880.1,227.9 	"/>
+</g>
+<g id="vs-outline">
+	
+		<path fill="none" stroke="#000000" stroke-width="11.4657" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M47,130.3v91.5v91.5v91.5v91.5v91.5v91.5v91.4v91.5h115.6H278h115.6h115.6h115.6h115.6h115.6h115.6v-91.5v-91.4v-91.5v-91.5v-91.5
+		v-91.5v-91.5v-91.5H855.6H740.1H624.5H509.1H393.5H278H162.4H47z M877.1,770.1H785H693h-92.1h-92.1h-92.1h-92.1h-92h-92.1v-68.6
+		v-68.5v-68.6V496v-68.6v-68.6v-68.6v-68.6h92.1h92h92.1h92.1h92.1H693H785h92.1v68.6v68.6v68.6V496v68.6v68.6v68.5L877.1,770.1
+		L877.1,770.1z"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11.4657" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="47" y1="130.3" x2="141" y2="222.1"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11.4657" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="971.1" y1="130.3" x2="877.1" y2="222.1"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11.4657" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="971.1" y1="861.9" x2="877.1" y2="770.1"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11.4657" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="47" y1="861.9" x2="141" y2="770.1"/>
+</g>
+<g id="vs-reveal" opacity="0">
+	
+		<polyline fill="none" stroke="#000000" stroke-width="91.7258" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		836.5,145.4 915.1,149.6 979.8,154 914.1,187.4 834.8,221 915.1,226.2 981.6,231.4 915.9,263.1 836.5,295 916.8,300.2 983.3,305.3 
+		915.9,331.9 834.8,358.6 912.4,369.8 976.4,381 917.6,406.8 845.1,432.6 921.9,444.6 985,456.7 916.8,483.3 834.8,510 913.3,523.7 
+		978.1,537.5 917.6,565 843.4,592.5 915.1,605.4 973,618.3 915.9,644.9 845.1,671.6 920.2,685.4 981.6,699.2 503.4,723.2 
+		25.3,747.3 500.8,765.3 976.4,783.4 495.6,805.8 15,828.2 498.3,841.9 981.6,855.7 	"/>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<path fill="#5DBFD9" d="M222.4,417.6c0,0-106.2,310.1,112.3,280.9c170.1-22.8,385.4-208.8,456.5-420.9c0,0-111.9,384.9,39.4,109.8
+		c0,0-49.6,486.5-514.7,473.9c0,0-165.3-3.3-158.6-225.3C160.7,519.4,222.4,417.6,222.4,417.6z"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#000000" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M766,181c-73-65-291-82-473,135s-157,443-65,513c33.1,25.2,96.6,40.5,164,34c119.9-11.6,262.7-82.3,344-218
+		C863,433,850.8,256.5,766,181z"/>
+	<path fill="none" stroke="#000000" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M770,185c27,48,48.5,96.5-69.5,295.5S335,838,229,828"/>
+	<path fill="none" stroke="#000000" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M209.3,811.2C119,585,274.7,331.3,365,243"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M244.5,739.5c33.5,15.5,232-28,406-246S752,168.7,718.9,154.6C673,135,503.5,132.5,359.5,288.5S194.2,716.2,244.5,739.5z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M440,854c-57,12-72.5,9-72-8c1-31,133-48,338-325c101.3-136.9,110-224,126-193"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M466,616c0,0-129,89-181,63c-41.3-20.6-20-135-5-165c0,0-11,127,17,143S466,616,466,616z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M567,182c0,0,100-41,141-13s14,103,14,103s-8.9-78.6-29-92C672,166,567,182,567,182z"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#FF0C06" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M215.6,440.3c0,0-97.7,40.9-50.4,47.6s72.1,104.9,20.9,117.5c-51.3,12.6-10.6,111.9,49.3,94.5s-2.1,84.4-30.6,99.2
+		s115.1-37.5,134.5-89.9s-54.1,130.1-17.7,133.5s82.8,11.3,85.3-14.2s5.9-168.1,35-149.6c29.2,18.5,73.1,173.5,76.5,132.3
+		s-21.1-184.6,0-167.8c21.1,16.8,91.2,148.6,89.5,124.9c-1.7-23.7-74.4-173.6-29.6-158.8c44.8,14.8,114.9,119.8,103.9,74.3
+		S602,536.1,633.2,542s117.4,76,113.2,37.2S642.9,455.4,711,462.8s96.2,42.1,87.8,7.4c-8.4-34.6-61.8-79.7-35.6-82.3
+		s33.3-65.5,28.1-79"/>
+</g>
+</svg>

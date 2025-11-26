@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-outlines">
+	
+		<line fill="none" stroke="#5DBFD9" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="75.5" y1="215.4" x2="76.8" y2="215.4"/>
+	
+		<line fill="none" stroke="#5DBFD9" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="75.5" y1="499.7" x2="76.8" y2="499.7"/>
+	
+		<line fill="none" stroke="#5DBFD9" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="75.5" y1="785.6" x2="76.8" y2="785.6"/>
+</g>
+<g id="vs-outlines2">
+	
+		<polyline fill="none" stroke="#000000" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		244,215.4 278.1,215.4 409.7,215.4 555.9,215.4 689.5,215.4 799.8,215.4 892.2,215.4 945.8,215.4 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		244,499.7 263.5,499.7 351.2,499.7 468.2,499.7 624.7,499.7 742.7,499.7 877.6,499.7 945.8,499.7 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		244,785.6 263.5,785.6 321.9,785.6 453.5,785.6 629,785.6 714.2,785.6 837.4,785.6 921.4,785.6 945.8,785.6 	"/>
+</g>
+</svg>

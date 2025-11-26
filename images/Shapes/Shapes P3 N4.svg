@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="1000px"
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="324.6" width="1026.1" x="-32" y="330"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="vs-secondary">
+</g>
+<g id="vs-primary">
+	<polygon fill="#FFCE00" points="303.4,407 31,587.6 984.1,593 	"/>
+</g>
+<g id="vs-outline">
+	
+		<polygon fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		15.9,593 32,582.6 44.3,574.7 62.2,563.2 87.9,546.5 159.8,500.1 231.5,453.5 242.8,446.3 272.6,426.9 286.4,418.1 303.4,407 
+		321.4,412 344,418.2 377.8,427.4 473.6,453.5 643.8,500.1 813.9,546.5 878.6,564.1 927.1,577.5 956,585.3 984.1,593 946.2,593 
+		911.8,593 851.1,593 798.8,593 742,593 500.1,593 258,593 96.4,593 65.7,593 34.1,593 	"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#F2064F" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M43,593c0,0,273.3-179.2,274.4-172.4c1.1,6.8-235.8,183.6-168.9,163.3s281.2-158.7,254-132.6c-27.2,26-173.5,159.8-115.7,128.1
+		c57.8-31.7,258.5-163.3,191.6-103.2s-142.9,136.8-85,110.4C451.2,560.1,619,454.7,566.9,500s-72.6,106.6-36.3,81.6
+		S681.4,475,653.1,514.7c-28.3,39.7-21.5,98.6,12.5,74.8s115.7-43,113.4-34c-2.3,9.1,30.6,37.4,46.5,24.9s73.7-2.3,73.7-2.3"/>
+</g>
+</svg>

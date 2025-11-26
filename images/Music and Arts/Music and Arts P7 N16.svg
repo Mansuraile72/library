@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<path fill="#5DBFD9" d="M177.4,266.8c-17.1,0-35.7-3.8-38.9,84.8c-5,135.6,11.2,393.7,63.7,423.7c86.8,49.6,539.4,0,589-6.2
+		c36.9-4.6,37.2-55.8,37.2-55.8s-570.4,31-595.2,6.2S177.4,266.8,177.4,266.8z"/>
+	<path fill="#5DBFD9" d="M450.2,378.4l167.4,86.8c0,0-142.6,86.8-155,86.8S444,378.4,450.2,378.4z"/>
+</g>
+<g id="vs-outline">
+	
+		<path fill="none" stroke="#000000" stroke-width="37.2024" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M196,250.7c48.4-53.1,579.9-73.1,622.9-21.9s43,434.5,14.3,471.1s-558.5,43.9-601.4,29.2C204.7,719.8,158.8,291.6,196,250.7z"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="24.8016" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M264.2,304c32.9-22.5,463.4-43.9,498.3-6.7s34.9,310.7,11.6,337.3s-453.2,31.9-488,21.2C264,649.2,240.9,320,264.2,304z"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="37.2024" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M439.5,378.3c10.7-12.2,179.5,68.4,179,80.4c-0.9,19-137.7,112.8-157.5,102.3C444,552,432.8,385.9,439.5,378.3z"/>
+</g>
+<g id="vs-reveal">
+	
+		<polyline opacity="0" fill="none" stroke="#000000" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		111.8,266.3 227.3,299 120.4,345.6 210.1,390.4 125.6,407.7 237.9,412.3 347.9,416.9 467.1,421.8 582.5,426.6 482.1,436.4 
+		354.9,448.9 255,458.6 123.9,471.4 249.8,474 368.8,476.5 508.4,479.3 629.1,481.8 504.9,499 380.5,516.2 268.2,531.7 130.8,550.8 
+		220.4,600.8 141.1,633.5 236,685.2 156.7,705.9 232.5,740.4 199.8,764.6 377.4,754.8 529,746.6 692.8,737.6 830.8,730.1 737,744.4 
+		618.7,762.4 514.7,778.2 389.4,797.3 	"/>
+</g>
+</svg>

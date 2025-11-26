@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg27"
+   xml:space="preserve"
+   enable-background="new 0 0 900 900"
+   viewBox="0 0 532.49994 316.99997"
+   height="316.99997"
+   width="532.49994"
+   y="0px"
+   x="0px"
+   version="1.1"><metadata
+   id="metadata33"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs31" />
+<g
+   transform="translate(-223.50005,-290.00001)"
+   id="Layer_1">
+	
+		<polygon
+   style="fill:#ffffff;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   id="polygon2"
+   points="261,307 319,305.9 679,299.3 736,298.2 748,298 747,325 739.1,540.9 737.3,590 737,599 686,598.7 307,596.4 256,596 248,596 244.4,532.9 234.7,364 232.7,328.8 231.9,313.9 231.5,307.5 239,307.4 "
+   stroke-miterlimit="10" />
+</g>
+<g
+   transform="translate(-223.50005,-290.00001)"
+   id="Layer_5">
+	<polygon
+   style="fill:#fbe22a"
+   id="polygon5"
+   points="583,589 384,600 399,307 602,303 " />
+	
+		<polygon
+   style="fill:none;stroke:#282828;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   id="polygon7"
+   points="409,591 262,581 247,321 404,312 "
+   stroke-miterlimit="10" />
+	
+		<polyline
+   style="fill:none;stroke:#282828;stroke-width:55;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   id="polyline9"
+   points="   267,341 375,341 382,566 288,558 280,379 331,380 336,517  "
+   stroke-miterlimit="10" />
+	
+		<polygon
+   style="fill:none;stroke:#f02532;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   id="polygon11"
+   points="728,591 740,307 588,309 583,589 "
+   stroke-miterlimit="10" />
+	
+		<polyline
+   style="fill:none;stroke:#f02532;stroke-width:60;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   id="polyline13"
+   points="   618,342 708,336 701,565 615,564 620,378 666,377 657,531  "
+   stroke-miterlimit="10" />
+</g>
+<g
+   transform="translate(-223.50005,-290.00001)"
+   id="Layer_6">
+	
+		<polyline
+   style="opacity:0;fill:none;stroke:#5b542b;stroke-width:60;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   id="polyline16"
+   points="   434,329 566,328 559,567 439,569 437,354 534,353 529,535 477,543 483,377  "
+   stroke-miterlimit="10" />
+</g>
+<g
+   transform="translate(-223.50005,-290.00001)"
+   id="Layer_4">
+	<path
+   style="opacity:0.07999998"
+   id="path19"
+   d="m 253,310 c 25,185 0,278 481,267 v 25 L 250,598 229,308 Z" />
+</g>
+<g
+   transform="translate(-223.50005,-290.00001)"
+   id="Layer_2">
+	<g
+   id="g24">
+		<path
+   id="path22"
+   d="m 732,602 c 0,0 0,0 0,0 l -481,-2 c -4.2,0 -7.7,-3.3 -7.9,-7.5 L 227.5,311 c -0.1,-2.2 0.6,-4.3 2.1,-5.9 1.5,-1.6 3.5,-2.5 5.7,-2.6 L 744.8,294 c 0,0 0.1,0 0.1,0 2.1,0 4.2,0.9 5.7,2.4 1.5,1.6 2.4,3.7 2.3,5.9 l -12,292 c -0.1,4.3 -4.6,7.7 -8.9,7.7 z m -476.4,-14 51.5,0.3 422.2,2.6 1.8,-50.3 8.6,-234.5 -499.7,9.2 z" />
+	</g>
+</g>
+</svg>

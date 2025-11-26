@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<path fill="#5DBFD9" d="M466.4,807.8c-93.3-20.4-174-54-231.3-82.4s-91.4-51.8-91.4-51.8s19.8,52.3,68.1,108.3
+		c48.3,56,125,115.6,239,130.1c96.6,18,181.2-3,241.6-28.5c60.5-25.5,96.8-55.5,96.8-55.5s-26.3,6.8-79.9,7.8
+		C655.8,836.7,575.1,831.6,466.4,807.8z"/>
+	<path fill="#5DBFD9" d="M730,210c71.2,25.2,96.8,26.8,104.7,22.1c7.8-4.7-2.2-15.7-2.2-15.7s-28.5-30-66.1-60.6
+		S682,94.3,645.5,92.3c-81.1-16.7-143.7-13.8-186-6.7c-42.3,7-64.4,18.2-64.4,18.2s17.9,1.9,45,5.2c27.1,3.3,63.5,8,100.5,13.7
+		c49.7,7.7,65.8,18.4,85.1,32.8S667.5,187.9,730,210z"/>
+</g>
+<g id="vs-outline_1_">
+	<path fill="none" stroke="#000000" stroke-width="15" stroke-miterlimit="10" d="M526,83c115.7,0,220.5,46.9,296.3,122.7
+		S945,386.3,945,502s-46.9,220.5-122.7,296.3S641.7,921,526,921s-220.5-46.9-296.3-122.7S107,617.7,107,502s46.9-220.5,122.7-296.3
+		S410.3,83,526,83z"/>
+</g>
+<g id="vs-h-reveal">
+	
+		<path opacity="0.62" fill="none" stroke="#FF66DC" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" enable-background="new    " d="
+		M406.6,105.1c89.7-11,196.2,16.8,280.2,47.4s145.7,63.9,145.7,63.9"/>
+	
+		<path opacity="0.62" fill="none" stroke="#FF66DC" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" enable-background="new    " d="
+		M154.8,680.8c4.1,2.5,33.4,32.4,79.7,67.1C280.8,782.6,344,822.2,416,844c76.2,23.2,161.2,28.7,227.2,28.4
+		C709.1,872.1,756,866,756,866"/>
+</g>
+</svg>

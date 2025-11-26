@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<polygon fill="#5DBFD9" points="54.7,949.3 193,864.2 877.2,864.2 845.3,836.5 161.1,838.6 	"/>
+	<polygon fill="#5DBFD9" points="878.7,133.1 878.7,809.6 956.7,935.1 842.5,824.5 850.3,162.9 	"/>
+</g>
+<g id="vs-outline">
+	
+		<path fill="none" stroke="#000000" stroke-width="14.1815" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M49.6,43.6v113.2V270v113.2v113.2v113.2v113.2v113v113.2h172.3h142.8h143h142.9h143h172.3V835.7v-113V609.5V496.3V383.1V270V156.8
+		V43.6H793.4h-143H507.7H364.7H221.9H49.6z M849.5,834.9H735.3H621.4H507.5H393.7H279.9H165.8v-84.8v-84.7v-84.8v-84.8v-84.8v-84.8
+		v-84.8v-84.8h114.2h113.7h113.9h113.9h113.9h114.2v84.8v84.8v84.8v84.8v84.8v84.8v84.7V834.9z"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="14.1815" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="51" y1="43.6" x2="167.3" y2="157.1"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="14.1815" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="965.7" y1="43.6" x2="849.5" y2="157.1"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="14.1815" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="965.7" y1="948.4" x2="849.5" y2="834.9"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="14.1815" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="49.6" y1="948.4" x2="165.9" y2="834.9"/>
+</g>
+<g id="vs-reveal">
+	
+		<polyline fill="none" stroke="#000000" stroke-width="113.4524" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		820.5,62.2 899.2,67.4 992.1,72.8 898.1,114.2 818.4,155.8 899.2,162.2 994.2,168.6 900.2,207.8 820.5,247.3 901.4,253.6 
+		996.4,260 900.2,292.9 818.4,326 896,339.7 987.9,353.6 902.3,385.5 831.2,417.4 907.7,432.3 998.5,447.2 901.4,480.1 818.4,513.2 
+		897.1,530.2 990,547.2 902.3,581.2 829,615.3 899.2,631.2 983.6,647.2 900.2,680.1 831.2,713.1 905.6,730.1 994.2,747.2 
+		899.2,776.9 71,806.7 497.5,829 987.9,851.4 491.1,879.1 1.5,906.7 494.3,923.7 994.2,940.7 	"/>
+</g>
+</svg>

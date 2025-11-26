@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="457px" height="470px" viewBox="0 0 457 470" enable-background="new 0 0 457 470" xml:space="preserve">
+<g id="vs-primary">
+	<rect x="44" y="63" fill="#27A8CB" width="360" height="360"/>
+</g>
+<g id="vs-shade" opacity="0.2">
+	<rect x="44.3" y="64.3" width="356" height="53"/>
+</g>
+<g id="vs-outline">
+	
+		<polygon fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		404,423 314,423 224,423 134,423 44,423 44,333 44,243 44,153 44,63 134,63 224,63 314,63 404,63 404,153 404,243 404,333 	"/>
+</g>
+<g id="vs-reveal" opacity="0">
+	
+		<polyline fill="none" stroke="#000000" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		356,40 386.5,74 417,108 346.5,79.5 276,51 343,114 410,177 301,113 192,49 301,153 410,257 264.5,157.5 119,58 262.5,195.5 
+		406,333 232.5,199.5 59,66 233.5,233 408,400 225.5,267 43,134 195,276.5 347,419 193.5,323 40,227 144,324 248,421 147,368.5 
+		46,316 94.5,373 143,430 94,417 45,404 	"/>
+</g>
+</svg>

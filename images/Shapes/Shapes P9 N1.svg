@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">]>
+<svg version="1.1" id="Layer_1" x="0px" y="0px" width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aaa="http://www.w3.org/XML/1998/namespace">
+  <g id="vs-outline">
+    <polyline fill="none" stroke="#000000" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="&#xD;&#xA;&#x9;&#x9;935.8,947.9 928.8,947.9 921.9,947.9 915,947.9 908,947.9 893.7,947.9 879.4,947.9 865.1,947.9 850.8,947.9 817.4,947.9 &#xD;&#xA;&#x9;&#x9;783.9,947.9 750.5,947.9 717.1,947.9 662.4,947.9 607.8,947.9 553.2,947.9 498.5,947.9 443.8,947.9 389.1,947.9 334.5,947.9 &#xD;&#xA;&#x9;&#x9;279.8,947.9 247.9,947.9 216,947.9 184.1,947.9 152.2,947.9 143.2,947.9 134.3,947.9 125.3,947.9 116.3,947.9 108.4,947.9 &#xD;&#xA;&#x9;&#x9;100.4,947.9 92.4,947.9 84.5,947.9 78.7,947.9 72.8,947.9 67,947.9 61.2,947.9 61.2,943 61.2,938 61.2,933 61.2,928.1 61.2,922.1 &#xD;&#xA;&#x9;&#x9;61.2,916.1 61.2,910.1 61.2,904.1 61.2,893.5 61.2,882.8 61.2,872.2 61.2,861.6 61.2,828.5 61.2,795.3 61.2,762.2 61.2,729.1 &#xD;&#xA;&#x9;&#x9;61.2,674.4 61.2,619.8 61.2,565.2 61.2,510.5 61.2,455.8 61.2,401.1 61.2,346.5 61.2,291.8 61.2,255.3 61.2,218.8 61.2,182.3 &#xD;&#xA;&#x9;&#x9;61.2,145.8 61.2,135.1 61.2,124.4 61.2,113.8 61.2,103.1 61.2,95.6 61.2,88.1 61.2,80.7 61.2,73.2 &#x9;"/>
+  </g>
+</svg>

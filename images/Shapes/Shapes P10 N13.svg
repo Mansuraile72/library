@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="900px" height="900px"
+	 viewBox="0 0 900 900" enable-background="new 0 0 900 900" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="156.4" width="782.1" x="59" y="371.8"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="vs-primary">
+	<path d="M828.9,464.2c-6.9-6.9-16.1-10.7-25.9-10.7H97.1c-9.8,0-19,3.8-25.9,10.7c-6.9,6.9-10.7,16.1-10.7,25.9s3.8,19,10.7,25.9
+		c6.9,6.9,16.1,10.7,25.9,10.7c9.8,0,19-3.8,25.9-10.7c6.9-6.9,10.7-16.1,10.7-25.9c0-11.3-9.2-20.5-20.5-20.5s-20.5,9.2-20.5,20.5
+		c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-6.3,5.2-11.5,11.5-11.5s11.5,5.2,11.5,11.5c0,7.4-2.9,14.3-8.1,19.5
+		c-5.2,5.2-12.1,8.1-19.5,8.1s-14.3-2.9-19.5-8.1c-5.2-5.2-8.1-12.1-8.1-19.5c0-7.4,2.9-14.3,8.1-19.5c5.2-5.2,12.1-8.1,19.5-8.1
+		H803c7.4,0,14.3,2.9,19.5,8.1c5.2,5.2,8.1,12.1,8.1,19.5s-2.9,14.3-8.1,19.5c-5.2,5.2-12.1,8.1-19.5,8.1c-7.4,0-14.3-2.9-19.5-8.1
+		c-5.2-5.2-8.1-12.1-8.1-19.5c0-0.2,0-0.4-0.1-0.7c0.3-6,5.3-10.8,11.5-10.8c6.3,0,11.5,5.2,11.5,11.5c0,2.5,2,4.5,4.5,4.5
+		s4.5-2,4.5-4.5c0-11.3-9.2-20.5-20.5-20.5s-20.5,9.2-20.5,20.5c0,0.4,0,0.7,0.1,1c0.3,9.4,4,18.2,10.7,24.9
+		c6.9,6.9,16.1,10.7,25.9,10.7s19-3.8,25.9-10.7c6.9-6.9,10.7-16.1,10.7-25.9C839.6,480.3,835.8,471.1,828.9,464.2z"/>
+	<path d="M828.8,384c-6.9-6.9-16.1-10.7-25.9-10.7c-9.8,0-19,3.8-25.9,10.7c-6.9,6.9-10.7,16.1-10.7,25.9c0,11.3,9.2,20.5,20.5,20.5
+		s20.5-9.2,20.5-20.5c0-2.5-2-4.5-4.5-4.5s-4.5,2-4.5,4.5c0,6.3-5.2,11.5-11.5,11.5s-11.5-5.2-11.5-11.5c0-7.4,2.9-14.3,8.1-19.5
+		c5.2-5.2,12.1-8.1,19.5-8.1c7.4,0,14.3,2.9,19.5,8.1c5.2,5.2,8.1,12.1,8.1,19.5s-2.9,14.3-8.1,19.5c-5.2,5.2-12.1,8.1-19.5,8.1
+		H97.1c-7.4,0-14.3-2.9-19.5-8.1c-5.2-5.2-8.1-12.1-8.1-19.5s2.9-14.3,8.1-19.5c5.2-5.2,12.1-8.1,19.5-8.1s14.3,2.9,19.5,8.1
+		c5.2,5.2,8.1,12.1,8.1,19.5c0,6.3-5.2,11.5-11.5,11.5s-11.5-5.2-11.5-11.5c0-2.5-2-4.5-4.5-4.5s-4.5,2-4.5,4.5
+		c0,11.3,9.2,20.5,20.5,20.5s20.5-9.2,20.5-20.5c0-9.8-3.8-19-10.7-25.9c-6.9-6.9-16.1-10.7-25.9-10.7c-9.8,0-19,3.8-25.9,10.7
+		c-6.9,6.9-10.7,16.1-10.7,25.9s3.8,19,10.7,25.9c6.9,6.9,16.1,10.7,25.9,10.7h705.8c9.8,0,19-3.8,25.9-10.7
+		c6.9-6.9,10.7-16.1,10.7-25.9S835.7,390.9,828.8,384z"/>
+</g>
+<g id="vs-reveal" opacity="0">
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M97.2,490.1c0-8.8,7.2-16,16-16s16,7.1,16,16"/>
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M129.2,490.1c0,8.9-3.6,16.9-9.4,22.7s-13.8,9.4-22.7,9.4s-16.9-3.6-22.7-9.4C68.6,507,65,499,65,490.1s3.6-16.9,9.4-22.7
+		c5.8-5.8,13.8-9.4,22.7-9.4h48.1H201h56.5H340h85.9H561h68h61.6H724h30.8h24.1H803c8.9,0,16.9,3.6,22.7,9.4s9.4,13.8,9.4,22.7
+		c0,8.9-3.6,16.9-9.4,22.7c-5.8,5.8-13.8,9.4-22.7,9.4s-16.9-3.6-22.7-9.4c-5.8-5.8-9.4-13.8-9.4-22.7"/>
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M770.8,490.1c0-8.9,7.2-16,16-16s16,7.2,16,16"/>
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M802.8,409.9c0,8.8-7.2,16-16,16s-16-7.1-16-16"/>
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M770.8,409.9c0-8.9,3.6-16.9,9.4-22.7c5.8-5.8,13.8-9.4,22.7-9.4s16.9,3.6,22.7,9.4s9.4,13.8,9.4,22.7c0,8.9-3.6,16.9-9.4,22.7
+		c-5.8,5.8-13.8,9.4-22.7,9.4h-48.1H710h-51.4H572h-97.9H381h-91.4H243h-49.7h-48.1h-24.1h-24c-8.9,0-16.9-3.6-22.7-9.4
+		S65,418.8,65,409.9s3.6-16.9,9.4-22.7c5.8-5.8,13.8-9.4,22.7-9.4s16.9,3.6,22.7,9.4s9.4,13.8,9.4,22.7"/>
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M129.2,409.9c0,8.9-7.2,16-16,16s-16-7.2-16-16"/>
+</g>
+</svg>

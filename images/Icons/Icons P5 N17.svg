@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-outline_1_">
+	<g>
+		
+			<path display="none" fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M501,44.1c125.4-0.3,239,50.1,321.5,132.1C905,258.1,955.8,371.7,956.1,497C956.4,622.3,906,736,824,818.5
+			c-81.9,82.5-195.5,133.3-320.7,133.6S264.3,902,181.8,820C99.3,738.1,48.5,624.5,48.2,499.3c-0.3-125.4,50.1-239,132.1-321.5
+			S375.8,44.4,501,44.1z"/>
+		<path fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M343.3,72.6c-31.3,48.9-56.9,111.9-74.7,184.5s-27.7,154.6-27.5,241.4s10.3,168.8,28.6,241.3c18.1,72.4,44.1,135.4,75.6,184.2"/>
+		
+			<polyline fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			501,44.1 501.2,127.8 501.5,219.9 501.7,310.7 502,418.4 502.2,498.1 502.4,594.8 502.7,691 503,818 503.3,952 		"/>
+		<path fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M658.9,72c31.3,48.8,57.5,111.6,75.6,184.2c18.1,72.4,28.4,154.4,28.6,241.3c0.1,86.8-9.7,168.8-27.5,241.4
+			c-17.8,72.6-43.4,135.6-74.7,184.5"/>
+		<path fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M149.8,214.1c41.6,28.1,94.3,50.9,154,66.6c59.7,15.9,126.9,24.7,197.8,24.4s138-9.3,197.7-25.4c59.9-16.2,112.1-39.2,153.7-67.3"
+			/>
+		
+			<polyline fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			48.2,499.1 149.8,498.9 269.2,498.6 383.4,498.3 480.7,498.1 502.2,498.1 590.9,497.8 675.3,497.7 799.8,497.4 889.3,497.2 
+			956.1,497 		"/>
+		<path fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M151,783.8c41.6-28.1,94-51.3,153.7-67.3c59.9-16.2,126.8-25.3,197.7-25.4c70.9-0.1,138.1,8.7,197.8,24.4
+			c59.7,15.9,112.5,38.8,154,66.6"/>
+	</g>
+</g>
+<g id="vs-outline2">
+	<path fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M178.7,177.6C267.6,88.7,384,44.3,500.4,44.1s232.9,44.6,321.8,133.5S955.5,383,955.7,499.4c0.1,116.6-44.6,232.9-133.5,321.8
+		S616.9,954.5,500.4,954.7c-116.6,0.1-232.9-44.6-321.8-133.5S45.3,615.8,45.2,499.4C45,383,89.8,266.5,178.7,177.6z"/>
+</g>
+</svg>

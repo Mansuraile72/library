@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<polygon fill="#5DBFD9" points="866.8,179.2 852.3,165.2 883.1,146.8 	"/>
+	<polygon fill="#5DBFD9" points="158.9,890.4 145.9,875.4 814.8,204.3 823.9,225.3 	"/>
+	<path fill="#5DBFD9" d="M883.1,143.3c0,2-44.3,86.4-44.3,86.4L159.6,909.8l-18.9-2.5l12.3-1.5L805,252l23.3-26
+		C828.9,225.4,883.1,143.3,883.1,143.3z"/>
+</g>
+<g id="vs-outline_1_">
+	<path fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M129.9,872.4l673.9-678.1l81.9-49.1l-46.9,83.1L161,907.3c0,0-16,6-27-8C123.8,886.5,129.9,872.4,129.9,872.4z"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		130.9,872.4 136.9,884.4 150,899.4 161,907.3 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		139.7,860.8 145.9,875.4 158.9,890.4 170.9,898.2 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		800.6,197.5 814.8,204.3 823.9,225.3 838.9,228.2 	"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="852.7" y1="165.2" x2="866.1" y2="180"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="813.8" y1="205.3" x2="145.9" y2="875.4"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="823.9" y1="225.3" x2="158.9" y2="890.4"/>
+</g>
+<g id="vs-h-reveal">
+	
+		<polyline fill="none" stroke="#C738D9" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		879.3,149.1 837.8,230.7 161,906.8 	"/>
+	
+		<line fill="none" stroke="#C738D9" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="819.7" y1="213.9" x2="152.5" y2="881.5"/>
+</g>
+</svg>

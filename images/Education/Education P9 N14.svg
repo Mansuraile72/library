@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<path fill="#5DBFD9" d="M836,155c0,0-9.1-2.9-11-5c-1.9-2.2-5-10-5-10l36-24L836,155z"/>
+	<polygon fill="#5DBFD9" points="791,202 794.7,201 830.3,150 837.4,152.7 809,209 161,912 141,905 	"/>
+</g>
+<g id="vs-outline">
+	
+		<polygon fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		118.7,877.3 767.3,174.8 856.1,115.7 809.2,208.5 159,912 141.3,905.1 126.5,890.9 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		767.3,174.8 780.6,180.1 790.8,201.5 802.3,205.9 809.2,208.5 	"/>
+	<path fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M820,139.6c5.3,16.9,17.4,15.8,17.4,15.8"/>
+</g>
+<g id="vs-h-reveal">
+	
+		<line fill="none" stroke="#5DBFD9" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" x1="849" y1="121" x2="827" y2="150"/>
+	
+		<polyline fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		832.2,155 799.1,204.7 151,908 	"/>
+</g>
+</svg>

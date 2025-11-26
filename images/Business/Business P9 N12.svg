@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="451px" height="371px" viewBox="0 0 451 371" enable-background="new 0 0 451 371" xml:space="preserve">
+<g id="vs-primary">
+	<path fill="#27A8CB" d="M216.3,59.8C138.9,59,76.1,122.6,76.1,200S139,340.1,216.4,340.1c68.7,0,125.9-49.5,137.9-114.8
+		C363,177,337,61,216.3,59.8z"/>
+</g>
+<g id="vs-shade" opacity="0.5">
+	<path d="M156.6,129.9c0,0-38.2,67.5,16.7,120.5c43.9,42.3,110.1,13.2,110.1,13.2s-78.2,64.3-129.8,7.1
+		C78.5,187.5,156.6,129.9,156.6,129.9z"/>
+	<path d="M207.8,60.7c0,0-77.6,8.2-112.2,67.3S83.3,238.2,83.3,238.2s6.1,63.3,81.6,91.8s114.3-8.2,114.3-8.2
+		c27.4-2.5,44.9-34.6,64.3-71.4c0,0-18.9,32.8-69.4,56.1c-22.3,10.3-61.1,16.2-101.9,2c-40.8-14.3-58.8-48.4-67.3-66.3
+		c-13.9-29.2-7.7-79,10.1-112C142.2,79.9,212,52.2,207.8,60.7z"/>
+	<circle fill="#FFFFFF" cx="256.8" cy="146.5" r="19.4"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M311,200.4c0,26.4-10.7,50.3-28,67.6s-41.2,28-67.6,28s-50.3-10.7-67.6-28s-28-41.2-28-67.6s10.7-50.3,28-67.6s41.2-28,67.6-28
+		s50.3,10.7,67.6,28S311,174,311,200.4z"/>
+	<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M355.8,200c0,38.7-15.7,73.7-41,99c-25.3,25.3-60.3,41-99,41s-73.7-15.7-99-41c-25.3-25.3-41-60.3-41-99s15.7-73.7,41-99
+		s60.3-41,99-41s73.7,15.7,99,41C340.1,126.3,355.8,161.3,355.8,200z"/>
+</g>
+<g id="vs-reveal">
+	
+		<polyline opacity="0" fill="none" stroke="#000000" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		318,122 236,72 301,140 366,208 272,138 178,68 260,162 342,256 237,174 132,92 222,197.5 312,303 205.5,214 99,125 182,227 
+		265,329 170.5,247 76,165 136,253 196,341 134,284.5 72,228 	"/>
+</g>
+</svg>

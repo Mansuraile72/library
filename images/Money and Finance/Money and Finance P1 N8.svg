@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<path fill="#5DBFD9" d="M465,568.7c-4.8-11.7-13.6-20.7-25.7-24.3c-9.3-2.6-13.2,11.7-3.9,14.3c8.4,2.3,13.7,9,16.5,17.4
+		c2.3,6.9,5.1,20.1,0.6,26.6c-5.5,8.1,7.5,15.6,12.9,7.5C473.1,599.2,469.7,580.3,465,568.7z"/>
+	<path fill="#5DBFD9" d="M362.2,514.6c6.9-3,32.1-23.1,32.1-23.1v35.1L362.2,514.6z"/>
+	<path fill="#5DBFD9" d="M249.2,501.8l15,30.8l-40.5-8l-104.3-34l0.9-24.9l27,11.1l6.9,24.9l54.2,12c0,0-2.3-16.8,0.6-16.8
+		S249.2,501.8,249.2,501.8z"/>
+	<polygon fill="#5DBFD9" points="419,431.7 430.3,455.7 392.1,459.8 394.3,428.6 	"/>
+	<polygon fill="#5DBFD9" points="362.2,514.6 394.3,491.5 427.1,518.5 456,554.5 394.3,526.6 	"/>
+	<polygon fill="#5DBFD9" points="523.1,589.5 559.1,616.5 658.8,586.6 686.7,548.6 686.7,506.7 721.8,524.6 767.6,564.8 683,540.5 
+		660.7,578.6 546.2,627.6 497.3,618.2 481.2,590.5 	"/>
+	<polygon fill="#5DBFD9" points="587.8,445.7 623.8,490.8 566,459.8 568,427.8 	"/>
+</g>
+<g id="vs-outline">
+	
+		<ellipse fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="781.7" cy="495.5" rx="96.7" ry="31.4"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M685,495.5v34.4c0,17.4,43.5,31.4,96.7,31.4c53.4,0,96.7-14,96.7-31.4v-34.5"/>
+	
+		<ellipse transform="matrix(0.9414 -0.3372 0.3372 0.9414 -149.7999 225.7516)" fill="none" stroke="#000000" stroke-width="18.2194" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="9.9991" cx="575" cy="544.1" rx="96.7" ry="31.4"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M483.9,577.2l11.7,32.4c6,16.4,51.6,15,101.9-2.9s86.6-45.9,80.6-62.4l-11.7-32.4"/>
+	
+		<ellipse transform="matrix(0.3482 -0.9374 0.9374 0.3482 -273.0668 726.5828)" fill="none" stroke="#000000" stroke-width="18.2201" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="9.9994" cx="386" cy="559.7" rx="31.4" ry="96.7"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M295.3,525.8l-13.5,38.8c24.7,37,142,85.8,183.2,67.4l12-38.6"/>
+	
+		<ellipse fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="493.2" cy="491.6" rx="96.7" ry="31.4"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="589.9" y1="505.1" x2="589.9" y2="491.6"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M448.9,552.6c11.7,1.5,24.3,2.4,37.8,2.4"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="396.1" y1="491.6" x2="396.1" y2="525.9"/>
+	
+		<ellipse transform="matrix(0.9765 -0.2153 0.2153 0.9765 -92.064 74.7972)" fill="none" stroke="#000000" stroke-width="18.2185" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="9.9985" cx="297.3" cy="460" rx="96.7" ry="31.4"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M348.1,513.7c32.9-12.2,54.2-28.5,51.6-41l-7.5-33.5"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M203,480.7l7.5,33.5c2.9,14,34.7,19.5,75.2,14.3"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M201.2,475.9c-53.6,0-84.8-14-84.8-31.4s43.5-31.4,96.7-31.4c29.6,0,56,4.2,74.1,11.1"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M116.6,444.5V479c0,17.4,31.4,31.4,84.8,31.4"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M702.4,475.6c-11.7-1.5-32.9-4.7-46.1-8.1c-51.8-13.5-90.2-37.8-86-54.5c4.2-16.8,49.8-19.7,101.6-6.3c51.8,13.5,90.2,37.8,86,54.5
+		"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M570.5,413.1l-8.6,33.2c-4.2,16.8,34.2,41.4,86,54.5c11.1,2.9,21.8,5,32.1,6.3"/>
+	
+		<ellipse fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="436.2" cy="396.5" rx="96.7" ry="31.4"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M402.3,460.6c10.4,1.1,21.8,2.1,33.5,2.1c53.6,0,96.7-14,96.7-31.4v-34.5"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="339.1" y1="396.5" x2="339.1" y2="417.5"/>
+	
+		<ellipse transform="matrix(0.1707 -0.9853 0.9853 0.1707 242.2016 1067.0601)" fill="none" stroke="#000000" stroke-width="18.2197" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="9.9994" cx="755" cy="389.6" rx="31.4" ry="96.7"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M763.1,457.1c44.1,4.7,79.1-2.1,81.6-17.1l6-33.9"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="18.221" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="659.7" y1="372.9" x2="655.5" y2="396.2"/>
+</g>
+<g id="vs-reveal_1_">
+	
+		<path fill="none" stroke="#BE1E2D" stroke-width="179.8075" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M74.4,436.7l100.8-9.5l101.4-9.5l109-10.2l93.3-8.8L583,389l98.2-9.2l101.2-9.5l101-9.5l-80.8,21.7l-83,22.3l-80.8,21.7l-83.1,22.3
+		l-76,20.4L392,492.9l-77.8,20.9l-86,23.1l89.2-8.7l79.2-7.7l89.9-8.8l78.5-7.7l87.7-8.6l80.6-7.9l87.3-8.5l81-7.9
+		c0,0-11,7.6-30.9,19.1s-48.8,26.7-84.5,41.9c-35.7,15.2-78.3,30.5-125.7,41.9S560.9,593,506,593"/>
+</g>
+</svg>

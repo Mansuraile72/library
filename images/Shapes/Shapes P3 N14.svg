@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="1000px"
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="879.1" width="879.1" x="73.1" y="61.4"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="vs-outline">
+	
+		<polygon fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		83.1,69.5 109.9,69.5 136.8,69.5 163.6,69.5 190.5,69.5 217.3,69.5 244.2,69.5 271,69.5 297.9,69.5 324.7,69.5 351.6,69.5 
+		378.4,69.5 405.3,69.5 432.1,69.5 459,69.5 485.8,69.5 512.6,69.5 539.5,69.5 566.3,69.5 593.2,69.5 620,69.5 646.9,69.5 
+		673.7,69.5 700.6,69.5 727.4,69.5 754.3,69.5 781.1,69.5 808,69.5 834.8,69.5 861.7,69.5 888.5,69.5 915.4,69.5 942.2,69.5 
+		942.2,96.3 942.2,123.2 942.2,150 942.2,176.9 942.2,203.7 942.2,230.6 942.2,257.4 942.2,284.3 942.2,311.1 942.2,338 
+		942.2,364.8 942.2,391.7 942.2,418.5 942.2,445.4 942.2,472.2 942.2,499 942.2,525.9 942.2,552.7 942.2,579.6 942.2,606.4 
+		942.2,633.3 942.2,660.1 942.2,687 942.2,713.8 942.2,740.7 942.2,767.5 942.2,794.4 942.2,821.2 942.2,848.1 942.2,874.9 
+		942.2,901.8 942.2,928.6 915.4,928.6 888.5,928.6 861.7,928.6 834.8,928.6 808,928.6 781.1,928.6 754.3,928.6 727.4,928.6 
+		700.6,928.6 673.7,928.6 646.9,928.6 620,928.6 593.2,928.6 566.3,928.6 539.5,928.6 512.6,928.6 485.8,928.6 459,928.6 
+		432.1,928.6 405.3,928.6 378.4,928.6 351.6,928.6 324.7,928.6 297.9,928.6 271,928.6 244.2,928.6 217.3,928.6 190.5,928.6 
+		163.6,928.6 136.8,928.6 109.9,928.6 83.1,928.6 83.1,901.8 83.1,874.9 83.1,848.1 83.1,821.2 83.1,794.4 83.1,767.5 83.1,740.7 
+		83.1,713.8 83.1,687 83.1,660.1 83.1,633.3 83.1,606.4 83.1,579.6 83.1,552.7 83.1,525.9 83.1,499 83.1,472.2 83.1,445.4 
+		83.1,418.5 83.1,391.7 83.1,364.8 83.1,338 83.1,311.1 83.1,284.3 83.1,257.4 83.1,230.6 83.1,203.7 83.1,176.9 83.1,150 
+		83.1,123.2 83.1,96.3 	"/>
+</g>
+</svg>

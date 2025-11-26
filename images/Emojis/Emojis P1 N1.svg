@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="vs-primary">
+	<path fill="#FFCE00" d="M265.1,34.1c120,0,190.5,78,201,157.5s-22.5,193.5-22.5,193.5s-28.5,67.5-192,60s-190.5-45-190.5-45
+		s-42-106.5-24-219s160.5-144,160.5-144L265.1,34.1z"/>
+</g>
+<g id="vs-colour">
+	<path opacity="0.4" enable-background="new    " d="M41,165c0,112,41.1,220.1,56.1,229.1S343,443,443,375c0,0,14,31-62,53
+		s-222,16-264,2s-49.8-14.8-55.9-29.9L29,240L41,165z"/>
+	<path opacity="0.4" fill="#FFFFFF" enable-background="new    " d="M172,50c19.4,0.9,157-16,225,71s55,88,70,152
+		c9.7,41.4,9-124-29-164S316.2,35.2,265.1,34.1S130,48,172,50z"/>
+</g>
+<g id="vs-outline">
+	
+		<path fill="none" stroke="#000000" stroke-width="21.6168" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M254,32.5c170.1,0,264.4,127.7,194.6,344.8c-28.8,89.5-362.4,89.2-389.1,19.5C19.3,291.9-19.8,32.5,254,32.5z"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="19.558" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M182,146.7c18.6-1.4,9.3,78.2,0,80.3S167.6,147.8,182,146.7z"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="19.558" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M309.1,145.7c22.7-0.5,6.7,75.1-1,76.2C305,222.3,295.7,146,309.1,145.7z"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="24.7049" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M127.1,280.2c4.1,18.5,25.1,74.4,126.3,71.3c102.3,4.7,120.7-79.5,120.7-79.5"/>
+</g>
+<g id="vs-reveal" opacity="0">
+	<path fill="none" stroke="#000000" stroke-width="69" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M275.6,40.1c-63-28.5-232.5,123-232.5,162s282-168,313.5-147s-313.5,171-306,225s325.5-234,364.5-171s-355.5,190.5-342,243
+		s381-225,390-169.5s-423,192-366,223.5s355.4-181.3,358.5-147c7.5,82.5-333,133.5-279,165s270-139.5,270-85.5s-174,94.5-174,94.5"
+		/>
+</g>
+</svg>

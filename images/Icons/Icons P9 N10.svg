@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g id="vs-outline2">
+	<path fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M262.3,401.4c0,65.1-55.1,120.5-120.5,120.5c-65,0-120.5-55.2-120.5-120.5c0-65,55.1-120.5,120.5-120.5
+		C206.8,280.9,262.3,336.1,262.3,401.4z"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		260.1,378.7 327.8,378.8 395.5,378.9 463.2,379.1 521.6,379.2 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		260.1,424.1 327.8,424.3 395.5,424.5 463.2,424.7 521.6,424.8 	"/>
+	
+		<polygon fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		527.2,353.9 527.2,378.2 527.2,402.6 527.2,427 527.2,451.4 534.4,451.4 541.5,451.4 548.9,451.4 556.1,451.4 556.1,427 
+		556.1,402.6 556.1,378.2 556.1,353.9 548.9,353.9 541.5,353.9 534.4,353.9 	"/>
+	<path fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M561.9,379.3l47.8,0.1l49.8,0.1l49.8,0.1c0,0,49.8,0.1,49.8,0.1c12.1,0,22.5,10.2,22.7,22.3c0.2,12.5-10.3,23.1-22.7,23.1
+		l-49.7-0.1l-49.7-0.1l-49.7-0.1l-47.7-0.1"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		737,425.3 737,442.5 737,459.6 737,476.8 737,494 727.3,494 717.5,494 707.8,494 697.9,494 697.9,488.6 697.9,483.1 697.9,477.7 
+		697.9,472.3 690.3,472.3 682.7,472.3 675.1,472.3 667.6,472.3 667.6,477.7 667.6,483.1 667.6,488.6 667.6,494 657.8,494 647.9,494 
+		638.1,494 628.4,494 628.4,476.8 628.4,459.6 628.4,442.5 628.4,425.3 	"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#5DBFD9" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M87,382.1c12.2-12.2,34-9.4,42.6,5.8c6,10.5,3.7,25-5.2,33.2c-8.9,8.2-23.5,9.3-33.5,2.5C77.3,414.4,75.3,393.8,87,382.1"/>
+</g>
+</svg>

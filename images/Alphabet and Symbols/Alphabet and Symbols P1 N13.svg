@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-primary">
+	<path fill="#5EBED9" d="M320.6,725V228.2h80.8l82.4,393.6l80.8-393.6h79.2V725H591l-0.7-369.3c0-3.4-4.9-3.9-5.5-0.6L509.4,725
+		h-55.2l-76.7-360c-0.9-4.3-7.3-3.7-7.3,0.8V725H320.6z"/>
+</g>
+<g id="vs-secondary">
+	<polygon fill="#5F5F5F" points="405.2,235.8 428.1,252.4 496.4,570.9 482.2,608.3 	"/>
+	<path fill="#5F5F5F" d="M325.3,726.5c0,0,13.5,21.1,24.5,21.1l46.7-2.5l-1.4-310l-20.6-67l-2.8,10.7l-0.3,344.1L325.3,726.5z"/>
+	<polygon fill="#5F5F5F" points="646.7,235.8 659.2,243.1 670.8,257 670.9,744.2 650.3,747.6 614.3,745.7 597,727.3 640.9,722 	"/>
+	<path fill="#5F5F5F" d="M460.7,728c0,0,11.6,19.2,25,21.4c13.3,2.2,46,1.6,49.6-6.4l55-287.2l1.7-91.4l-14,13.3l-71.1,346.1
+		L460.7,728z"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M320.6,725v-7.7v-8.4v-25.5V554V415.4V323v-68.6v-14.9c0-6.2,5-11.3,11.3-11.3h13.7h34.9h11.3h9.7l1.6,7.6l2.2,10.3l13.4,64.2
+		l20,95.5l22.1,105.5l18.5,88.6l2,9.7l2.6,12.3l2.5-12.2l2-9.8l21.4-104.1l31.8-154.8l18.9-92.1l2.5-12.3c1-4.8,5.2-8.2,10.1-8.2
+		h16.7h32.9H634h9.8v10.9v16v118.3V493v112.6v91.5v13.1V725h-8.9h-9.3h-11.4h-12H591v-12.5v-14.1L590.8,589l-0.3-126l-0.2-107.2
+		v-8.1c0-2.4-3.4-2.7-3.9-0.4l-1.6,8l-1.9,9.3L569.8,429l-22.4,109.9l-21,103.2L513,707.9l-2,9.8l-1.5,7.5h-8.3h-8.6h-20.2h-9h-9.1
+		l-2-9.6l-2.5-11.9L438.5,651L414,536l-26-122l-11.2-52.8l-1.4-6.6c-0.6-3-5.1-2.6-5.1,0.5v5.7v52.9V555v126.2v30v6.8v6.9h-5H358
+		h-24.2h-6.9L320.6,725L320.6,725z"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M401.4,228.2l14.9,12.8l4.9,4.2c2.8,2.4,4.7,5.7,5.5,9.3l1.3,6.2l22.4,104.8l26.9,126.1l16.9,79.1"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M320.6,725l15.3,16c2.4,2.5,5.2,4.4,8.3,5.8c3.3,1.4,6.8,2.2,10.5,2.2h7.5h18.6h7.7h6.6v-6.8v-8.6V669v-69v-79v-73.4"/>
+	
+		<line fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="370.2" y1="725" x2="392.9" y2="747.6"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M454.2,725l14,14.2l6.1,6.2c2.3,2.4,5.6,3.7,8.9,3.7h9.4h27.9h7.2h5.2l1.1-5.6l1.4-7.1l28.8-143.2l26.3-131"/>
+	
+		<line fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="509.4" y1="725" x2="531.4" y2="747.6"/>
+	<path fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M591,725l12,12.8l6.4,6.8c2.6,2.8,6.3,4.5,10.2,4.5l10.5,0.1l21.7,0.2l9.6,0.1l7.3,0.1v-7.7v-9.2V585V485v-89.2V269v-10.8
+		c0-3.5-0.9-6.9-2.4-10c-1.4-2.8-3.5-5.2-6-7.2l-16.5-12.8"/>
+	
+		<line fill="none" stroke="#221F1F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="643.8" y1="725" x2="666.8" y2="747.6"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M337.6,726.2c9.4,8.5,14.6,14.4,21.3,24.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M356.6,735.5c3.2,3.4,6.1,7,8.6,10.7"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M369.6,740.8c0.6,1.8,1.7,3.6,3,5.2"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M473.5,725.6c9.4,8.5,14.6,14.4,21.3,24.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M492.5,734.9c3.2,3.4,6.1,7,8.6,10.7"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M505.5,740.2c0.6,1.8,1.7,3.6,3,5.2"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M608.8,725.6c9.4,8.5,14.6,14.4,21.3,24.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M627.8,734.9c3.2,3.4,6.1,7,8.6,10.7"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M640.8,740.2c0.6,1.8,1.7,3.6,3,5.2"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M641.9,693.3c6.9,8.2,17.3,20.3,23.6,28.8"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M640.7,672.7c5.8,9.4,19.6,25.3,28.2,33.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M641.9,661.7c5.5,8.3,16.7,20,25,27.2"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M642.4,649c8.3,5.9,16.3,11.8,22.6,18.5"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M654.7,645.5c5.7,4.2,12,8.9,17.5,13.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M658.6,637.3c4.7,2.5,9.2,5.3,13.5,8.6"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M652.8,314.2c4.2,6.8,8.3,13.6,12.5,20.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M647.6,290.7c7.2,10.7,14.4,21.6,21.6,32.4"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M647.8,274.9c7.3,7.2,13.4,15.5,17.8,24.5"/>
+	<path fill="none" stroke="#221F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M646.9,256.9c5.2,9.5,16.1,23.1,24.3,31.4"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#00FF7F" stroke-width="55" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M289,242.9c59.2-33.3,295.3-19.9,365.6,11c6.3,4.7-1.1,7.9-17.4,10.2c-62.4,8.9-255.3,5.6-326.2,23c-144,45.7,379.8,5.2,376.6,31.7
+		c40.2,29.6-472.7,30.2-375.7,55.2c-9.1,6.4,503.5-13.8,377.1,22.5c-70.2,12.6-307.9,15.1-384.1,29.8
+		c-123.8,31.6,355.2,0.1,363.2,14.6c21,2.3,45.1,13.1,10.1,19.9c5.6,9.9-508.4,15.9-371.3,36.7c7.8,4.4,513-1.7,374.2,32.8
+		c3.5,7.1-498.8,15.5-372,41.1c-6.3,6.9,563.2-3.3,393.1,26.5c6.5,3.5-562.7,18-389.6,46.6c79.8,7.1,302.7-2.3,376.8,5.8
+		c91.1,16-154.2,24.2-193.7,26.3c-88.3,6.6-158.3,2.8-216.1,20.4c-6.5,4.8,8,7.3,35.1,8.6c89.7,7.9,293.7-11.7,384.8,20.6
+		c8.9,6.6,0.9,10.3-18.3,12.2c-75.4,7.8-331.7-12.1-384.6,26.8"/>
+</g>
+</svg>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_4" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="1000px"
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="1066" width="1033.6" x="-329.4" y="-356.3"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="vs-primary">
+	<polygon fill="#5EBDD8" points="61.8,644.1 181.5,552.1 604.8,237.3 645,202.6 665.2,172.6 582.8,90.8 585.2,77.1 877.8,43.8 
+		897.8,43.8 910.2,43.8 910.2,80.8 910.2,198.6 904.8,328.3 891.8,342.1 826.5,289.6 819.8,284.8 795.8,285.8 419.2,644.1 
+		340.5,716.1 268.2,773.8 238.5,795.6 216.5,810.1 198,816.3 69.8,668.1 	"/>
+</g>
+<g id="vs-secondary">
+	<polygon fill="#5F5F5F" points="570,152.8 569,101.3 590.5,98.6 630,125.8 663.5,164.6 656.2,191.6 626.5,218.6 600,218.6 
+		564.2,186.3 	"/>
+	<polygon fill="#5F5F5F" points="39,711.6 53,657.6 90.5,680.8 105.2,704.8 188.2,799.1 216.5,810.1 479.5,594.3 810,283.3 
+		835,296.6 880,333.1 899,334.6 905,302.1 910.5,64.6 949.2,148.8 940,391.3 936,452.6 921,463.8 887.8,437.3 851.8,407.8 
+		817.5,377.8 801,402.1 634,582.8 423.2,783.3 205.5,964.6 76.5,799.1 32.5,748.8 	"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#211F1F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M49.2,644.1c0,0,23.8-16.2,62.2-43s91.5-64,149.8-105.8c47-33.5,97.5-70,147-106.5s97.2-72.8,139.5-105.5
+		c27-21.2,51.8-41.2,72.8-59.2c21-18,38-33.5,50-46.2L646,153.6l-24.5-24.3l-25.8-25.5l-25.5-25.2l46.8-4.5l46.8-4.5l45-4.2l45-4.2
+		l40-4.5l40-4.5l38-4.2l38-4.2v36.2v36.5v32.8v32.8l-1.5,43.5l-1.5,43.5l-1.2,41.2l-1.2,41.2L882,334.1l-22.2-17.2l-25-19.2
+		l-25-19.2c0,0-12.8,11.8-35.5,32.2c-22.5,20.5-55,49.7-94,85.2c-39.5,36-80.2,78.2-122.8,121.5s-86.5,87.2-132.8,127
+		c-50.5,43.8-97.8,83.8-136.5,114.3c-38.8,30.5-68.8,51.8-84.5,58.2l-37.5-41.2l-37-41.8l-37.5-41.5l-37.5-41.5"/>
+	<path fill="none" stroke="#211F1F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M52.2,638.1l-5.8,32.2l-5.8,32.2l-4.5,25.2l-4.5,25.2l42.8,54.3l42.8,54.2l44,56l44,56c0,0,16.5-13.8,44.8-37.5
+		s67.8-58.2,114.2-99.3c24.5-21.8,50.8-45.2,78.2-70.5c27.5-25,56-51.5,85-79c29.8-28.2,60-57.5,90-87.2c29.8-29.8,59.2-60,87.8-90
+		c21.8-23,42.8-46,62.8-68.8c20-22.8,39-45.3,56.5-67l30,30l30,30l26.2,26.2l26,25.8c0,0,0.8-23.3,2-57.5c1.2-34.5,3-80,4.5-125
+		c1.2-32.8,2.5-65,3.5-92.3c1-27.2,2-49.8,2.5-62.8l-9-24l-9-24l-10.7-28.5L910,43.8"/>
+	
+		<polyline fill="none" stroke="#211F1F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		570.2,78.6 568.8,104.8 567.2,131.3 565.8,156.3 564.2,181.3 578.2,193.6 592.2,205.8 604.5,216.3 616.8,227.1 	"/>
+	
+		<polyline fill="none" stroke="#211F1F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		824.2,373.8 821,351.6 817.8,329.3 813.8,303.8 810,278.1 	"/>
+	
+		<polyline fill="none" stroke="#211F1F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		904.8,342.8 911.5,382.3 918.5,421.8 923.2,449.8 928,477.6 	"/>
+	
+		<polyline fill="none" stroke="#211F1F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		204,816.3 204.2,835.1 204.2,853.8 204.5,872.6 204.8,891.3 205,911.8 205,932.3 205.2,952.8 205.5,973.3 	"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M234,798.6c0,0,12.5,140-4.5,154.2"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M251.2,779.3c0,0,12.5,140-4.5,154.3"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M267,771.1c0,0,12.5,140-4.5,154.2"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M293.8,754.3c0,0,12.5,140-4.5,154.3"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M315.2,733.8c0,0,12.5,140-4.5,154.2"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M341.5,748.8c0,0,9.7,102.8-7,116.8"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M363.5,745.6c0,0,8,92.8-8.8,107"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M386,754.3c0,0,5.8,37.8-7.2,77.2"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="682.5" y1="391.3" x2="678.8" y2="430.1"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="709" y1="368.6" x2="700.5" y2="426.8"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="728.8" y1="349.6" x2="725" y2="433.3"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="755" y1="327.8" x2="755" y2="441.3"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="774.5" y1="310.3" x2="780" y2="426.8"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M789.5,296.6c2.2,3.5,6.5,111.5,6.5,111.5"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="905" y1="256.3" x2="946.8" y2="310.3"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="910" y1="204.3" x2="940" y2="268.3"/>
+	
+		<line fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="910.5" y1="168.8" x2="940" y2="233.3"/>
+	<path fill="none" stroke="#211F1F" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M910.5,120.1c2,2,33.8,70,33.8,70"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#2BB573" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M224.2,981.3c0,0-48.8-87.5-95.2-176.5s-91-179.8-82.2-186s72,67.5,135.2,141s127.2,146.5,137.2,139s-44.5-82.5-99-157.8
+		s-109.8-151-101-159.8s78,50,148,109.8c70,59.7,140.8,120.2,152,115.2s-48.8-75-109.5-145.2s-121.8-141-113-147.2
+		s83.8,50,158,106.5S503,733.8,509.2,728.8s-53-67.5-111.5-131s-116-127.8-106-136.5s82.5,43.8,155,96.5s145,106,155,98.5
+		s-52-73.8-114-139.8S363,385.1,371.8,378.8s79.5,45,150.2,96s142.2,101.5,152.2,94s-42.5-67.5-95.5-127.2s-107-119-99.5-125.2
+		s71.2,40,136,86.2s130.2,92.5,141.5,86.2s-40-75-91.5-144.5s-103.5-139.2-93.5-148s78.8,53.8,147.5,116.5s137.5,126,147.5,118.5
+		s-48-87.5-107-167c-59-79.5-118-158-110.5-163s73,55,138.8,114.5s131.2,118,138.8,110.5s-29.5-69.5-66.2-131s-73.8-122.8-66.2-129
+		s41.2,17,73,41.5c31.8,24.5,62,51,62,51"/>
+</g>
+</svg>

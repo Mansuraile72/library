@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_4" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="1000px"
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="577.5" width="1077.5" x="-331.2" y="-69.2"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="vs-primary">
+	<polyline fill="#5EBDD8" points="34.6,476.2 198.6,288 213.1,307.5 213.1,411 229.6,429.5 754.8,434 788.1,427.5 788.1,307.5 
+		802.6,294.7 960.8,466.5 969.1,501.7 833.1,690.5 805.1,709.2 797.3,607.5 784.5,594.2 224.6,592.5 210.8,606 206.8,709.2 
+		173.6,681 26.6,501.7 34.6,476.2 	"/>
+</g>
+<g id="vs-outline">
+	<path fill="none" stroke="#211F1F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M19.6,493.5c1.8-2.2,14.3-16.2,32-36.5c17.8-20.3,41-46.5,64.3-73.2c19.8-22.5,39.5-45.3,56.7-65.2c17.2-20,31.5-37,40.2-48v9.5
+		v9.5v8.8v8.8v10v10v11.2v11.2v6.2v6.2v11.2v11.2v10v10V417v12.5l40.5,0.2l40.5,0.3l33.8,0.2l33.8,0.3l40,0.2l40,0.3l29.8,0.2
+		l29.7,0.3l35.2,0.2l35.3,0.3l38.8,0.2l38.8,0.3l40,0.2l40,0.3l29.5,0.2l29.5,0.3v-16.2v-15.5v-22.5v-22.5V338v-18.8v-20.8v-20.8
+		c0,0,11.8,14,29.5,34.5c17.8,20.8,41.8,48,66.2,75c19.5,21.5,39.5,42.8,57,60c17.2,17.2,32,30.5,41.5,36l-20.5,28.2L941,539.7
+		l-23,32l-23,32L874.8,632l-20.3,28.2l-24,33.5l-24,33.5l-1.2-15.2l-1.2-15.2l-1.5-18.8l-1.5-18.8l-1.2-17.5l-1.2-17.5l-1.2-15
+		l-1.2-15h-33.8h-33.8h-35h-35h-41.2H576h-37.8h-37.8l-37.2-0.3l-37.2-0.2h-35h-35h-35h-35l-37.5-0.2l-37.5-0.2l-0.5,15.8l-0.5,15.8
+		l-0.5,13.8l-0.5,13.8l-0.8,16.2l-0.8,16.2l-0.8,18.2l-0.8,18.2l-21.5-27l-21.7-26.5L133.6,632l-29.3-35.8l-20.2-24.5l-20.3-24.5
+		l-22-27L19.6,493.5z"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#2BB573" stroke-width="200" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M68.8,416.7c0,0,13,63,31.2,126.2s41.2,126.2,61.2,126.2s30-93.8,38-187.8c8-94,14.5-188.5,27-189.7s27,78.8,42.3,158.8
+		c15.2,80,31.5,160,47.7,158.8s33-50.5,48.5-100s29-98.8,39-100s17.5,48.8,26.5,99c9,50.2,19.7,101,36,101s32.5-48.8,48-97.8
+		c15.5-49,30.5-98.5,44.5-99.7c14-1.2,28.8,45,43.5,91.5c14.8,46.5,29,93.5,41.5,93.5s23-47.5,34-95s22.2-95,36-95
+		s23.8,46.2,33,92.5c9.3,46.2,18,92.5,29.5,92.5s22-61.2,32.8-122.5s22.2-122.5,34.8-122.5s10,78,7.2,156.5
+		c-2.8,78.5-6,157.2,5.3,158.5s33.8-41.2,53.5-84c19.8-42.8,36.5-86,36.5-86"/>
+</g>
+</svg>

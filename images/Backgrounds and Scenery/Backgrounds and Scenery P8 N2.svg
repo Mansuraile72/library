@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<polygon fill="#5DBFD9" points="46,788.1 135.1,733.3 913.1,733.3 892.5,715.4 114.5,719.6 	"/>
+	<polygon fill="#5DBFD9" points="912.2,268.7 912.2,690.8 967.1,779.9 893.4,708.6 898.5,282.4 	"/>
+</g>
+<g id="vs-outline">
+	
+		<path fill="none" stroke="#000000" stroke-width="9.011" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M42.7,204.6v72.9v72.9v72.9v72.9v72.7v72.9v72.9v72.9h96.4h98h89.6h92.1h92.1H603h92.1h92.1h92.1h92.1v-72.9v-72.9v-72.9V496v-72.9
+		v-72.9v-72.9v-72.7H879h-92.1h-92h-92.1h-92h-92.1h-92.1H222.5h-91.2H42.7z M896.1,714.5h-73.3h-73.3h-73.3h-73.3h-73.3H456h-73.3
+		h-75.9h-67.6h-63.1h-58.8v-54.6v-54.6v-54.6V496v-54.6v-54.5v-54.6v-54.6h68.8h81.1h56.3h59H456h73.3h73.3h73.3h73.3h73.3h73.3
+		v54.6v54.6v54.6v54.6v54.6v54.6v54.6V714.5z"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="9.011" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="42.7" y1="204.6" x2="117.6" y2="277.7"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="9.011" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="971" y1="204.6" x2="896.1" y2="277.7"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="9.011" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="971" y1="787.5" x2="896.1" y2="714.5"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="9.011" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="42.7" y1="787.5" x2="117.6" y2="714.5"/>
+</g>
+<g id="vs-reveal">
+	
+		<polyline fill="none" stroke="#000000" stroke-width="72.0882" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" points="
+		874.7,216.6 933.5,220 978,223.4 932.9,250.2 873.3,276.9 933.5,281 979.3,285.1 934.3,310.5 874.7,335.8 935,340 980.7,344 
+		934.3,365.3 873.3,386.5 931.5,395.5 975.3,404.4 935.6,424.9 881.6,445.5 939,455 982.1,464.7 935,485.9 873.3,507.1 932.2,518.1 
+		976.6,529.1 935.6,551 880.2,572.9 933.5,583.2 972.5,593.4 934.3,614.7 881.6,636 937.7,647 979.3,657.9 507.4,690.6 84,696.2 
+		500.8,710.7 975.3,725.1 496.7,742.8 18.1,760.7 498.7,771.7 979.3,782.6 	"/>
+</g>
+</svg>

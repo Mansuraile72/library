@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g id="vs-outline2">
+	<path fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M92.4,180.7c34.4-48.2,77.9-85.9,126.7-112.3c55.8-30.3,118.3-46.1,181.2-46.1c76.3,0,153.1,22.8,219.9,70.6
+		c39.9,28.5,72.5,63.3,97.7,102.1c41,63.3,61.8,137.2,60.8,211.5c-1.1,74.3-24,149.1-70.4,214.2c-33.2,46.4-74.9,83.2-121.6,109.4
+		c-61.8,35-132.4,51.6-202.8,48.6c-70.7-3-141.4-26-203.3-70.1c-50.3-35.9-89.2-82-115.7-133.2c-30.2-58.1-44.7-123.1-42.5-188.1
+		C24.7,315.4,47.7,243.6,92.4,180.7z"/>
+	<path fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M400.3,130.4c50.6,0,98,14,138.6,38.3L168.4,539.2c-24.3-40.5-38.3-88-38.3-138.6C130.1,251.4,251.1,130.4,400.3,130.4z"/>
+	<path fill="none" stroke="#000000" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M400.3,670.8c-50.6,0-98-14-138.6-38.3l370.6-370.6c24.3,40.5,38.3,88,38.3,138.6C670.5,549.8,549.5,670.8,400.3,670.8z"/>
+</g>
+<g id="vs-outline">
+	<g id="vs-outline_1_">
+		<path fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M135.6,211.6c29.7-41.6,67.4-74.2,109.6-97c55.2-29.9,116.6-43.1,178.9-38.3c57,4.4,115.1,24,165,59.6
+			c39.6,28.2,70.9,63.8,93.5,103.4c29.1,51,43.7,109,42.6,167.2c-1.1,63.5-20.9,127.3-60.5,183c-29.3,41-66.4,73.3-107.8,95.9
+			c-65.6,36-142.2,48.5-215.9,34.8c-45.5-8.4-89.8-26.6-129.8-55.2c-53.1-38-91.4-89-113.6-145.6C78.6,470.9,71.4,418,76.9,365.8
+			C82.6,312,102,258.9,135.6,211.6z"/>
+		
+			<polyline fill="none" stroke="#5DBFD9" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			173.5,627.6 274.9,526.1 400.4,400.6 522,279 627.3,173.8 		"/>
+	</g>
+</g>
+</svg>

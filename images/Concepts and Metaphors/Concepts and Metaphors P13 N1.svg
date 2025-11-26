@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g id="vs-primary">
+	<polygon fill="#27A8CB" points="343.9,589.1 433.8,579.1 733.3,579.1 733.3,774.2 432.8,774.2 343.9,750.6 	"/>
+</g>
+<g id="vs-secondary">
+	<path fill="#FFCE00" d="M532.1,203L520,240.2c0,0,85.3,18.4,105.1-66.8C644.9,88.2,530.4,84,530.4,84s-71.7,6.1-71.9,72.6
+		s56,92,83.5,89.7s13.9-47.1,13.9-47.1S499,210.1,502.5,171s14.1-48.8,42.6-44.8c28.4,4,43.7,27.2,31.3,50.5
+		C563.8,199.9,555.9,206.1,532.1,203z"/>
+	<polygon fill="#FFCE00" points="37.3,25.8 37.9,68.1 455.6,158.4 458.2,136.2 	"/>
+	<polygon fill="#FFCE00" points="37.3,185.3 458.2,162.4 455.6,185.3 39.9,225.9 	"/>
+</g>
+<g id="vs-shade">
+	<polygon opacity="0.4" enable-background="new    " points="343.9,591.6 433.8,579.1 432.8,774.2 343.9,747.5 	"/>
+</g>
+<g id="vs-outline">
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		463.3,136.2 357.5,108.6 251.6,81 145.8,53.4 39.9,25.8 	"/>
+	<path fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M625.8,163.5c0,11-2.3,21.4-6.6,30.9c-4.2,9.5-10.4,18.1-18,25.3s-16.6,13-26.6,17s-21,6.2-32.6,6.2s-22.6-2.2-32.6-6.2
+		c-10-4-19.1-9.8-26.6-17c-7.6-7.2-13.7-15.7-18-25.3c-4.2-9.5-6.6-20-6.6-30.9s2.3-21.4,6.6-30.9c4.2-9.5,10.4-18.1,18-25.3
+		s16.6-13,26.6-17c10-4,21-6.2,32.6-6.2s22.6,2.2,32.6,6.2s19.1,9.8,26.6,17s13.7,15.7,18,25.3C623.4,142.1,625.8,152.5,625.8,163.5
+		z"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		462.2,187.9 356.7,197.4 251.1,206.9 145.5,216.4 39.9,225.9 39.3,175.9 38.6,125.9 38,75.9 37.3,25.8 66.1,73.3 94.8,120.8 
+		123.6,168.3 152.3,215.8 177,182.1 201.7,148.4 226.4,114.7 251.1,81 273.8,108.1 296.4,135.3 319.1,162.4 341.8,189.6 
+		357.4,172.4 373.1,155.2 388.7,138 404.3,120.8 	"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		462.2,573.5 482.6,511.7 503,449.9 523.4,388.1 543.8,326.3 567.1,388.1 590.5,449.9 613.8,511.7 637.1,573.5 	"/>
+	<path fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M537,242.8c0,0-1,2.5-2.4,6.5c-1.5,4-3.4,9.6-5.5,15.6c-2,6.1-4.1,12.6-5.7,18.8c-1.6,6.1-2.9,11.8-3.2,15.9
+		c-1,11.3,2.2,19.4,7.4,24.6s12.3,7.6,19.2,7.5s13.7-2.7,18.1-7.5s6.5-11.7,4.1-20.4"/>
+	
+		<polygon fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		343.9,589.1 366.4,586.6 388.9,584.1 411.3,581.6 433.8,579.1 508.7,579.1 583.5,579.1 658.4,579.1 733.3,579.1 733.3,627.8 
+		733.3,676.6 733.3,725.4 733.3,774.2 658.2,774.2 583,774.2 507.9,774.2 432.8,774.2 410.6,768 388.4,761.8 366.2,755.6 
+		343.9,749.4 343.9,709.4 343.9,669.3 343.9,629.2 	"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		432.8,774.2 433.1,725.4 433.3,676.6 433.5,627.8 433.8,579.1 	"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		733.3,676.6 658.3,676.6 583.3,676.6 508.3,676.6 433.3,676.6 411,675.6 388.6,674.6 366.3,673.5 343.9,672.5 	"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		583.3,676.6 583.3,652.2 583.3,627.8 583.3,603.5 583.3,579.1 	"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		385.3,672.5 385.3,650.7 385.3,628.9 385.3,607.2 385.3,585.4 	"/>
+	<path fill="none" stroke="#2B2B2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M581.5,163.5c0,5.5-1.1,10.6-3.1,15.4c-2,4.7-4.9,9-8.5,12.6s-7.8,6.5-12.6,8.5c-4.7,2-9.9,3.1-15.4,3.1s-10.6-1.1-15.4-3.1
+		c-4.7-2-9-4.9-12.6-8.5c-3.6-3.6-6.5-7.8-8.5-12.6s-3.1-9.9-3.1-15.4s1.1-10.6,3.1-15.4c2-4.7,4.9-9,8.5-12.6
+		c3.6-3.6,7.8-6.5,12.6-8.5c4.7-2,9.9-3.1,15.4-3.1s10.6,1.1,15.4,3.1c4.7,2,9,4.9,12.6,8.5s6.5,7.8,8.5,12.6
+		C580.4,152.8,581.5,158,581.5,163.5z"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		37.9,68.1 143,90.6 248.1,113.2 353.2,135.8 458.4,158.4 	"/>
+	
+		<polyline fill="none" stroke="#2B2B2B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		39.4,185.3 144.1,179.6 248.8,173.9 353.5,168.2 458.2,162.4 	"/>
+</g>
+<g id="vs-reveal">
+	
+		<path fill="none" stroke="#00FF06" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M49.8,46.4c0,0,40.6,2.5,99.2,6.9S284.2,64,356.3,71.4S496,87.6,536.4,96.9c40.5,9.3,53.9,19.2,17.7,29s-95.7,22.7-161.8,36
+		S253.5,189,190.8,200.7s-115.3,21-141.2,25.7c-25.9,4.6-25,4.4,19.2-3.2c44.2-7.7,111.5-14.7,184.4-20.5s151.4-10.3,218.1-12.9
+		s121.6-3.2,147.2-1.2c25.7,2,22.1,6.6-28,14.4"/>
+	
+		<path fill="none" stroke="#00FF06" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0" d="
+		M720.9,593.9c0,0-29.2,1.3-71.5,3.3s-97.9,4.7-150.6,7.6c-52.7,2.9-102.6,6-133.8,8.7c-31.1,2.7-43.5,5-21.1,6.5
+		c22.4,1.4,63.5,4.9,110.9,9.7s101.2,10.9,149,17.7c47.8,6.7,89.7,14.1,113.3,21.3s28.9,14.3,3.7,20.5s-67,11.3-113.8,15.4
+		c-46.9,4.1-98.8,7.4-144.5,10s-85.1,4.6-106.9,6.4s-25.9,3.1-0.9,4.6c24.9,1.4,62.9,3.5,104.6,6s87,5.3,126.6,8.1
+		s73.5,5.7,92.4,8.1c18.8,2.5,22.6,4.6,1.9,6"/>
+</g>
+</svg>

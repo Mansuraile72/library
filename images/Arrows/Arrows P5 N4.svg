@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="vs-outline" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="1000px"
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="882.8" width="485.4" x="-42.8" y="-241.3"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<path fill="none" stroke="#231F20" stroke-width="33" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M338.6,924.8c13.2-1.1,25.8-2.8,38.5-6.1s24.8-7.1,36.8-12.1c12.1-4.9,23.7-10.4,34.7-16.5c11-6,22-12.6,32.4-19.8
+	c10.4-7.2,19.8-13.8,29.1-20.9c9.4-7.1,17.6-13.8,25.3-20.4c7.7-6.6,14.9-12.6,21.5-18.7c6.6-5.5,12.1-10.4,16.5-14.8
+	c10.4-9.3,20.9-19.2,31.3-30.2s20.3-22,29.7-34.1s18.7-24.8,26.9-37.4c8.8-13.2,16.5-26.4,23.7-40.2s13.8-28,19.2-42.3
+	c5.5-14.3,9.9-29.2,13.8-44c3.3-14.8,6.1-29.7,7.2-44.6c1.1-14.9,1.1-29.7,0-44.6c-2.2-24.2-7.2-46.8-14.3-67.6
+	c-7.2-20.9-15.9-40.2-26.4-57.8c-10.4-17.6-23.1-34.1-36.8-49.5c-13.8-14.9-29.2-29.2-45.7-41.8c-16.5-12.7-33.5-24.2-51.7-35.2
+	c-18.2-10.4-36.8-20.3-56.1-29.2s-39.1-17.1-58.8-24.2c-19.8-7.7-39.6-14.3-59.4-20.3"/>
+<path fill="none" stroke="#231F20" stroke-width="33" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M369.4,242.8c-6.6-11.6-13.2-22-20.3-31.9c-7.2-9.9-14.3-19.8-22-30.2c-7.7-9.9-15.9-20.9-24.8-32.4c-8.8-11.6-18.2-24.8-28.6-39.1
+	c14.3-1.7,28.1-3.8,42.9-6c14.3-2.2,28.6-5,43.4-7.7c14.3-2.8,28.6-5.5,42.9-9.3c14.3-3.3,28.1-7.2,41.8-11"/>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="vs-highlight">
+	<polygon fill="#5DBFD9" points="574,195 588,183 617,185 598,200 602,842 577,836 	"/>
+	<path fill="#5DBFD9" d="M305,170l21-6c0,0,216.6,16.7,320,25c25,2,29,26,29,26l6,587l-16,31c0,0,6-481,0-603c-1-25-19.6-31.9-22-33
+		C632,192,305,170,305,170z"/>
+	<path fill="#5DBFD9" d="M291,172l16,2c0,0,5.3,471.2,42,534c38,65,202,121,202,121l-256-57L291,172z"/>
+</g>
+<g id="vs-outline_1_">
+	<path fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M291,173l335.5,27.1c17.8,1.7,31.5,16.6,31.5,34.5l-1,585.7c0,17.8-16.6,30.9-33.9,26.9L296,771L291,173z"/>
+	<path fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M291,172l36-7l318.6,24.3c18.9,1.5,30.5,21.2,30.6,40.2c0.8,112.8,3.4,469.4,3.7,564.7c0.1,14.6-8.2,30.9-21.2,37.4L654,834"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		587,185 574,196 578,835 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		595,186 582,196 586,835 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		604,187 590,196 594,835 	"/>
+	
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		616,187 598,200 602,840 	"/>
+</g>
+<g id="vs-h-reveal">
+	
+		<path opacity="0" fill="none" stroke="#EF2CD9" stroke-width="90" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0.5" d="
+		M288,213c0,0-1.5,433.4,27,502c32,77,200,101,200,101"/>
+	
+		<path opacity="0" fill="none" stroke="#EF2CD9" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="0.5" d="
+		M312,156c0,0,313.6,22.8,331,24c3.9,0.3,26.9,33,29.3,53.1C687.2,362.2,673,816,673,816"/>
+	
+		<line opacity="0" fill="none" stroke="#EF2CD9" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="590" y1="201" x2="593" y2="837"/>
+</g>
+</svg>
