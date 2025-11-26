@@ -387,10 +387,10 @@ async function closeLightboxFLIP() {
 imageGrid.addEventListener('click', async (e) => {
   if (e.target.tagName !== 'IMG') return;
 
-  // ===== बदलाव: PNG की जगह SVG दिखाएं =====
-  // .webp → .svg (PNG की जगह)
-  const svgSrc = e.target.src.replace('.webp', '.svg');
-  await openLightboxFromThumb(e.target, svgSrc);
+  // ===== Lightbox में PNG image दिखाएं =====
+  // .webp → .png (Lightbox display के लिए)
+  const pngSrc = e.target.src.replace('.webp', '.png');
+  await openLightboxFromThumb(e.target, pngSrc);
 
   // ===== बदलाव: GitHub URL copy करें =====
   const fullPath = e.target.alt;
